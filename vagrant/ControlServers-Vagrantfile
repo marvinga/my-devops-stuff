@@ -1,0 +1,29 @@
+Vagrant.configure("2") do |config|
+  config.vm.define "ansctl01" do |vm1|
+    vm1.vm.box = "centos7"
+    vm1.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm1.vm.hostname = "ansctl01"
+    vm1.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm1.vm.network "private_network", ip: "192.168.33.211"
+    end
+  end
+  config.vm.define "ansctl02" do |vm2|
+    vm2.vm.box = "centos7"
+    vm2.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm2.vm.hostname = "ansctl02"
+    vm2.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm2.vm.network "private_network", ip: "192.168.33.212"
+    end
+  end
+  config.vm.define "ansctl03" do |vm3|
+    vm3.vm.box = "centos7"
+    vm3.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm3.vm.hostname = "ansctl03"
+    vm3.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm3.vm.network "private_network", ip: "192.168.33.213"
+    end
+  end
+end

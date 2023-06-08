@@ -1,0 +1,60 @@
+Vagrant.configure("2") do |config|
+  config.vm.define "AppSrv01" do |vm1|
+    vm1.vm.box = "centos7"
+    vm1.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm1.vm.hostname = "AppSrv01"
+    vm1.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm1.vm.network "private_network", ip: "192.168.33.101"
+    end
+  end
+
+  config.vm.define "AppSrv02" do |vm2|
+    vm2.vm.box = "centos7"
+    vm2.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm2.vm.hostname = "AppSrv02"
+    vm2.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm2.vm.network "private_network", ip: "192.168.33.102"
+    end
+  end
+
+  config.vm.define "AppSrv03" do |vm3|
+    vm3.vm.box = "centos7"
+    vm3.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm3.vm.hostname = "AppSrv03"
+    vm3.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm3.vm.network "private_network", ip: "192.168.33.103"
+    end
+  end
+
+  config.vm.define "AppSrv04" do |vm4|
+    vm4.vm.box = "centos7"
+    vm4.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm4.vm.hostname = "AppSrv04"
+    vm4.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm4.vm.network "private_network", ip: "192.168.33.104"
+    end
+  end
+
+  config.vm.define "AppSrv05" do |vm5|
+    vm5.vm.box = "centos7"
+    vm5.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm5.vm.hostname = "AppSrv05"
+    vm5.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm5.vm.network "private_network", ip: "192.168.33.105"
+    end
+  end
+  config.vm.define "AppSrv06" do |vm4|
+    vm4.vm.box = "centos7"
+    vm4.vm.box_url = "C:/Training/OS\ ISO/CentOS-7.box"
+    vm4.vm.hostname = "AppSrv06"
+    vm4.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vm4.vm.network "private_network", ip: "192.168.33.106"
+    end
+  end
+ end
