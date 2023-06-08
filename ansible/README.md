@@ -3,7 +3,6 @@
 # install ansible
 
 ### red hat
-
 ```
 sudo yum update -y
 sudo yum install -y epel-release
@@ -22,9 +21,11 @@ ansible webservers              -a "/sbin/reboot"
 ansible webservers              -a "/sbin/reboot" -f 10
 ansible webservers              -a "/sbin/reboot" -u user1
 ansible webservers              -a "/sbin/reboot" -u user1 --become
-ansible webservers              -a "/sbin/reboot" -u user1 -b -K ansible webservers -m copy      -a "src=/etc/hosts dest=./hosts"
+ansible webservers              -a "/sbin/reboot" -u user1 -b -K ansible webservers -m copy -a "src=/etc/hosts dest=./hosts"
 ansible webservers -m file      -a "dest=/home/db.txt mode=600"
 ```
+# modules
+# https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
 
 ```
                    -m yum
@@ -32,8 +33,7 @@ ansible webservers -m file      -a "dest=/home/db.txt mode=600"
                    -m service
 ```
 
-### For documentation:
-
+### For documentation: ansible-doc
 ```
 ansible-doc -t cache -l 
             become
@@ -59,7 +59,7 @@ $ANSIBLE_CONFIG
 /etc/ansible/ansible.cfg 
 ```
 
-# track
+# Track
 
 6/8/2023
 - Decided to finish linkedin just viewing the videos and do labs only from book
