@@ -176,7 +176,6 @@ ansible-playbook --check apache.yml
 ansible-playbook deploy_web.yml -i staging -i production
 ```
 
-
 # Track
 
 6/8/2023
