@@ -28,9 +28,8 @@ ansible all --list-hosts
 ansible -m ping 192.168.33.101
 ansible -a "uptime" all
 ansible -a "uptime" 192.168.33.101
-
-
 ```
+
 ### modules
 ### https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
 
@@ -44,7 +43,7 @@ ansible AppServers -m file -a "dest=/home/vagrant/file3.txt mode=600 ower=root g
 ansible AppServers -m file -a "dest=/home/vagrant/dir1 mode=755 state=directory state=absent"
 ```
 
-##### copy
+#### copy
 ```
 ansible AppServers -m copy -a "dest=/home/vagrant/file3.txt content='other_stuff' force=no mode=700"
 ```
@@ -104,6 +103,8 @@ ansible AppServers  -m setup    --private-key <PATH>
 ansible AppServers -m shell   -a "systemctl status httpd"
 ```
 ### host parterns and formats
+
+```
 - name: restart webservers
   host: webservers
         all or * | onehost | group
@@ -117,6 +118,7 @@ ansible AppServers -m shell   -a "systemctl status httpd"
         ~(web|db).*\.localnet\.com
 
 # ansible-<doc|console|playbook|inventory|config> commands
+```
 
 ### ansible-inventory
 ```
