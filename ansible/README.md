@@ -82,6 +82,15 @@ ansible-console -b -K
     yum name=gedit-plugins state=installed
 ```
 
+### ansible-playbook
+```
+ansible-playbook --syntax-check apache.yml
+ansible-playbook apache.yml -b -K
+ansible-playbook --check apache.yml
+ansible-playbook deploy_web.yml -i staging -i production
+```
+
+
 # Track
 
 6/8/2023
