@@ -1,0 +1,13 @@
+---
+# This playbook contains base plays for all nodes
+# This playbook is only a snippit and will not run by itself. 
+# Add this to one of your main.yml files.
+
+- name: Create users
+  user:
+    name: "{{ item.name }}"
+    state: present
+    groups: "{{ item.groups }}"
+  loop:
+    - { name: 'webadmin1', groups: 'wheel' }
+    - { name: 'webadmin2', groups: 'apache' }

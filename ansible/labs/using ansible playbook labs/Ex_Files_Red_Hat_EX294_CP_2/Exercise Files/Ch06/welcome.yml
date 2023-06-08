@@ -1,0 +1,11 @@
+---
+# Example playbook using a jinja2 template
+- hosts: all
+  vars:
+    Address: '192.168.3.110'
+    Name: 'user1'
+  tasks:
+    - name: Ansible Template Example
+      template:
+        src: welcome.j2
+        dest: /home/user1/welcome.txt

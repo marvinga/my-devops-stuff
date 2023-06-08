@@ -1,0 +1,17 @@
+---
+- name: Use Jinja2 tests with WHEN clauses 
+  hosts: all
+  remote_user: root
+
+  vars: 
+    url: "http://localnet.com/users/user1/ansible-files/site.yml"
+
+  tasks:
+    - debug: msg="Positive using match"
+      when: url is match("http://localnet.com/users/.*/ansible-files/.*")
+
+    - debug: msg="Positive using search"
+      when: url is search("/user1/")
+
+    - debug: msg="Positive using regex"
+      when: url is regex("localnet.com/\w+/user1")

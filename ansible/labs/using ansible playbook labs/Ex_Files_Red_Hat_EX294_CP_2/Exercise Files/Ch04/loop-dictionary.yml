@@ -1,0 +1,20 @@
+---
+# Loop through a dictionary
+- hosts: all
+  vars:
+    users:
+      sally:
+        name: Sally Smith
+        telephone: 123-456-7890
+      bob:
+        name: Bob Thomas
+        telephone: 987-654-3210
+
+  tasks:
+    - name: Print name and number
+      debug:
+        msg: "User {{ item.key }} is {{ item.value.name }} ({{ item.value.telephone }})"
+      loop: "{{ users|dict2items }}"
+#     loop: "{{ lookup('dict', users) }}" #alternate method using lookup
+
+
