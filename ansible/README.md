@@ -33,6 +33,16 @@ ansible webservers -m file      -a "dest=/home/db.txt mode=600"
                    -m service
 ```
 
+#### file
+```
+ansible AppServers -m file -a "state=touch path=/home/vagrant/file1.txt mode=700"
+ansible AppServers -m file -a "state=touch path=/home/vagrant/file1.txt mode=700"
+ansible AppServers -m file -a "state=touch path=/home/vagrant/file1.txt mode=700"
+ansible AppServers -m file -a "dest=/home/vagrant/file3.txt mode=600"
+ansible AppServers -m file -a "dest=/home/vagrant/file3.txt mode=600 ower=root group=root" -b -K
+ansible AppServers -m file -a "dest=/home/vagrant/dir1 mode=755 state=directory state=absent"
+```
+
 ### ansible-inventory
 ```
 ansible-inventory --list
