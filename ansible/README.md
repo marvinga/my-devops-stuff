@@ -24,8 +24,8 @@ ansible webservers              -a "/sbin/reboot" -u user1 --become
 ansible webservers              -a "/sbin/reboot" -u user1 -b -K ansible webservers -m copy -a "src=/etc/hosts dest=./hosts"
 ansible webservers -m file      -a "dest=/home/db.txt mode=600"
 ```
-# modules
-# https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
+### modules
+### https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
 
 ```
                    -m yum
@@ -33,7 +33,15 @@ ansible webservers -m file      -a "dest=/home/db.txt mode=600"
                    -m service
 ```
 
-### For documentation: ansible-doc
+### ansible-inventory
+```
+ansible-inventory --list
+ansible-inventory --list --output inventory.json
+ansible-inventory --graph
+ansible-inventory --list -y
+```
+
+### ansible-doc
 ```
 ansible-doc -t cache -l 
             become
@@ -53,10 +61,25 @@ ansible-doc file -s file
 ```
 
 ### Configuration: 
+
+```
+ansible-config list
+ansible-config dump
+ansible-config dump --only-changed
+ansible-config view
+```
+
 ```
 $ANSIBLE_CONFIG
 ./ansible.cfg
 /etc/ansible/ansible.cfg 
+```
+
+### ansible-console
+```
+ansible-console -b -K
+    shell date
+    yum name=gedit-plugins state=installed
 ```
 
 # Track
