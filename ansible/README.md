@@ -117,9 +117,9 @@ ansible AppServers -m shell   -a "systemctl status httpd"
         rhhost*.com:dbservers
         ~(web|db).*\.localnet\.com
 ```
-# ansible-<doc|console|playbook|inventory|config> commands
+### ansible-<doc|console|playbook|inventory|config> commands
 
-### ansible-inventory
+#### ansible-inventory
 ```
 ansible-inventory --list
 ansible-inventory --list --output inventory.json
