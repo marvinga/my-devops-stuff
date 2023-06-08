@@ -1,6 +1,6 @@
 # Ansible
 
-# install ansible
+## install ansible
 
 ### red hat
 ```
@@ -12,7 +12,7 @@ sudo alternatives --set python /usr/bin/python3
 sudo yum install -y ansible ansible-doc
 ```
 
-# ad-hoc commands
+### ad-hoc commands
 
 ```
 ansible [pattern]   -m [module] -a "[module options]"
@@ -60,7 +60,7 @@ ansible-doc file
 ansible-doc file -s file 
 ```
 
-### Configuration: 
+### ansible-config: 
 
 ```
 ansible-config list
