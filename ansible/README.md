@@ -1,6 +1,8 @@
 # Ansible
 
-# -> install ansible for rhel
+# install ansible
+
+### red hat
 
 ```
 sudo yum update -y
@@ -11,9 +13,8 @@ sudo alternatives --set python /usr/bin/python3
 sudo yum install -y ansible ansible-doc
 ```
 
-# -> ad-hoc commands
+# ad-hoc commands
 
-Some basic Git commands are:
 ```
 ansible [pattern]   -m [module] -a "[module options]"
 ansible webservers  -m shell    -a 'echo $DISPLAY'
@@ -31,7 +32,7 @@ ansible webservers -m file      -a "dest=/home/db.txt mode=600"
                    -m service
 ```
 
-For documentation:
+### For documentation:
 
 ```
 ansible-doc -t cache -l 
@@ -51,14 +52,14 @@ ansible-doc file
 ansible-doc file -s file 
 ```
 
-Configuration: 
+### Configuration: 
 ```
 $ANSIBLE_CONFIG
 ./ansible.cfg
 /etc/ansible/ansible.cfg 
 ```
 
-# -> track
+# track
 
 6/8/2023
 - Decided to finish linkedin just viewing the videos and do labs only from book
