@@ -146,7 +146,7 @@ ansible-doc file
 ansible-doc file -s file 
 ```
 
-#### ansible-config: 
+#### ansible-config
 
 ```
 ansible-config list
