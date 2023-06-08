@@ -23,15 +23,16 @@ ansible webservers              -a "/sbin/reboot" -u user1
 ansible webservers              -a "/sbin/reboot" -u user1 --become
 ansible webservers              -a "/sbin/reboot" -u user1 -b -K ansible webservers -m copy -a "src=/etc/hosts dest=./hosts"
 ansible webservers -m file      -a "dest=/home/db.txt mode=600"
+
+ansible all --list-hosts
+ansible -m ping 192.168.33.101
+ansible -a "uptime" all
+ansible -a "uptime" 192.168.33.101
+
+
 ```
 ### modules
 ### https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
-
-```
-                   -m yum
-                   -m user
-                   -m service
-```
 
 #### file
 ```
@@ -43,6 +44,10 @@ ansible AppServers -m file -a "dest=/home/vagrant/file3.txt mode=600 ower=root g
 ansible AppServers -m file -a "dest=/home/vagrant/dir1 mode=755 state=directory state=absent"
 ```
 
+##### copy
+```
+ansible AppServers -m copy -a "dest=/home/vagrant/file3.txt content='other_stuff' force=no mode=700"
+```
 
 #### yum
 ```
@@ -66,6 +71,52 @@ ansible AppServers -m service -a "name=httpd disenabled=yes"     -b -K
 ansible AppServers -m service -a "name=httpd enabled=yes"  --check
 ansible AppServers -m service -a "name=httpd enabled=no"   --check
 ```
+
+#### user
+```
+ansible AppServers -m user    -a 'name=marvin state=present home=/home/marvin shell=/bin/bash' -b -K
+ansible AppServers -m user    -a 'name=marvin group=wheel' -b -K
+ansible AppServers -m user    -a 'name=marvin groups=marvin group=wheel' -b -K
+ansible AppServers -m user    -a 'name=marvin state=absent' -b -K
+doveadm pw -s SHA512-CRYPT
+```
+
+#### setup 
+```
+ansible AppServers -m setup 
+ansible AppServers -m setup    -a 'gather_subset=network'
+ansible AppServers -m setup    -a 'gather_subset=network,hardware'
+ansible AppServers -m setup    -a 'gather_subset=network,!hardware'
+ansible AppServers -m setup    -a 'gather_subset=!all'
+ansible AppServers -m setup    -a 'gather_subset=!all,!min'
+ansible AppServers -m setup    -a 'gather_subset=!all,!min,hardware'
+ansible AppServers -m setup    -a 'gather_subset=!all,!min,hardware filter=ansible_system'
+ansible AppServers -m setup    -a 'gather_subset=!all,!min,hardware filter=ansible_python_version'
+ansible AppServers -m setup    -a 'gather_subset=!all,!min,hardware filter=ansible_python_version' --tree /tmp/facts 
+
+
+ansible AppServers  -m setup    --ask-pass
+ansible AppServers  -m setup    --ask-become-pass
+ansible AppServers  -m setup    --private-key <PATH>
+```
+#### shell
+```
+ansible AppServers -m shell   -a "systemctl status httpd"
+```
+### host parterns and formats
+- name: restart webservers
+  host: webservers
+        all or * | onehost | group
+        group1:group2 - OR
+        group1:!group2 - NOT In
+        group1:&group2 - AND
+        group1:group2:&test:!prod
+        192.168.\*
+        \*.com
+        rhhost*.com:dbservers
+        ~(web|db).*\.localnet\.com
+
+# ansible-<doc|console|playbook|inventory|config> commands
 
 ### ansible-inventory
 ```
