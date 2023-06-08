@@ -3,6 +3,6 @@
 ### For now:
 
 # -> Ansible
-# -> Kubernetes
 # -> Docker
+# -> Kubernetes
 # -> Vagrant
