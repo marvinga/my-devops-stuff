@@ -1,8 +1,14 @@
 # Ansible
 
+# -> install ansible for rhel
+
+
 # -> ad-hoc commands:
 
-# -> install ansible for rhel
 
 # -> track
 
+6/8/2023
+-- Decided to finish linkedin just viewing the videos and do labs only from book
+-- need to sync few things from labtop - done
+-- Install git hub desktop for on mac - done
