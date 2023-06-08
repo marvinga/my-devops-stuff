@@ -1,1 +1,29 @@
 
+WLS
+
+Vagrant
+	https://computingforgeeks.com/add-run-centos-virtualbox-using-vagrant/
+	https://app.vagrantup.com/centos/boxes/8
+	https://sloopstash.com/blog/how-to-build-vm-on-windows-10-using-virtualbox-vagrant-git-bash.html
+	https://stackoverflow.com/questions/70963985/error-failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal
+	take a look at `/etc/resolv.conf` file
+	 Could not resolve host: vault.centos.org
+	 
+```bash
+
+sudo cd /etc/yum.repos.d/; sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*; sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*; sudo yum update -y
+
+
+```
+
+```
+admin 1 y 2
+app 1,2,3,4,5
+```
+
+
+Visual Studio
+Git Bash
+Terminus
+	- add private key
+	- 
