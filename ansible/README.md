@@ -25,8 +25,38 @@ ansible webservers              -a "/sbin/reboot" -u user1 -b -K ansible webserv
 ansible webservers -m file      -a "dest=/home/db.txt mode=600"
 ```
 
+```
+                   -m yum
+                   -m user
+                   -m service
+```
 
+For documentation:
 
+```
+ansible-doc -t cache -l 
+            become
+            callback
+            cliconf
+            connection
+            httpapi
+            inventory
+            lookup
+            netconf
+            shell
+            strategy
+            vars
+
+ansible-doc file
+ansible-doc file -s file 
+```
+
+Configuration: 
+```
+$ANSIBLE_CONFIG
+./ansible.cfg
+/etc/ansible/ansible.cfg 
+```
 
 # -> track
 
