@@ -1,0 +1,93 @@
+---
+- hosts: all
+  become: yes
+
+  vars_files:
+    - vars.yml
+
+  pre_tasks:
+    - name: Update apt, cache if needed
+      apt: update_cache=yes cache_valid_time=3600
+
+  handlers:
+    - name: restart apache 
+      service: name=apache2 state=restarted
+  
+  tasks: 
+    - name: Get sortware for apt respository management.
+      apt:
+        state: present
+        name:
+          - python3-apt
+          - python3-pycurl1
+    
+    - name: Add ondrej repo for later versions of PHP.
+      apt_repository: repo='ppa:ondrej/php' update_chache=yes 
+
+    - name: "Install Apache, MySQL, PHP, and other dependencies."
+      apt:
+        state: present 
+        name: 
+          - acl
+          - git
+          - curl
+          - unzip
+          - sendmail
+          - apache2
+          - php7.4-common
+          - php7.4-cli
+          - php7.4-dev
+          - php7.4-gd
+          - php7.4-curl
+          - php7.4-json
+          - php7.4-opcache
+          - php7.4-xml
+          - php7.4-mbstring
+          - php7.4-pdo
+          - php7.4-mysql
+          - php7.4-apcu
+          - libpcre3-dev
+          - libachache2-mod-php7.4
+          - python3-mysqldb
+          - mysql-server
+
+    - name: Disable the firewall (Since this is for local use only)
+      service: name=ufw state=stopped
+
+    - name: "Start Apache, MySQL, and PHP."
+      service: "name={{ item }} state=started enabled=yes"
+      with_items:
+        - apache2
+        - mysql 
+
+    - name: Enabled Apache rewrite module (required for Drupal).
+      apache2_module: name=rewrite state=present
+      notify: restart apache 
+
+    - name: Add Apache virtualhost for Drupal.
+      template:
+        src: "templates/drupal.test.conf.j2"
+        dest: "/etc/apache2/sites-available/{{ domain }}.test.conf"
+        owner: root 
+        group: root 
+        mode: 0644 
+      notify: restart apache
+
+    - name: Enable the Drupal site.
+      command: > 
+        a2ensite {{ domain }}.test 
+        creates=/etc/apache2/sites-enabled/{{ domain }}.test.conf 
+      notify: restart apache 
+
+    - name: Disable the default site. 
+      command: >
+        a2dissite 000-default
+        removes=/etc/apache2/sites-eneabled/000-default.conf
+      notify: restart apache 
+
+  
+
+
+
+
+
