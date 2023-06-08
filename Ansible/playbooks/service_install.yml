@@ -1,0 +1,16 @@
+---
+  - hosts: all
+    become: true
+    name: "NTP Config"
+
+    tasks:
+      - name: "Ensure NTP is istalled"
+        yum:
+          name: ntp 
+          state: present
+
+      - name: "Ensure NTP is started now and at boot"
+        service:
+          name: ntp
+          state: started
+          enable: yes

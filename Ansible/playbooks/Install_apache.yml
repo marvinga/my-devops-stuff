@@ -1,7 +1,7 @@
 ---
 - name: Apache Server Installed
   hosts: AppServers
-  become: yes 
+  become: true 
   tasks:
     - name: Latest Apache Version Installed
       yum:

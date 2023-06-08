@@ -1,0 +1,26 @@
+ansible-doc -t cache -l 
+            become
+            callback
+            cliconf
+            connection
+            httpapi
+            inventory
+            lookup
+            netconf
+            shell
+            strategy
+            vars
+
+ansible-doc file
+ansible-doc file -s file 
+
+ansible-playbook deploy_web.yml -i staging -i production
+
+$ANSIBLE_CONFIG
+./ansible.cfg
+/etc/ansible/ansible.cfg 
+
+vars:
+-e 'ansible_user=user2'
+
+less -N /etc/ansible/ansible.cfg

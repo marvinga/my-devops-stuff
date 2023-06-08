@@ -1,0 +1,7 @@
+---
+  - name: "My first play"
+    hosts:  AppServers
+
+    tasks:
+    - name: "Ping Servers"
+      ping:
