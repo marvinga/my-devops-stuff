@@ -116,11 +116,10 @@ ansible AppServers -m shell   -a "systemctl status httpd"
         \*.com
         rhhost*.com:dbservers
         ~(web|db).*\.localnet\.com
-
-# ansible-<doc|console|playbook|inventory|config> commands
 ```
+#### ansible-<doc|console|playbook|inventory|config> commands
 
-### ansible-inventory
+#### ansible-inventory
 ```
 ansible-inventory --list
 ansible-inventory --list --output inventory.json
@@ -128,7 +127,7 @@ ansible-inventory --graph
 ansible-inventory --list -y
 ```
 
-### ansible-doc
+#### ansible-doc
 ```
 ansible-doc -t cache -l 
             become
@@ -147,7 +146,7 @@ ansible-doc file
 ansible-doc file -s file 
 ```
 
-### ansible-config: 
+#### ansible-config
 
 ```
 ansible-config list
@@ -162,14 +161,14 @@ $ANSIBLE_CONFIG
 /etc/ansible/ansible.cfg 
 ```
 
-### ansible-console
+#### ansible-console
 ```
 ansible-console -b -K
     shell date
     yum name=gedit-plugins state=installed
 ```
 
-### ansible-playbook
+#### ansible-playbook
 ```
 ansible-playbook --syntax-check apache.yml
 ansible-playbook apache.yml -b -K
