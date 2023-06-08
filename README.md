@@ -4,6 +4,8 @@
 
 # -> Ansible
 # -> Docker
+# -> Git
+# -> Jenkins
 # -> Kubernetes
 # -> Vagrant
 
