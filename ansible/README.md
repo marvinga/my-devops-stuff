@@ -43,6 +43,30 @@ ansible AppServers -m file -a "dest=/home/vagrant/file3.txt mode=600 ower=root g
 ansible AppServers -m file -a "dest=/home/vagrant/dir1 mode=755 state=directory state=absent"
 ```
 
+
+#### yum
+```
+ansible AppServers -m yum -a "name=httpd state=installed" -b -K
+ansible AppServers -m yum -a "name=httpd state=present" -b -K
+ansible AppServers -m yum -a "name=httpd state=removed" -b -K
+                   -m yum -a "name=* state=latest" -b -K #--> yum update -y
+                   -m yum -a "name='@Development tools' state=installed" -b -K #--> yum group install
+                   -m yum -a "list=installed" -b -K #--> yum list installed
+```
+
+#### service
+```
+ansible AppServers -m service -a "name=httpd"
+ansible AppServers -m service -a "name=httpd state=started"      -b -K
+ansible AppServers -m service -a "name=httpd state=restarted"    -b -K
+ansible AppServers -m service -a "name=httpd state=reloaded"     -b -K
+ansible AppServers -m service -a "name=httpd state=stopped"      -b -K
+ansible AppServers -m service -a "name=httpd enabled=yes"        -b -K
+ansible AppServers -m service -a "name=httpd disenabled=yes"     -b -K
+ansible AppServers -m service -a "name=httpd enabled=yes"  --check
+ansible AppServers -m service -a "name=httpd enabled=no"   --check
+```
+
 ### ansible-inventory
 ```
 ansible-inventory --list
