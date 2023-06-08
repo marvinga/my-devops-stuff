@@ -1,7 +1,8 @@
 # my-devops-stuff
 
-For now:
-Ansible
-Kubernetes
-Docker
-Vagrant
+### For now:
+
+# -> Ansible
+# -> Kubernetes
+# -> Docker
+# -> Vagrant
