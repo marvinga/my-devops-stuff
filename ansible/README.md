@@ -2,8 +2,14 @@
 
 # -> install ansible for rhel
 
+sudo yum update -y
+sudo yum install -y epel-release
+sudo yum repolist
+sudo yum install -y python3
+sudo alternatives --set python /usr/bin/python3
+sudo yum install -y ansible ansible-doc
 
-# -> ad-hoc commands:
+# -> ad-hoc commands
 
 
 # -> track
