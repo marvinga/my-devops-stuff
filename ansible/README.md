@@ -28,6 +28,22 @@ ansible all --list-hosts
 ansible -m ping 192.168.33.101
 ansible -a "uptime" all
 ansible -a "uptime" 192.168.33.101
+
+
+ansible -m ping 'all:!web1'-i hosts
+ansible -m ping 'web:&ha'  -i hosts
+ansible -m ping 'web[0]'   -i hosts
+ansible -m ping 'web[2]'   -i hosts
+ansible -m ping 'web[0:2]' -i hosts
+ansible -m ping 'web[1:]'  -i hosts
+
+ansible -m ping ip_address
+
+
+
+
+
+
 ```
 
 ### modules
