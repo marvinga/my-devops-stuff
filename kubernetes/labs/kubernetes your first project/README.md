@@ -12,4 +12,15 @@
 ### -- smallest unit of compute
 ### -- deployments: manage pods
 ### -- services
+### -- ingresses
 ### -- 
+
+
+
+Track: 
+
+6/19/2023 
+docker needs WLS on windows. failed to load.
+
+
+
