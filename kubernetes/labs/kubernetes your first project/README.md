@@ -1,15 +1,15 @@
 
--- union file system
--- dockerfiles
--- docker images
--- container runtime - container D
--- docker API
--- docker image
--- challenging (when many images)
--- container orchestrators 
--- kubernetes 
--- pod
--- smallest unit of compute
--- deployments: manage pods
--- services
--- 
+### -- union file system
+### -- dockerfiles
+### -- docker images
+### -- container runtime - container D
+### -- docker API
+### -- docker image
+### -- challenging (when many images)
+### -- container orchestrators 
+### -- kubernetes 
+### -- pod
+### -- smallest unit of compute
+### -- deployments: manage pods
+### -- services
+### -- 
