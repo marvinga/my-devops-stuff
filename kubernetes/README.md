@@ -1,11 +1,5 @@
 # Kubernetes
 
-# -> install kube
-
-
-# -> ad-hoc commands
-
-
 # -> track
 
 6/8/2023
