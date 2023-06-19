@@ -1,8 +1,3 @@
-# my-devops-stuff
+# Docker
 
-### For now:
-
-# -> Ansible
-# -> Docker
-# -> Kubernetes
-# -> Vagrant
+# Track jul 18 2023
