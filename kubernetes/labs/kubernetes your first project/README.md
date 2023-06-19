@@ -47,4 +47,18 @@ export AWS_ACCESS_KEY_ID=ASIA5WJU6TQYFCEUFMGZ
 export AWS_SECRET_ACCESS_KEY_ID=VfN+srC/6D8E/gO56D4Ss1p4Obbj64DZIEoSatFZ
 export AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEDkaCXVzLWVhc3QtMSJIMEYCIQCD52igHKvkK9/2HCiVwadnabz3wEMJ6SXB9XbHZ2KioQIhAPy8YuDizBgSvIgNtodJx1fb2dOAMREcCONk8d7n4NrPKp8CCJL//////////wEQAxoMOTQxMjQ1NzY2NzA0IgxWhUApG0leTFR27i0q8wGvDhqaXqvbfS8bWPW1n0DvppbvG0YrtiiMSZiC+Qp1vmFpLcH0BHWpz0b3VH6+WEak89GDfe0SIxAZWkjMcyWt2QssPAMIX014Mzrx3Mi6cDJ3AVLsEIB0VvQYL7A6YLTwGvK21FQb+OaHae1zh4sl00+bJ/ssw//YhlOZnZmLYoVwHf0CL+CBQLKcqothujZoeLRNb2GS2pS8rGOGg9FiL91xnEydVi6JvH9iaxy/KDlkNOjQu6dL+Ml1kFK2kVSPNpnU6OOGZMR6FCHNndaER0Kr7gwEP6KHEfOe+kjL7hXzLXkiHZXcjONBDP6BSfP1U2Ew2IzCpAY6nAEdIWJOs1MA3IVa2GuxEDdQxOoNLrvcFETDM48mdZSDNdPeRbLkeyHBdn4ACteIObxwfYDMY5z/1jxE81JdHJ7uCI6ShE1IjvqZnEqjCfgMFsH+ba9I0vA8h0CcJ+0v8ZhL1ti45CjZ7+Z7POkgVbl0RV5bPsG9FNuh94whiianQWuox4qGHdCg469roSZRf9dgecgbNjtsK4Tmzu0=",
 
-       
+
+-- union file system
+-- dockerfiles
+-- docker images
+-- container runtime - container D
+-- docker API
+-- docker image
+-- challenging (when many images)
+-- container orchestrators 
+-- kubernetes 
+-- pod
+-- smallest unit of compute
+-- deployments: manage pods
+-- services
+-- 
