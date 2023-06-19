@@ -21,6 +21,7 @@ Track:
 
 6/19/2023 
 docker needs WLS on windows. failed to load.
+I was able to completed exerc.
 
 
 
