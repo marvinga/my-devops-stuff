@@ -6,3 +6,12 @@
 
 ## docker ps
 ## docker stop
+
+
+## docker hub
+## local registry
+
+## docker run --name local-registry -d --restart=always -p 5000:5000 registry:2
+
+## curl http://localhosts:5000/v2
+## curl --location http://localhost:5000/v2

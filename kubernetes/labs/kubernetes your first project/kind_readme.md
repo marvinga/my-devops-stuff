@@ -3,5 +3,5 @@
 
 ## brew install kind
 
-
+## kind create cluster --name explorecalifornia.com
 

@@ -15,7 +15,10 @@
 ### -- ingresses
 ### -- 
 
+## kubectl get nodes
+## kubectl get pods --namespace kube-system
 
+## namespaces
 
 Track: 
 
