@@ -199,3 +199,12 @@ ansible-playbook deploy_web.yml -i staging -i production
 - need to sync few things from labtop - done
 - install git hub desktop for on mac - done
 
+6/25/2023
+- Ansible for Devops 
+  - Lab install node.js app on rocky linux - done
+  - Lab ubuntu lamp server with drupal - in progress
+    page 70
+  - errors in Add drush to the Drupal site with Composer
+    page 78
+
+
