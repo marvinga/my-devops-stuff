@@ -39,11 +39,6 @@ ansible -m ping 'web[1:]'  -i hosts
 
 ansible -m ping ip_address
 
-
-
-
-
-
 ```
 
 ### modules
@@ -141,6 +136,17 @@ ansible-inventory --list
 ansible-inventory --list --output inventory.json
 ansible-inventory --graph
 ansible-inventory --list -y
+
+```
+
+#### Inventory Plugins
+```
+enable_plugins = host_list, script, auto, yaml, ini, toml
+
+ansible -i vbox.yml site.yml
+ansible-inventory -i vbox.yml --graph
+ansible-doc -t inventory -l 
+ansible-doc -t inventory <plugin name>
 ```
 
 #### ansible-doc
@@ -175,6 +181,44 @@ ansible-config view
 $ANSIBLE_CONFIG
 ./ansible.cfg
 /etc/ansible/ansible.cfg 
+
+[defaults]
+forks = 30
+
+```
+
+### serial 
+```
+---
+  -name: Manage webservers
+   host: webservers
+   serial: "33%"
+   
+   serial:
+      - 1
+      - 5
+      - 10
+    
+   serial:
+      - "10%"
+      - "50%"
+      - "100%"
+
+---
+  task: 
+  - command: /sbin/encryptefiles.sh
+    throttle: 1
+    ...
+    strategy = free/linear
+```
+
+
+### Disable Fact Gathering - Ansible Performances
+```
+---
+- name: Manage webservers
+  hosts: webservers
+  gather_facts: no
 ```
 
 #### ansible-console
@@ -192,6 +236,26 @@ ansible-playbook --check apache.yml
 ansible-playbook deploy_web.yml -i staging -i production
 ```
 
+#### ansible galaxy
+
+```
+https://galaxy.ansible.com
+
+ansible-galaxy install geerlinguy.apache
+ansible-galaxy install geerlinguy.apache,v3.1.0
+ansible-galaxy install -r requirements.yml
+ansible-galaxy collection install <collection>
+
+  src
+  scm
+  version
+  name
+
+ansible-galaxy list
+
+```
+
+
 # Track
 
 6/8/2023
@@ -206,5 +270,11 @@ ansible-playbook deploy_web.yml -i staging -i production
     page 70
   - errors in Add drush to the Drupal site with Composer
     page 78
+
+6/26/2023
+- youtube: 
+    https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  3/16
+
+
 
 
