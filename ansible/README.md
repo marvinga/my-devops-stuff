@@ -187,7 +187,7 @@ forks = 30
 
 ```
 
-### serial
+### serial 
 ```
 ---
   -name: Manage webservers
