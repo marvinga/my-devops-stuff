@@ -41,9 +41,6 @@ ansible -m ping ip_address
 
 ```
 
-### modules
-### https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
-
 #### file
 ```
 ansible AppServers -m file -a "state=touch path=/home/vagrant/file1.txt mode=700"
@@ -236,11 +233,9 @@ ansible-playbook --check apache.yml
 ansible-playbook deploy_web.yml -i staging -i production
 ```
 
-#### ansible galaxy
+
 
 ```
-https://galaxy.ansible.com
-
 ansible-galaxy install geerlinguy.apache
 ansible-galaxy install geerlinguy.apache,v3.1.0
 ansible-galaxy install -r requirements.yml
@@ -254,7 +249,13 @@ ansible-galaxy collection install <collection>
 ansible-galaxy list
 
 ```
+# Documentation:
 
+### modules
+### https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
+
+### ansible galaxy
+### https://galaxy.ansible.com
 
 # Track
 
@@ -267,13 +268,13 @@ ansible-galaxy list
 - Ansible for Devops 
   - Lab install node.js app on rocky linux - done
   - Lab ubuntu lamp server with drupal - in progress
-    page 70
-  - errors in Add drush to the Drupal site with Composer
-    page 78
+      - errors in Add drush to the Drupal site with Composer - page 78
 
 6/26/2023
 - youtube: 
-    https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  4/16
+  -  https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  5/16
+- tmux
+- vim-nox
 
 
 
