@@ -1,5 +1,3 @@
-**Package modules**:
-
    - `apt` module: Install the `nginx` package on Debian/Ubuntu systems.
      
      ```

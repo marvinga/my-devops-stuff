@@ -1,4 +1,3 @@
-3. **Service modules**:
    - `systemd` module: Ensure the `nginx` service is started and enabled on systemd-based systems.
      ```yaml
      - name: Ensure nginx service is started and enabled
