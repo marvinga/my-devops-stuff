@@ -64,6 +64,10 @@ ansible AppServers -m yum -a "name=httpd state=removed" -b -K
                    -m yum -a "name=* state=latest" -b -K #--> yum update -y
                    -m yum -a "name='@Development tools' state=installed" -b -K #--> yum group install
                    -m yum -a "list=installed" -b -K #--> yum list installed
+
+
+sudo firewall-cmd --add-port=80/tcp
+
 ```
 
 #### service
@@ -218,6 +222,28 @@ forks = 30
   gather_facts: no
 ```
 
+
+### when
+```
+---
+
+- hosts: all
+  become: true
+  tasks:
+  - name: Manage Ubuntu webservers
+    apt:
+      update_cache: yes
+    when: ansible_distribution == "Ubuntu"
+    when: ansible_distribution in ["Ubuntu", "Debian"]
+  
+  - name: Manage Centos webservers
+    dnf:
+      name: httpd
+      state: latest
+    when: ansible_distribution == "Centos"
+
+```
+
 #### ansible-console
 ```
 ansible-console -b -K
@@ -232,8 +258,6 @@ ansible-playbook apache.yml -b -K
 ansible-playbook --check apache.yml
 ansible-playbook deploy_web.yml -i staging -i production
 ```
-
-
 
 ```
 ansible-galaxy install geerlinguy.apache
@@ -257,6 +281,11 @@ ansible-galaxy list
 ### ansible galaxy
 ### https://galaxy.ansible.com
 
+
+```
+
+```
+
 # Track
 
 6/8/2023
@@ -272,7 +301,7 @@ ansible-galaxy list
 
 6/26/2023
 - youtube: 
-  -  https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  6/16
+  -  https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  8/16
 
 - tmux
 - vim-nox
