@@ -50,20 +50,6 @@ list of commonly used Ansible modules across various categories:
 1. `openssl_certificate`: Manages SSL/TLS certificates.
 2. `password`: Generates hashed passwords for user accounts.
 
-These are just some of the commonly used Ansible modules. Ansible offers a vast library of modules that cover a wide range of technologies and use cases, allowing automation across diverse systems and applications.
-
-
-package
-file
-service
-command
-user and group
-filesystem
-inventory
-docker
-kubernetes
-cloud
-
-setup 
-shell
+These are just some of the commonly used Ansible modules. 
+Ansible offers a vast library of modules that cover a wide range of technologies and use cases, allowing automation across diverse systems and applications.
 
