@@ -282,10 +282,6 @@ ansible-galaxy list
 ### https://galaxy.ansible.com
 
 
-```
-
-```
-
 # Track
 
 6/8/2023
@@ -301,7 +297,7 @@ ansible-galaxy list
 
 6/26/2023
 - youtube: 
-  -  https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  8/16
+  -  https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  9/16
 
 - tmux
 - vim-nox
