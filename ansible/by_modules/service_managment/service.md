@@ -1,4 +1,4 @@
-Certainly! Here are some examples of using the `service` module in Ansible:
+the `service` module in Ansible:
 
 Certainly! Here are additional examples of using the `service` module in Ansible specifically for Red Hat-based operating systems (such as RHEL, CentOS, and Fedora):
 
