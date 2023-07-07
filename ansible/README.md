@@ -297,10 +297,8 @@ ansible-galaxy list
 
 6/26/2023
 - youtube: 
-  -  https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  13/16
-  - tmux
-  - vim-nox
-
+  - Getting started with Ansible https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70  15/16
+  
 - pdf:
   - Red Hat Ansible Automation Platform A beginner’s guide pag 5/35
 
