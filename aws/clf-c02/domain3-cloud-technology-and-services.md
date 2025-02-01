@@ -70,8 +70,8 @@
 - **object storage**
 - **s3**
 - **block storage**
- - ebs
- - instance store
+  - ebs
+  - instance store
 - **file services**
    - efs
    - fsx
