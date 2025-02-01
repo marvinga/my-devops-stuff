@@ -39,5 +39,47 @@
  - **auto scaling - elasticity**
  - **load balancers**
 
-   
+### aws database services
+- **ec2 hosted db's vs managed db's**
+- **relational db's**
+  - rds
+  - aurora
+- **nosql db's**
+  - dynamodb
+- **memory-based databases**
+- **db migration tools**
+  - dms
+  - schema conversion tool 
+
+### aws network services
+- **vpc components**
+   - subnets
+   - gateways
+- **vpc security**
+   - acl's
+   - security groups
+- **route 53**
+- **edge services**
+  - cloudfront
+  - global accelerator
+- **nw connectivity options**
+  - vpn
+  - direct connect
+
+### storage services
+- **object storage**
+- **s3**
+- **block storage**
+ - ebs
+ - instance store
+- **file services**
+   - efs
+   - fsx
+- **cached fs**
+  - storage gateway
+- **lifecycle policies - use cases**
+- **aws backup**
+  
+
+
   
