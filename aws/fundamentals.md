@@ -9,6 +9,9 @@
 #### Security Groups
 #### E2C
 #### S3 Bucket
+#### AWS Services
+#### Managed Services
+
 
 
 
