@@ -6,13 +6,14 @@
 - **advances of high availability, elasticity and agility**
 
 ### design principles of the AWS cloud
-- **well-architected framework**
+- **pillars of well-architected framework**
   - operational excellence
   - security
   - reliability
   - performance efficiency
   - cost optimization
   - sustainability
+- **differences between pillars**
   
 
 
