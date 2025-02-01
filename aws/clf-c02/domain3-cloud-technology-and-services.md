@@ -80,6 +80,30 @@
 - **lifecycle policies - use cases**
 - **aws backup**
   
+### ai and ml
+- **ai/ml services**
+  - sagemaker
+  - lex
+  - kendra
+- **data analytics services**
+   - athena
+   - kinesis
+   - glue
+   - quicksight
 
-
+### in-scope services
+- **service to deliver messages & alert notif**
+   - eventbridge
+   - sns
+   - sqs
+- **aws customer support**
+- **business support assistance**
+- **tools to develope, deploy & troubleshoot applications**
+- **present vm's output**
+  - rdp
+  - vnc
+  - web based
+- **services to create, deploy frontend & mobile services**
+- **services to manage iot devices**
+- 
   
