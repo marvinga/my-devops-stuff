@@ -15,5 +15,30 @@
   - sustainability
 - **differences between pillars**
   
+### benefits of and strategies for migration to the aws cloud
+- **aws cloud adoption framework**
+  - reduced business risk
+  - improve environmental, social, and governance performance
+  - increase revenew
+  - increase operational efficiency
+- **migration strategies**
+  - database replication
+  - aws snowball
+
+ ### concepts of cloud economics
+ - **fixed vs variable costs**
+ - **cost on-premises environments**
+ - **licensing strategies**
+   - BYOL vs include licenses
+ - **benefits of automation**
+   - aws cloudformation
+- **managed aws services**
+   - rds
+   - ecs & eks
+   - dynamodb
+   
+     
+ 
+
 
 
