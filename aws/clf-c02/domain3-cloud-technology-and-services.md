@@ -26,3 +26,18 @@
   - cloudfront
   - globall accelerator
 
+### aws compute services
+- **ec2 types**
+  - compute optimized
+  - storage optimized
+- **containers**
+   - ecs
+   - eks
+- **serverless compute options**
+   - fargate
+   - lambda
+ - **auto scaling - elasticity**
+ - **load balancers**
+
+   
+  
