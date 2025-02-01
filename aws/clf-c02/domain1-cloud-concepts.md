@@ -1,4 +1,5 @@
-# Domain 1 - Cloud Concepts 24%
+# domain 1 - 24%
+# cloud concepts
 ---
 ### define the benefits of the aws cloud 
 - **economics of scale**
