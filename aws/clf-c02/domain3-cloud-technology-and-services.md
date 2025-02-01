@@ -1,7 +1,7 @@
 # domain 3 - 34%
 # cloud technology and services
 ---
-### methods of deploying and operating aws cloud
+## *1.  methods of deploying and operating aws cloud*
 - **programmatic access (APIs, SDKs, CLI), management console & IaC**
 - **one-time operations vs repeatable processes**
 - **deployment models**
@@ -13,7 +13,7 @@
   - aws direct connect
   - public internet
 
-### aws global infrastructure
+## *2.  aws global infrastructure*
 - **regions, az, edge locations**
 - **high availability using multiple az's**
 - **az's - single point of failure**
@@ -26,7 +26,7 @@
   - cloudfront
   - globall accelerator
 
-### aws compute services
+## *3. aws compute services*
 - **ec2 types**
   - compute optimized
   - storage optimized
@@ -39,7 +39,7 @@
  - **auto scaling - elasticity**
  - **load balancers**
 
-### aws database services
+## *4.  aws database services*
 - **ec2 hosted db's vs managed db's**
 - **relational db's**
   - rds
@@ -51,7 +51,7 @@
   - dms
   - schema conversion tool 
 
-### aws network services
+## *5. aws network services*
 - **vpc components**
    - subnets
    - gateways
@@ -66,7 +66,7 @@
   - vpn
   - direct connect
 
-### storage services
+## *6.  storage services*
 - **object storage**
 - **s3**
 - **block storage**
@@ -80,7 +80,7 @@
 - **lifecycle policies - use cases**
 - **aws backup**
   
-### ai and ml
+## *7.  ai and ml*
 - **ai/ml services**
   - sagemaker
   - lex
@@ -91,7 +91,7 @@
    - glue
    - quicksight
 
-### in-scope services
+## *8.  in-scope services*
 - **service to deliver messages & alert notif**
    - eventbridge
    - sns
