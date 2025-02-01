@@ -1,7 +1,7 @@
 # domain 1 - 24%
 # cloud concepts
 ---
-### *define the benefits of the aws cloud*
+## *1. define the benefits of the aws cloud*
 - **economics of scale**
 - **benefits of global infrastructure**
 - **advances of high availability, elasticity and agility**
