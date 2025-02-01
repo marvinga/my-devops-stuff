@@ -12,3 +12,12 @@
   - ec2
 
 ### cloud security, governance, and compliance
+- **aws artifact**
+- **compliance needs**
+  - aws compliance
+- **how customers secure resources on aws**
+  - inspector
+  - security hub
+  - guardduty
+  - shield
+    
