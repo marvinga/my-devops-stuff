@@ -12,7 +12,7 @@
 #### AWS Services
 #### Managed Services
 
-
+![AWS Architecture](images/aws-architecture.png)
 
 
 
