@@ -1,11 +1,11 @@
-# Domain 1 - Cloud Concepts
+# Domain 1 - Cloud Concepts 24%
 ---
-### define the benefits of the AWS Cloud
+### define the benefits of the aws cloud 
 - **economics of scale**
 - **benefits of global infrastructure**
 - **advances of high availability, elasticity and agility**
 
-### design principles of the AWS cloud
+### design principles of the aws cloud
 - **pillars of well-architected framework**
   - operational excellence
   - security
@@ -29,7 +29,7 @@
  - **fixed vs variable costs**
  - **cost on-premises environments**
  - **licensing strategies**
-   - BYOL vs include licenses
+   - byol vs include licenses
  - **benefits of automation**
    - aws cloudformation
 - **managed aws services**
