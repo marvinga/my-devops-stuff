@@ -1,8 +1,8 @@
 
 # AWS Fundamentals
 
-#### Region
-#### AZ
+##### Region
+##### AZ
 #### VPC
 #### Internet Gateway
 #### Subnet
