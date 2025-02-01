@@ -31,17 +31,28 @@
 - **compliance vary among aws services**
 
 ### aws access management capabilities
-- **iam**
-  - aws identity
-  - iam
-- **protecting root account**
-- **least privileges principle**
 - **access keys, password policies & credential storage**
   - secrets manager
   - system manager
-- **single sing-on**
-- **single sing-on**
-- **single sing-on**
-- **single sing-on**
-  
+- **authentication methods**
+  - mfa
+  - iam
+  - cross-account iam roles
+- **groups, users, custom polices and managed polices -> least privilege**
+- **taks only root can perform**
+- **root user protection methods**
+- **identitly management types**
+  - federated
+
+### components and resources for security
+- **security feature & services**
+  - security groups
+  - network acls, aws waf
+- **3rd party security products in aws market place**
+- **where security info is**
+  - knowledge center
+  - security center
+  - security blog
+- **idenfitying security issues**
+  - trusted advisor
     
