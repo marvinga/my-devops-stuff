@@ -1,4 +1,4 @@
-# domain 3 - 30%
+# domain 3 - 34%
 # cloud technology and services
 ---
 ### methods of deploying and operating aws cloud
@@ -12,3 +12,17 @@
   - aws vpn
   - aws direct connect
   - public internet
+
+### aws global infrastructure
+- **regions, az, edge locations**
+- **high availability using multiple az's**
+- **az's - single point of failure**
+- **multiple regions**
+   - disaster recovery
+   - business continuity
+   - low latency for end users
+   - data sovereignty
+- **edge locatios - benefits**
+  - cloudfront
+  - globall accelerator
+
