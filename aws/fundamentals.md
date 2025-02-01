@@ -1,6 +1,8 @@
 # AWS Fundamentals  
 
 ## AWS Infrastructure  
+---
+
 
 ### 🏢 Region & Availability Zones  
 - **Region**: A geographical area containing AWS data centers (e.g., `us-east-1`).  
