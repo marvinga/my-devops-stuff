@@ -1,6 +1,9 @@
 # Domain 1 - Cloud Concepts
 ---
 ### Define the benefits of the AWS Cloud
-*** Undestand the economics of scale
----
+-** economics of scale
+-** benefits of global infrastructure
+-** advances of high availability, elasticity and agility
+
+
 
