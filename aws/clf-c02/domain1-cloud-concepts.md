@@ -2,7 +2,7 @@
 # cloud concepts
 ---
 ### define the benefits of the aws cloud 
-- **economics of scale**
+- *economics of scale*
 - **benefits of global infrastructure**
 - **advances of high availability, elasticity and agility**
 
