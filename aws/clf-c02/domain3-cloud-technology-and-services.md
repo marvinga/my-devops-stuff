@@ -1,6 +1,6 @@
 # domain 3 - 30%
 # cloud technology and services
 ---
-### aws shared responsibility model
+### options programmatic access, management console, IaC
 - **components**
 - **customer's resposibilities**
