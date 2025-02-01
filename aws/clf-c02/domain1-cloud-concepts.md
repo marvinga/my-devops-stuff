@@ -6,7 +6,7 @@
 - **benefits of global infrastructure**
 - **advances of high availability, elasticity and agility**
 
-### design principles of the aws cloud
+## *2. design principles of the aws cloud*
 - **pillars of well-architected framework**
   - operational excellence
   - security
@@ -16,7 +16,7 @@
   - sustainability
 - **differences between pillars**
   
-### benefits of and strategies for migration to the aws cloud
+## *3. benefits of and strategies for migration to the aws cloud*
 - **aws cloud adoption framework**
   - reduced business risk
   - improve environmental, social, and governance performance
@@ -26,7 +26,7 @@
   - database replication
   - aws snowball
 
- ### concepts of cloud economics
+ ## *4. concepts of cloud economics*
  - **fixed vs variable costs**
  - **cost on-premises environments**
  - **licensing strategies**
