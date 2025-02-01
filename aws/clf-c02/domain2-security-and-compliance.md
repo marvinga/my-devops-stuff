@@ -1,7 +1,7 @@
 # domain 2 - 30%
 # security and compliance
 ---
-### aws shared responsibility model
+## *1. aws shared responsibility model*
 - **components**
 - **customer's resposibilities**
 - **aws resposibilities**
@@ -11,7 +11,7 @@
   - lambda
   - ec2
 
-### cloud security, governance, and compliance
+## *2. cloud security, governance, and compliance*
 - **aws artifact**
 - **compliance needs**
   - aws compliance
@@ -30,7 +30,7 @@
   - aws config
 - **compliance vary among aws services**
 
-### aws access management capabilities
+## *3.  aws access management capabilities*
 - **access keys, password policies & credential storage**
   - secrets manager
   - system manager
@@ -44,7 +44,7 @@
 - **identitly management types**
   - federated
 
-### components and resources for security
+## *4. components and resources for security*
 - **security feature & services**
   - security groups
   - network acls, aws waf
