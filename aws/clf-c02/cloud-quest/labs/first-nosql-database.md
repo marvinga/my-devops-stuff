@@ -5,9 +5,11 @@
 - *automatically scales*
 - *it has single-digit millisecond latency*
 - supports petabytes of data records w/unique ids that have varying attributes
+- is a key-value and document db
+- 
 
-### *--> create dynamodb table*
-### *--> create dynamodb record with metadata attributes*
+## *-> create dynamodb table*
+## *-> create dynamodb record with metadata attributes*
 
 
 
