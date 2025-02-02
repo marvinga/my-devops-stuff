@@ -27,4 +27,5 @@
 
 ```bash
 sudo -i sudo yum install -y amazon-efs-utils
-sudo mount -t efs -o tls fs-0cffb814fb770d671:/ efs
+cd ~/; mkdir data
+sudo mount -t efs -o tls fs-0cffb814fb770d671:/ data
