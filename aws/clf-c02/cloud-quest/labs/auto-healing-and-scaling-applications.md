@@ -10,7 +10,7 @@
 - auto ajust capacity
 - setup app scaling
 - simplified
-- 
+- optimize cost 
 
 ---
 
@@ -18,5 +18,12 @@
 
 
 ## *-> create an auto scaling group with launch configurations*
+  - create ami
+  - create autolaunch template
+  - create auto scaling group
+  - schedule autoscalling 
 ## *-> configure schedule scaling*
+
+
+
 
