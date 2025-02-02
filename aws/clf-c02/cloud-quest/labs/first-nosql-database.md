@@ -9,8 +9,8 @@
 - multi region
 - multi-active
 - 20 mill reqs/secs
+- schemaless
   
-
 <img width="475" alt="image" src="https://github.com/user-attachments/assets/08339dbf-8d52-4a24-856d-a4fba8f00d6c" />
 
 ## *-> create a nosql db as dynamodb table*
