@@ -4,7 +4,11 @@
 - deploy and maintain a fs infrastructure that is accessible from three different servers
 
 ### *review notes:*
+- create policies
+- aws management console
+- aws cli
 
-## *-> launch and config efs*
-## *-> mount the fs to ec2*
-## *-> connect a second ec2 to the same fs*
+## *-> create an iam group for support engineers*
+## *-> attach a managed ec2 read-only access policy to iam group*
+## *-> create and attach a user to the group membershipt*
+
