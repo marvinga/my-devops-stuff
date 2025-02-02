@@ -1,12 +1,24 @@
 # core security concepts
 ## iam
-### create a mount target for the pet client photos repository
-- deploy and maintain a fs infrastructure that is accessible from three different servers
+- use iam to provide work permissions to engineers by using group settings and the least privileges principle.
 
 ### *review notes:*
 - create policies
 - aws management console
 - aws cli
+- aim policies to allow/deny access
+- role - temp credentials
+- no additional charges
+- amf
+- manage secure access to services and resources
+- 
+
+---
+
+
+ <img width="458" alt="image" src="https://github.com/user-attachments/assets/bc9a20db-cb8d-46f2-8128-be42b7ddb151" />
+
+ 
 
 ## *-> create an iam group for support engineers*
 ## *-> attach a managed ec2 read-only access policy to iam group*
