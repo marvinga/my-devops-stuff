@@ -5,7 +5,8 @@
 ### *review notes:*
 - 
 
-<img width="507" alt="image" src="https://github.com/user-attachments/assets/55850191-5670-4821-994e-37eaab5667d3" />
+<img width="494" alt="image" src="https://github.com/user-attachments/assets/0e80f947-1359-411b-92eb-d92ea95b2269" />
+
 
 
 ## *-> config auto scaling group to use an application load balancer*
