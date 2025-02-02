@@ -17,8 +17,9 @@
  - encryption rest/transit -> aws kms
  - 
 
-<img width="434" alt="image" src="https://github.com/user-attachments/assets/ce255416-6a67-4f5e-83e8-9ba95621146a" />
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/18160d1e-ad6f-4be3-9d2d-e1ab769797f2" />
 
-## *-> create a nosql db as dynamodb table*
-
-
+## *-> launch and config efs*
+## *-> mount the fs to ec2*
+## *-> connect a second ec2 to the same fs*
+## *-> share files between the ec2's*
