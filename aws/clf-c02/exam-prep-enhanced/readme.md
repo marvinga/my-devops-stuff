@@ -5,6 +5,10 @@
 ##
 --
 
+To print - review: already download to laptop: 
+- *AWS Certified Cloud Practitioner Exam (CLF-C02) Reference Guide*
+- *AWS Certified Cloud Practitioner (CLF-C02) Exam Guide*
+
 # module 1. 
   - download and review the exam guide
   - get to know the exam style questions
