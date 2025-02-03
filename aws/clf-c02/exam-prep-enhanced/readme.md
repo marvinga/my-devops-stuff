@@ -16,7 +16,7 @@
       - https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html
       - https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all
       - https://aws.amazon.com/premiumsupport/plans/
-  - courses:
+    - courses:
       - https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials
       - https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1851/aws-technical-essentials
       - https://explore.skillbuilder.aws/learn/course/internal/view/elearning/15009/getting-started-with-aws-cloud-essentials
@@ -24,9 +24,11 @@
 --
 # module 4  
   - review by domains:
-    - cloud concepts
-    
- 
+      1. cloud concepts
+      2. security andn compliance
+      3. cloud technology and services
+      4. billing, pricing and support
+  
 
 # module 5   
  - official practice exams
