@@ -1,7 +1,13 @@
+##
+ - Number of questions: 65
+ - Time: 90 minutes
+ - Cost: 100 USD
+##
+--
+
 # module 1. 
   - download and review the exam guide
   - get to know the exam style questions
-
 
 # module 2
  - take official questions set
