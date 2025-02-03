@@ -1,17 +1,20 @@
+
+--
+
+
+
+# module 1. 
+  - download and review the exam guide
+  - get to know the exam style questions
+
 ##
  - Number of questions: 65
  - Time: 90 minutes
  - Cost: 100 USD
 ##
---
-
-To print - review: already download to laptop: 
+   To print - review: already download to laptop: 
 - *AWS Certified Cloud Practitioner Exam (CLF-C02) Reference Guide*
 - *AWS Certified Cloud Practitioner (CLF-C02) Exam Guide*
-
-# module 1. 
-  - download and review the exam guide
-  - get to know the exam style questions
 
 # module 2
  - take official questions set
