@@ -12,3 +12,9 @@
 ## *-> config auto scaling group to use an application load balancer*
 ## *-> config load balancer health checks for auto scaling group*
 ## *-> add a second az to the auto scaling group*
+
+- create lb
+- create sg
+
+<img width="356" alt="image" src="https://github.com/user-attachments/assets/190372f4-8f81-4fae-988f-abbb4719d262" />
+
