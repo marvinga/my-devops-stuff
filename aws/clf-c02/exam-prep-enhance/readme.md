@@ -1,8 +1,6 @@
 # module 1. 
   - download and review the exam guide
-  - get to know the exam stile questions
-
-
+  - get to know the exam style questions
 
 
 # module 2
