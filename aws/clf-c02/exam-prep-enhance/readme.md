@@ -1,15 +1,18 @@
-# Module 1. 
+# module 1. 
   - download and review the exam guide
   - get to know the exam stile questions
 
-# Module 2
+
+
+
+# module 2
  - take official questions set
  - exam topics
 
-# Module 3. 
+# module 3. 
  - recommended trainings
 
-# Module 4 
+# module 4 
  - exam domains
  - sames exam style questions
  - practices questions/bonus questions
@@ -17,7 +20,13 @@
  - resources
  - additional practive with hands on labs
 
-   
+# module 5   
+ - official practice exams
+
+# module 6 
+ - register for the exam
+
+# module 7 
 
 
 
