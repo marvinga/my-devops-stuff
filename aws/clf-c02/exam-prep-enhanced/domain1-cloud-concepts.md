@@ -42,7 +42,7 @@
   - improve through game days
   - run test
  ---
-- 6 pillars: 
+- waf 6 pillars: 
   - operational excellence
     - ability to support development, run workloads effectively, gain insight into their operations, and to continiously improve supporting processes and procedures to deliver business value.
     - 5 design principles
@@ -95,7 +95,7 @@
  
 ## *3. benefits of and strategies for migration to the aws cloud* -> *migration*
 - what is aws caf? *cloud adoption framework*
-- foundation capabilities
+- caf foundation capabilities
   - business
   - people
   - governance
