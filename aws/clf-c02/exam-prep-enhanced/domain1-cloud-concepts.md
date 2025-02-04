@@ -89,7 +89,7 @@
       - anticipate and adopt new, more efficient hardward and software offerings
       - use manage services
       - reduce the downtream impact of your cloud workloads
-- well-architected framework tool - link to the tool ->
+- well-architected framework tool - link to the tool -> https://docs.aws.amazon.com/wellarchitected/latest/userguide/intro.html
 - best practices for architectural desing
 --- 
  
