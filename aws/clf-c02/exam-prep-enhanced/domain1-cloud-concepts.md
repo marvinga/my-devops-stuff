@@ -3,7 +3,7 @@
 - what is aws?
 - value of aws
 - what is cloud computing?
-  - critirias...
+  - criterias...
     - economics of scale
     - advances of high availability, elasticity and agility
     - monitored and build
