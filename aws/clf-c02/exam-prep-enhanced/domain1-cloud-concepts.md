@@ -1,7 +1,7 @@
 # domain 1 - 24%
 ## *1. cloud concepts*
-- what is aws?
-- value of aws
+- what is aws? - is the world's most comprehensive and broadly adopted cloud, offering over 200 full featured services from data centers globally. 
+- value of aws - lower cost, become more agile and innovate faster.
 - what is cloud computing?
   - criterias...
     - on-demand self-service | network connectivity | resource pooling | elasticity | monitored and billed
@@ -30,10 +30,10 @@
 ---    
   
 ## *2. design principles of the aws cloud* -> *design*
+- what is waf? - helps you understand the pros and cons of desicion you make while building systems on aws. architectural best practices
 - well-architected framework
     - how to use waf to:
       -   desing and build resilient, highly available and cost optimized environments
-- what is waf? 
 - design principles:
   - stop guessing capacity
   - test systems at production scale
