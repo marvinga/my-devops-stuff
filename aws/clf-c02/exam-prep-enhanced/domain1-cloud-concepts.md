@@ -29,14 +29,25 @@
 ---    
   
 ## *2. design principles of the aws cloud*
-- **pillars of well-architected framework**
+- well-architected framework
+    - how to use waf to:
+      -   desing and build resilient, highly available and cost optimized environments
+- what is waf? 
+- design principles:
+  - stop guessing capacity
+  - test systems at production scale
+  - automate architecture
+  - allow for evelutionary changes
+  - improve through game days
+  - run test
+ ---
+- 6 pillars: 
   - operational excellence
   - security
   - reliability
   - performance efficiency
   - cost optimization
   - sustainability
-- **differences between pillars**
   
 ## *3. benefits of and strategies for migration to the aws cloud*
 - **aws cloud adoption framework**
