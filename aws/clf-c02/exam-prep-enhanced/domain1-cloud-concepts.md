@@ -1,11 +1,33 @@
 # domain 1 - 24%
 # cloud concepts
----
-## *1. define the benefits of the aws cloud*
-- **economics of scale**
-- **benefits of global infrastructure**
-- **advances of high availability, elasticity and agility**
-
+- what is aws?
+- value of aws
+- what is cloud computing?
+  - critirias...
+    - economics of scale
+    - advances of high availability, elasticity and agility
+    - monitored and build
+- benefits of global infrastructure:
+    - regions
+    - az's
+    - edge locations
+- advantages of: 
+    - high availability
+      - respond to fix the failure as soon as possible
+    - faul toulerance
+      - must continue to operate
+      - minimize failures
+    - disaster recovery
+       - steps to recover as quickly as possible
+    - scaling
+      - vertical
+      - horizontal
+    - elasticity
+       - increase
+       - decrease
+    - agility
+---    
+  
 ## *2. design principles of the aws cloud*
 - **pillars of well-architected framework**
   - operational excellence
@@ -38,7 +60,13 @@
    - ecs & eks
    - dynamodb
    
-     
+
+---
+### 
+- 7 lessons
+- bonus questions
+- additional resources
+- fash cards
  
 
 
