@@ -4,19 +4,20 @@
 - value of aws
 - what is cloud computing?
   - criterias...
-    - economics of scale
-    - advances of high availability, elasticity and agility
-    - monitored and build
-- benefits of global infrastructure:
+    - on-demand self-service | network connectivity | resource pooling | elasticity | monitored and billed
+  - economics of scale |advances of high availability
+  - benefits of global infrastructure:
     - regions
     - az's
     - edge locations
 - advantages of: 
-    - high availability
+    - high availability 
       - respond to fix the failure as soon as possible
+      - way to design your systems to have the ability to keep your systems up and running and providing service as often as possible
     - faul toulerance
       - must continue to operate
       - minimize failures
+      - ability of a system to keep operating in the event of a failure
     - disaster recovery
        - steps to recover as quickly as possible
     - scaling
@@ -28,7 +29,7 @@
     - agility
 ---    
   
-## *2. design principles of the aws cloud*
+## *2. design principles of the aws cloud* -> *design*
 - well-architected framework
     - how to use waf to:
       -   desing and build resilient, highly available and cost optimized environments
@@ -92,7 +93,7 @@
 - best practices for architectural desing
 --- 
  
-## *3. benefits of and strategies for migration to the aws cloud*
+## *3. benefits of and strategies for migration to the aws cloud* -> *migration*
 - what is aws caf? *cloud adoption framework*
 - foundation capabilities
   - business
@@ -110,21 +111,21 @@
 - 7r's - migration strategies
   - retire
   - retain
-  - rehost
+  - rehost - lift and shift
   - relocate
-  - repurchase
-  - replatform
+  - repurchase - drop-and-shop
+  - replatform - lift, tinker and shift
   - refactor or re-architect
 - aws migration services
 
  ## *4. concepts of cloud economics*
- - tco - total cost of ownership
+ - 4. tco - total cost of ownership 
    - operational expenses - opex - day to day operating cost
    - capital expenses- capex - building, servers, printers, power 
    - labor cost - staffing, technitians, 
    - software licensing costs - byol vs include licenses
-   - automation reduce cost
-   - fixed vs variable costs
+- automation reduce cost
+- fixed vs variable costs
  - cost on-premises environments
    - licensing strategies
    - byol vs include licenses
@@ -137,7 +138,8 @@
    
 **Exam tip**: *when you migrate from an on-premises environment and traditional servers to aws you are trading capital expenses for variable expenses (fixed vs variable costs)*
   
-
-
-
+---
+- walkthough questions
+    1. c. design for failure
+    2. d. retire
 
