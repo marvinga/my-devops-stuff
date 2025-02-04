@@ -116,7 +116,6 @@
   - replatform
   - refactor or re-architect
 - aws migration services
-  - 
 
  ## *4. concepts of cloud economics*
  - **fixed vs variable costs**
