@@ -18,33 +18,41 @@
     - waf - help protect applications from common exploits that could impact application avail, compromise your security or consume exesive resources - 
     - shield - protect from ddos attacks
  - encryption
-  - in transit
-  - at rest
-  - who enables the encryption for different aws services (srm)
-- services for governance and compliance
-  - compliance
-  - artifact
-  - cloudwatch - monitoring and collecting operational data
-  - cloudtrail - log events related to resource creation and management - accounts activites - multiregion
+    - in transit
+    - at rest
+    - who enables the encryption for different aws services (srm)
+  - services for governance and compliance
+    - compliance
+    - artifact
+    - cloudwatch - monitoring and collecting operational data
+    - cloudtrail - log events related to resource creation and management - accounts activites - multiregion
   - audit manager
   - aws config - take inventory of current configuration and audit resources to ensure they maintain correct configurations
   - compliance vary among aws services
 ## *3. aws access management capabilities*
-- access keys, password policies & credential storage
-  - aws access management - least previlege access - only what they need and nothing more. 
-  - secrets manager
-  - system manager
-- **authentication methods**
-  - mfa
-  - iam
-  - cross-account iam roles
-- **groups, users, custom polices and managed polices -> least privilege**
-- **taks only root can perform**
-- **root user protection methods**
-- **identitly management types**
-  - federated
+- what is an aws account? - is where you provision your services, its also where - no permissions by default
+  - what is principle of least privilege?
+  - iam features
+    - users
+    - groups
+    - roles - temp credentials
+      - a aws sevises/user/program gain temp access to api calls
+      - aws congnito identity pool - for guess users who do not require authentication provide temp authentition - user directory
+    - policies
+      - managed - aws creates
+      - unmanaged
+      - policy simulator - test and troubleshoot iam and resource base policy
+      - integration with other aws services
+      - access policies - to grant permissions to your aws resources - json based
+        - bucket policy - and objects in the bucket
+        - user policy
+        - mfa detele on your s3 bucket - extra layer protection
+        - enable versioning first
+    - federated
+    - system manager
+    - cross-account iam roles
 
-components and resources for security
+here--->components and resources for security
 - **security feature & services**
   - security groups
   - network acls, aws waf
