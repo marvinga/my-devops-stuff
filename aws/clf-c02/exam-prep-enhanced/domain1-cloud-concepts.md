@@ -1,5 +1,5 @@
 # domain 1 - 24%
-# cloud concepts
+## *1. cloud concepts*
 - what is aws?
 - value of aws
 - what is cloud computing?
