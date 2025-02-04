@@ -24,8 +24,8 @@
 --
 # module 4  
   - review by domains:
-      1. cloud concepts - *under review*
-      2. security andn compliance
+      1. cloud concepts - *done 1-*
+      2. security andn compliance - *in review*
       3. cloud technology and services
       4. billing, pricing and support
   
