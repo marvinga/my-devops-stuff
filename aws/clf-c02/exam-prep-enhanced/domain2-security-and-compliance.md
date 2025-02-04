@@ -17,7 +17,7 @@
     - guardduty - threat detection sevice to monitor for malisious activities and unauthorized behavior
     - waf - help protect applications from common exploits that could impact application avail, compromise your security or consume exesive resources - 
     - shield - protect from ddos attacks
-- encryption
+ - encryption
   - in transit
   - at rest
   - who enables the encryption for different aws services (srm)
@@ -28,10 +28,10 @@
   - cloudtrail - log events related to resource creation and management - accounts activites - multiregion
   - audit manager
   - aws config - take inventory of current configuration and audit resources to ensure they maintain correct configurations
-- compliance vary among aws services
-
-aws access management
-- **access keys, password policies & credential storage**
+  - compliance vary among aws services
+## *3. aws access management capabilities*
+- access keys, password policies & credential storage
+  - aws access management - least previlege access - only what they need and nothing more. 
   - secrets manager
   - system manager
 - **authentication methods**
