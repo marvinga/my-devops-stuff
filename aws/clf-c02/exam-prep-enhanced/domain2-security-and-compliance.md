@@ -5,24 +5,30 @@
     - rds
     - lambda
     - ec2
-## *2. aws cloud security, governance, and compliance*
-  - aws artifact
-  - compliance needs
-  - aws compliance
-- **how customers secure resources on aws**
-  - inspector
-  - security hub
-  - guardduty
-  - shield
-- **encryption options**
+## *2. cloud security, governance, and compliance*
+  - aws compliance - helps you understand the controls in place at aws to maintain security and data protection in aws along with arrusange programs that provides templates and control mappings to help constomers stablish the compliance in aws/
+  - where to find compliance information - aws compliance programs
+    - ex how do you now dynamodb is gdpr compliante? where can you find this information: --> aws artifact
+    - protect systems and informations 
+    - how customers secure resources on aws
+  - security tools
+    - inspector
+    - security hub
+    - guardduty - threat detection sevice to monitor for malisious activities and unauthorized behavior
+    - waf - help protect applications from common exploits that could impact application avail, compromise your security or consume exesive resources - 
+    - shield - protect from ddos attacks
+- encryption
   - in transit
   - at rest
-- **services in governance and compliance**
-  - cloudwatch
-  - cloudtrail
+  - who enables the encryption for different aws services (srm)
+- services for governance and compliance
+  - compliance
+  - artifact
+  - cloudwatch - monitoring and collecting operational data
+  - cloudtrail - log events related to resource creation and management - accounts activites - multiregion
   - audit manager
-  - aws config
-- **compliance vary among aws services**
+  - aws config - take inventory of current configuration and audit resources to ensure they maintain correct configurations
+- compliance vary among aws services
 
 aws access management
 - **access keys, password policies & credential storage**
