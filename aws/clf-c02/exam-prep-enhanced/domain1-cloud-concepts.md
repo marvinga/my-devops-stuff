@@ -101,10 +101,22 @@
   - platform
   - security
   - operations
-  
-- **migration strategies**
-  - database replication
-  - aws snowball
+- benefits of using aws caf
+- adoption strategies
+  -  project
+  -  foundation
+  -  migration
+  -  reinvention
+- 7r's - migration strategies
+  - retire
+  - retain
+  - rehost
+  - relocate
+  - repurchase
+  - replatform
+  - refactor or re-architect
+- aws migration services
+  - 
 
  ## *4. concepts of cloud economics*
  - **fixed vs variable costs**
@@ -119,13 +131,7 @@
    - dynamodb
    
 
----
-### 
-- 7 lessons
-- bonus questions
-- additional resources
-- fash cards
- 
+
 
 
 
