@@ -93,11 +93,15 @@
 --- 
  
 ## *3. benefits of and strategies for migration to the aws cloud*
-- **aws cloud adoption framework**
-  - reduced business risk
-  - improve environmental, social, and governance performance
-  - increase revenew
-  - increase operational efficiency
+- what is aws cloud adoption framework caf?
+- foundation capabilities
+  - business
+  - people
+  - governance
+  - platform
+  - security
+  - operations
+  
 - **migration strategies**
   - database replication
   - aws snowball
