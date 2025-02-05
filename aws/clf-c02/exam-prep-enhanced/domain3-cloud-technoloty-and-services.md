@@ -46,8 +46,14 @@
 - az - 1 or more dc's with redundant power, nw, and so on
 - dc - building with server, storage, switches, load balancers 
 - edge locatios - global service, end point for aws used to cache content
-  - cloudfront - if user request info that info is cached in that edge location - and next time is much faster 
-  - global accelerator - global service that supports endpoints in multiple regions to improve performance of your applications for local and global users
+  - cloudfront - if user request info that info is cached *content* in that edge location - and next time is much faster 
+  - global accelerator - global service that supports endpoints in multiple regions to improve performance of your *applications* for local and global users
+    - both use aws shield for ddos protection
+- models for cloud
+  - iaas - infrastructure
+  - paas - platform
+  - saas - software
+  - daas - database 
 
 ## *3. aws compute services*
 - **ec2 types**
