@@ -24,7 +24,8 @@
   - setting up aws direct connect - private dedicated connections 
   - using public internet
   - igw - horizontaly scaled, redundant and highly avail gw to allow communication and traffic between instances in your vpc and the public internet
-  - nat gw - 
+  - nat gw -
+--
 ## *2. define aws global infrastructure*
 - what is aws global infrastructure - agi - 
 - components
@@ -43,7 +44,7 @@
 - regions - geografical area that consist of 2 or more az 
   - local zones - extentions of regions in closed geographic proximity to your users
   - wavelength - delive ultra low applications - isolated zones 
-- az - 1 or more dc's with redundant power, nw, and so on
+- az - one or more dc's with redundant power, nw, and so on
 - dc - building with server, storage, switches, load balancers 
 - edge locatios - global service, end point for aws used to cache content
   - cloudfront - if user request info that info is cached *content* in that edge location - and next time is much faster 
@@ -53,8 +54,8 @@
   - iaas - infrastructure
   - paas - platform
   - saas - software
-  - daas - database 
-
+  - daas - database
+  --
 ## *3. aws compute services*
 - **ec2 types**
   - compute optimized
