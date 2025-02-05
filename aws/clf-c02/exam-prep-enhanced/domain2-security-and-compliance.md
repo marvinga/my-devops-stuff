@@ -70,4 +70,12 @@
 - walkthough questions
   - #3 c. determine which services have access to amazon dynamodb table
   - #4 a. create an iam role
+ 
+- Additional resources
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-and-compliance.html
+  - https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
+  - https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html
+  - https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html
+  - https://docs.aws.amazon.com/security/
 
