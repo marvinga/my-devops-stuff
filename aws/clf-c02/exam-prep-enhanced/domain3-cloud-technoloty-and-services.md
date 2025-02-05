@@ -6,15 +6,17 @@
   - apis, sdks, cli
 - aws management console
 - infrastructure as code - iac - cloudformation
-- 
-
-
-
-- **one-time operations vs repeatable processes**
-- **deployment models**
+- one-time operations vs repeatable processes
+- deployment models
   - cloud
   - hybrid
   - on-premises
+- deployment models in aws
+  - public - cloud env avail to the public - aws, azure
+  - private - your env on-premises
+  - multi - many public clour
+  - hybrid - public and private together
+
 - **connectivity options**
   - aws vpn
   - aws direct connect
