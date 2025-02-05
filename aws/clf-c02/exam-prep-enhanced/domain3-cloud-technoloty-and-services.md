@@ -25,19 +25,29 @@
   - using public internet
   - igw - horizontaly scaled, redundant and highly avail gw to allow communication and traffic between instances in your vpc and the public internet
   - nat gw - 
-
-## *2.  aws global infrastructure*
-- **regions, az, edge locations**
-- **high availability using multiple az's**
-- **az's - single point of failure**
-- **multiple regions**
-   - disaster recovery
-   - business continuity
-   - low latency for end users
-   - data sovereignty
-- **edge locatios - benefits**
-  - cloudfront
-  - globall accelerator
+## *2. define aws global infrastructure*
+- what is aws global infrastructure - agi - 
+- components
+- how they function
+- level or resilient
+  - global resilient services - replicate accross regions
+    - iam
+    - cloudfront
+    - route 53
+  - region resilient services - operate in 1 region - replicates that data to multiple az inside the region
+    - efs
+    - aws batch
+  - az resilient services - run in single az
+    - amazon ebs
+  - edge locations 
+- regions - geografical area that consist of 2 or more az 
+  - local zones - extentions of regions in closed geographic proximity to your users
+  - wavelength - delive ultra low applications - isolated zones 
+- az - 1 or more dc's with redundant power, nw, and so on
+- dc - building with server, storage, switches, load balancers 
+- edge locatios - global service, end point for aws used to cache content
+  - cloudfront - if user request info that info is cached in that edge location - and next time is much faster 
+  - global accelerator - global service that supports endpoints in multiple regions to improve performance of your applications for local and global users
 
 ## *3. aws compute services*
 - **ec2 types**
