@@ -1,8 +1,15 @@
 # domain 3 - 34%
 # cloud technology and services
 ---
-## *1.  methods of deploying and operating aws cloud*
-- **programmatic access (APIs, SDKs, CLI), management console & IaC**
+## *1. define methods of deploying and operating aws cloud*
+- programmatic access
+  - apis, sdks, cli
+- aws management console
+- infrastructure as code - iac - cloudformation
+- 
+
+
+
 - **one-time operations vs repeatable processes**
 - **deployment models**
   - cloud
