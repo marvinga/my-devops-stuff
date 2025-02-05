@@ -13,14 +13,18 @@
   - on-premises
 - deployment models in aws
   - public - cloud env avail to the public - aws, azure
+    - what is a public service?
+      - object/service in public zone
   - private - your env on-premises
   - multi - many public clour
   - hybrid - public and private together
-
-- **connectivity options**
+- connectivity options
+  - how nw connectivity can be handled
   - aws vpn
-  - aws direct connect
-  - public internet
+  - setting up aws direct connect - private dedicated connections 
+  - using public internet
+  - igw - horizontaly scaled, redundant and highly avail gw to allow communication and traffic between instances in your vpc and the public internet
+  - nat gw - 
 
 ## *2.  aws global infrastructure*
 - **regions, az, edge locations**
