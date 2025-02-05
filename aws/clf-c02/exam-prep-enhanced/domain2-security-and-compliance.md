@@ -51,16 +51,23 @@
     - federated
     - system manager
     - cross-account iam roles
-
-here--->components and resources for security
-- **security feature & services**
-  - security groups
-  - network acls, aws waf
-- **3rd party security products in aws market place**
-- **where security info is**
-  - knowledge center
+## *4. id components and resources for security*
+- network security
+- security groups - secure resource level network such as ec2 or rds -  operate at resource level not subnet level - are statefull 
+- network acls - for traffic entering or leaving a subject - nacl is assotiated with subnet not the resources - are stateless - you must have 2 rules
+- aws security services
+  - aws waf - helps to control traffic with rules that you define that block common attack patters (sql injections, or cross site scripting)
+  - aws trusted advisor - give recommendations around security
+  - amazon inspector - give recommendations around security
+  - aws marketplace - 3rd party software tools
+  - aws knowledge center - to find answer to questions
   - security center
-  - security blog
-- **idenfitying security issues**
-  - trusted advisor
-    
+  - security blog / forum
+ 
+**Exam tip**: **
+  
+---
+- walkthough questions
+  - #3 c. determine which services have access to amazon dynamodb table
+  - #4 a. create an iam role
+
