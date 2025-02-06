@@ -24,7 +24,7 @@
   - setting up aws direct connect - private dedicated connections 
   - using public internet
   - igw - horizontaly scaled, redundant and highly avail gw to allow communication and traffic between instances in your vpc and the public internet
-  - nat gw -
+  - nat gw 
 --
 ## *2. define aws global infrastructure*
 - what is aws global infrastructure - agi - 
