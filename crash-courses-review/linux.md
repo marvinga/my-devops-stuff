@@ -161,7 +161,36 @@ egrep -r '/dev/(([a-z]|[A-Z])*[0-9]?)*' file
 egrep -r 'http[^s]' file
 egrep -r 'http[^s]' file
 egrep -r '/[^a-z]' file
+```
+---
+```bash
+# user accounts
+sudo useradd john
+  shell /bin/bash
+  home /home/john
+
+ls -lart /etc/skel
+
+useradd --defaults
+useradd -D
+/etc/login.defs
+
+sudo passwd john
+sudo userdel john
+sudo useradd -shell /bin/bash --home-dir /home/use_home user_name
+sudo useradd -s /bin/bash -h /homedir/ user_name
+
+sudo useradd --uid 1100 user
+sudo useradd -u 1120 user
+
+id
+whoami
+sudo useradd --system sysacc - intented for programs
+
+sudo usermod -d /homedir -m user
+sudo usermod -l user1 user2
+
+
 
 
 ```
-
