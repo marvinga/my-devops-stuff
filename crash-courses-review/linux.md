@@ -190,6 +190,25 @@ sudo useradd --system sysacc - intented for programs
 sudo usermod -d /homedir -m user
 sudo usermod -l user1 user2
 
+sudo usermod --lock user1
+sudo usermode --unlock user1
+sudo usermod -e 2021-12-10
+sudo usermod -e ""
+sudo chage --lastday 0 user
+sudo chage --lastday -1 user
+sudo chage --maxdays 30 user
+sudo chage --list user
+
+sudo chage --list user1
+Last password change                                    : Feb 10, 2025
+Password expires                                        : Mar 12, 2025
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 30
+Number of days of warning before password expires       : 7
+
+
 
 
 
