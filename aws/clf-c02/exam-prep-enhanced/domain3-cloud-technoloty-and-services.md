@@ -57,9 +57,19 @@
   - daas - database
   --
 ## *3. aws compute services*
-- **ec2 types**
-  - compute optimized
-  - storage optimized
+- what is virtualization?
+- ec2 - default aws compute service, virtual machines, runs in ec2 host. az resilient service.
+  - local storage
+  - access vol and persistem storage
+  - ebs - same az
+- shared / dedicated hosts
+- ec2's instance type
+  - gp - general purpose
+  - mo - memory optimized
+  - co - compute optimized
+  - ac - accelerated computing
+  - so - storage optimized
+  - ami
 - **containers**
    - ecs
    - eks
