@@ -207,9 +207,26 @@ Account expires                                         : never
 Minimum number of days between password change          : 0
 Maximum number of days between password change          : 30
 Number of days of warning before password expires       : 7
+```
+---
+```bash
+groups
+  primary - login group
+sudo groupadd developers
 
+sudo gpasswd -a john developers
+sudo gpasswd -d user1 devs
+sudo groups user1
 
+sudo usermod -g user1 user1
+sudo usermod -G devs user1
+sudo groupdel devs
 
-
+sudo vim /etc/security/limits.conf
+ulimit -a
 
 ```
+![image](https://github.com/user-attachments/assets/87cd6782-a195-4a3d-8935-d6fdd63bf8b6)
+
+
+
