@@ -64,18 +64,24 @@
   - ebs - same az
 - shared / dedicated hosts
 - ec2's instance type
-  - gp - general purpose
-  - mo - memory optimized
-  - co - compute optimized
-  - ac - accelerated computing
-  - so - storage optimized
-  - ami
-- **containers**
-   - ecs
-   - eks
-- **serverless compute options**
-   - fargate
-   - lambda
+  - gp - general purpose - default
+  - mo - memory optimized - processing large in-memory ds
+  - co - compute optimized - ml, gaming, more cpu
+  - ac - accelerated computing - hardware gpu
+  - so - storage optimized - appl using datawarhousing, random i/o's
+  - ami - amazon machine images,
+    - golden ami - latest software paches, agents, security, etc.
+    - instance meta-data http://169.254.169.254/latest/metadata
+    - usage data - run commands after instance starts
+- containers - 1 os on top of hardware - use host os for nw and more
+  - containers orchestration serices 
+   - ecs - where and how run containers - aws managed container based compute service
+   - eks - run aws powered k8s containers on ec2's
+- aws lambda - function as a services or faas product
+  - serverless
+  - ed service
+  - accepts funtions
+  - fargate
  - **auto scaling - elasticity**
  - **load balancers**
 
