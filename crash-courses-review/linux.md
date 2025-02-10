@@ -224,9 +224,29 @@ sudo groupdel devs
 
 sudo vim /etc/security/limits.conf
 ulimit -a
-
 ```
 ![image](https://github.com/user-attachments/assets/87cd6782-a195-4a3d-8935-d6fdd63bf8b6)
+---
+```bash
+groups - wheel - allow sudo
+sudo gpasswd -a user wheel
+sudo visudo
+/etc/sudoers
+## Same thing without a password
+# %wheel        ALL=(ALL)       NOPASSWD: ALL
+user/group host=(run_as_user) command_list
+
+user1 ALL=(ALL) ALL
+sudo -u user1 ls file
+
+user1 ALL=(aaron,john) ALL
+user ALL=(ALL) /bin/ls, /bin/stat
+sudo echo "Test passed?" - error
+user ALL= NOPASSWD:ALL - no password
+
+```
+
+
 
 
 
