@@ -74,7 +74,7 @@
     - instance meta-data http://169.254.169.254/latest/metadata
     - usage data - run commands after instance starts
 - containers - 1 os on top of hardware - use host os for nw and more
-  - containers orchestration serices 
+  - containers orchestration services 
    - ecs - where and how run containers - aws managed container based compute service
    - eks - run aws powered k8s containers on ec2's
 - aws lambda - function as a services or faas product
@@ -82,8 +82,14 @@
   - ed service
   - accepts funtions
   - fargate
- - **auto scaling - elasticity**
- - **load balancers**
+- auto scaling
+  - as groups
+  - lb
+    - elastic lb family - great to pair with as groups. 
+      - classic lb
+      - application lb
+      - nw lb
+      - gw lb
 
 ## *4.  aws database services*
 - **ec2 hosted db's vs managed db's**
