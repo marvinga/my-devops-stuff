@@ -91,13 +91,37 @@
       - nw lb
       - gw lb
 
-## *4.  aws database services*
-- **ec2 hosted db's vs managed db's**
-- **relational db's**
-  - rds
-  - aurora
-- **nosql db's**
+## *4. aws database services*
+  - DBaaS 
+  - rds - provides managed db's
+    - supports mysql, mariadb, postgresql, oracle, sqlserver, aurora   
+    - different size, and families
+    - one or muti az's
+    - access control though sg
+    - multi az configuration to allocate a standby replicate instance
+    - rds read replica - ror - replicated synchonous replication
+    - syncronous
+    - asyncronous - think read replicas
+  - aurora - different from rds -
+    - based arch of a cluster
+    - cluster of main and single or more replicas
+    - multi az's
+    - read operations
+    - storage is different from rds - shared cluster volumes
+    - aurora serverless - version of aurora - dont have to provition or managed
+    - acu's - auroda capacity units
+    - min and max - scale and add remove capacity in your cluster
+    - cost saving cause cluster is paused
+    - aurora global db - feature of aurora provisioned clusters - allow data replication globally
+    - performance improvements
+- no sql db's
   - dynamodb
+    - no sqldb as a service product
+    - public service and sits in the aws public zone
+    - aws manage it for you
+    - simple key value data or structure data
+    - support scaling options
+    - highly resilience 
 - **memory-based databases**
 - **db migration tools**
   - dms
