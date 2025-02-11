@@ -251,7 +251,7 @@ su -l
 
 sudo --login
 sudo passwd --u root -unlock root
-
+sudo passwd --lock root
 ```
 
 
