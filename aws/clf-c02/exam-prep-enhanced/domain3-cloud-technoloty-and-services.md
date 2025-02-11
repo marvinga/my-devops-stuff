@@ -114,7 +114,7 @@
     - cost saving cause cluster is paused
     - aurora global db - feature of aurora provisioned clusters - allow data replication globally
     - performance improvements
-- no sql db's
+- no sqldb's
   - dynamodb
     - no sqldb as a service product
     - public service and sits in the aws public zone
@@ -122,7 +122,26 @@
     - simple key value data or structure data
     - support scaling options
     - highly resilience 
-- **memory-based databases**
+- memory-based databases
+  - amazon elasticache
+    - managed in-memory cache
+    - performance for reads
+      - supports
+        -  redis
+        -  memcacheD
+      - cache results and del results quicker
+  - dax - amazon dynamodb accelerator
+    - low maintance and high perf db - millisecs
+    - in memory cache for dynamodb
+    - best caching product to use with dynamodb
+- amazon redshift - ar - petabyte scale - olap
+  - dataware-housing analytics 
+  - data is stored in columns
+  - columns based db's good for queries
+  - based on postgresql
+  - cluster arch
+  - redshift spectrum
+  - scale 
 - **db migration tools**
   - dms
   - schema conversion tool 
