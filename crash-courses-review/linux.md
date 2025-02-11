@@ -244,6 +244,14 @@ user ALL=(ALL) /bin/ls, /bin/stat
 sudo echo "Test passed?" - error
 user ALL= NOPASSWD:ALL - no password
 
+sudo -i = sudo --login
+logout
+su -
+su -l
+
+sudo --login
+sudo passwd --u root -unlock root
+
 ```
 
 
