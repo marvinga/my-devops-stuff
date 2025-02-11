@@ -142,10 +142,21 @@
   - cluster arch
   - redshift spectrum
   - scale 
-- **db migration tools**
+- db migration tools
+  - aws snow family
+    - snowcone - 8tb
+    - snoball - snoball edge storage and compute optimized
+    - snowmobile - pb to exa
   - dms
-  - schema conversion tool 
-
+    - ms capable of data migration and schema conversion
+    - scale your resources up or down
+  - aws schema conversion tool - transform between diff db's engines
+  - aws datasync - simple and fast to move data online
+    - handled many task
+    - validating data
+    - optimizing nw util
+    - 10x faster vs os tools
+  - managed service db's
 ## *5. aws network services*
 - **vpc components**
    - subnets
