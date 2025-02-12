@@ -158,12 +158,22 @@
     - 10x faster vs os tools
   - managed service db's
 ## *5. aws network services*
-- **vpc components**
-   - subnets
-   - gateways
-- **vpc security**
-   - acl's
-   - security groups
+- vpc - controls access to your resouces - very own dc in the cloud - you have complete control
+- vpc is in 1 region and 1 aws account 
+- region service
+- by dafault expicitly aisolated and private
+  - default and customs vpc's
+  - 1 vpc cidr range 
+    - layers
+    - nacl
+    - sg's
+  - subnets - you can div you vpc into subnets - uses part of cidr range of vpc
+  - vpc is config to have 1 subnet located in each az of that region
+  - vpc router highly avail - routes traffic between subnets in your vpc
+  - route tables - asso with subnet and the add rules to allow traff i/o of your subnet
+  - subnet only can have 1 route table asso at a time
+    
+
 - **route 53**
 - **edge services**
   - cloudfront
