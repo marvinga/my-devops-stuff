@@ -165,14 +165,20 @@
   - default and customs vpc's
   - 1 vpc cidr range 
     - layers
-    - nacl
+    - nacl - securty filter - traffic entering and leaving subnets
+      - asso with the subnet and not the resouces
+      - only manage traffic that is crossing the subject boundary
     - sg's
   - subnets - you can div you vpc into subnets - uses part of cidr range of vpc
   - vpc is config to have 1 subnet located in each az of that region
   - vpc router highly avail - routes traffic between subnets in your vpc
   - route tables - asso with subnet and the add rules to allow traff i/o of your subnet
   - subnet only can have 1 route table asso at a time
-    
+- internet gateway - ig
+  - regional service
+  - ha 
+  - vpc only 1 ig at a time
+  - sits at the edge of the vpc and aws public zone
 
 - **route 53**
 - **edge services**
