@@ -6,3 +6,10 @@
 - cd C:\Users\marvinga\Github\my-devops-stuff\vagrant\vagrantfiles\AppServers
 - vagrant up AppSrv01
 - ssh vagrant@192.168.50.101/vagrant
+
+## #!/bin/bash
+
+```bash
+
+```
+
