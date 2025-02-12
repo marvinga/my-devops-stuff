@@ -200,13 +200,25 @@
   - gw enpoints - used for aws public services (sits on aws public zone) eg. s3 or dynamodb
   - interface enpoints - use for everything else
     - pick the correct depending on service
-- **route 53**
-- **edge services**
+- aws vpn - over the public internet 
+  - encrypted route
+- aws direct connect - dedicated physical conn - aws to onpremise
+- route 53
+  - manage dns product
+  - register domains
+  - hosts zones on manage nameservers
+  - global service
+  - 1 single db
+  - replicated b/regions
+  - help discover others services on the internet
+  - translate hostsnames to/from ip's
+  - policies
+  - ha
+  - fo
+- edge services
   - cloudfront
   - global accelerator
-- **nw connectivity options**
-  - vpn
-  - direct connect
+  
 
 ## *6.  storage services*
 - **object storage**
