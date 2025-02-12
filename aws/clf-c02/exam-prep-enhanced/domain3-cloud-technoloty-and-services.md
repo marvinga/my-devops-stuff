@@ -166,6 +166,9 @@
   - 1 vpc cidr range 
     - layers
     - nacl - securty filter - traffic entering and leaving subnets
+      - stateless
+        - if you add a rule for outbound, must also add rule for inbound
+        - 2 rules 
       - asso with the subnet and not the resouces
       - only manage traffic that is crossing the subject boundary
     - sg's
@@ -179,7 +182,24 @@
   - ha 
   - vpc only 1 ig at a time
   - sits at the edge of the vpc and aws public zone
-
+- sg - not attached the sn
+  - attach to the elastic nif of the aws resouce in the subnet
+  - inbound/outbound rules
+  - statefull
+- nat
+  - gives private resource outgoing access to internet
+  - eg. ig
+  - nat gw
+    - eg sw updates  
+- vpc peering
+  - way to link multi vpc's together
+  - allow direct comm using private ip's
+  - shared data in incrypted
+- vpc endpoints - gw objects inside default vpc's
+  - aws private link - vpc endpoint service 
+  - gw enpoints - used for aws public services (sits on aws public zone) eg. s3 or dynamodb
+  - interface enpoints - use for everything else
+    - pick the correct depending on service
 - **route 53**
 - **edge services**
   - cloudfront
