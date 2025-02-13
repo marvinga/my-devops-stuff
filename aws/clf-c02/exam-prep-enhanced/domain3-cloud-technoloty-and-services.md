@@ -218,21 +218,37 @@
 - edge services
   - cloudfront
   - global accelerator
-  
-
 ## *6.  storage services*
-- **object storage**
-- **s3**
-- **block storage**
-  - ebs
-  - instance store
-- **file services**
-   - efs
-   - fsx
-- **cached fs**
-  - storage gateway
-- **lifecycle policies - use cases**
-- **aws backup**
+- cloud storage
+  - pay as you go
+  - durability
+  - avail
+  - security
+- types
+  - object
+  - file
+  - block
+- os
+  - s3 - global recilient service - access from anywhere
+  - public service, public zone
+  - replicate data b/regions
+  - unlimited amount of data
+  - buckets - holds objects like a container
+  - size to 5tb
+  - laws and rules of regions
+  - buckets need unique names
+  - types
+    - standard
+    - intelligent-tiering ia
+    - standard ia
+    - one zone - ia
+    - glacier
+    - glacier deep archive
+  - enforce access control
+  - monitor data at bucket and object level
+  - s3 access point
+  - s3 versioning
+  - 
   
 ## *7.  ai and ml*
 - **ai/ml services**
