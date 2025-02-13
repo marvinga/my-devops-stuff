@@ -284,7 +284,57 @@
   - ebs = persisten storage
     - vol - can be mounted
     - most ec2 user ebs as boot volume
-  - general purpose 
+  - general purpose ssd - recommended for workloads
+    - boot system vol
+    - use for dev and test envs
+  - provisioned iops ssd
+    - critical business applications that requires iops performance
+    - for large db's workloads
+  - thouput optimized hdd
+    - streaming workload
+    - low price
+    - log proccessing
+    - cannot a boot vol
+    - data warehoung
+  - aws storage gw
+    - allows to connect dc storage to an aws storage service
+    - helps to migrate
+    - on-premises
+    - vmware
+    - download and configure
+    - types
+      - aws sgw file gw
+        - files and objects
+        - local cache
+        - great option for win
+        - sme protocol
+        - storage in s3
+      - volume gateway
+        - download vm image
+        - volumes over protocol iscsi
+        - standard for linking storage facilities
+        - nas
+        - options
+          - gw stored volumes
+            - store data in a vol gw - snapshops sent to s3
+              - data on prem by snapshops in s3
+          - gw cache vols
+            - download freq access data on the vol gw
+          - virtual tape lib gw
+            - over iscsi
+            - any compatible backup software
+            - very high admin overhead
+            - costly
+            - for migration
+  - aws backups
+    - fully manage service
+    - centralize and meet data protentions
+    - backup policies and monitor activities
+    - automate backup tasks
+    - remove the need of manual processes
+  - embedded data managment policies
+    - s3 object lifecycle management
+      - automatically migrate data to lower cost tiers base on freq
   
 ## *7.  ai and ml*
 - **ai/ml services**
