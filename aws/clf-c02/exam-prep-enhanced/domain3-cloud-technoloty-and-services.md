@@ -228,7 +228,7 @@
   - object
   - file
   - block
-- os
+- os 
   - s3 - global recilient service - access from anywhere
   - public service, public zone
   - replicate data b/regions
@@ -239,16 +239,52 @@
   - buckets need unique names
   - types
     - standard
-    - intelligent-tiering ia
+    - intelligent-tiering ia 
     - standard ia
     - one zone - ia
-    - glacier
-    - glacier deep archive
+    - glacier 
+    - glacier deep archive - lowest cost - long term retention - 12 hrs restore
   - enforce access control
   - monitor data at bucket and object level
   - s3 access point
   - s3 versioning
-  - 
+- efs
+  - share files
+  - large content repo
+  - user home dirs
+  - network-based fs - mounted with linux ec2 instance
+  - data is outside of ec2
+  - sits inside your vpc
+  - lifecycle policies to move data
+  - can not use in windows
+  - linux key work
+  - share fs for linux
+- fsx
+  - file server - similar to efs
+  - fully manage fs share drive
+  - for windows
+  - ssd
+  - highly scalable - managed by aws
+  - scale 10 gb /secs
+- fsx for luster
+  - for large scale computing
+  - linux + cluster
+  - maching learning
+  - video processing
+  - high level distribution
+- ebs
+  - dedicated low latency store
+  - direct attached storage
+  - privicioned with each virtual server
+  - direct-attached - to ec2 host
+  - called instance storage
+  - nas - attach to ec2 instances over the network
+  - separete from instance hardware
+  - instance storage = ephimeral storage
+  - ebs = persisten storage
+    - vol - can be mounted
+    - most ec2 user ebs as boot volume
+  - general purpose 
   
 ## *7.  ai and ml*
 - **ai/ml services**
