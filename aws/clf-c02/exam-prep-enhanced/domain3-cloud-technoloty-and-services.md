@@ -366,13 +366,35 @@
   - analytics services - convert raw data into actionable insights and helps companies gain more visibility and a deeper undestanding of their processes and services.
   - connects insights with actions to create personalized customers experiences
     - amazon athena - interactive query service that allows you to analize and query data stored in s3 using standard sql
+    - query service
     - serverless - you dont have to provision anything
     - pay per query or tb scanned
     - query logs files
+    - query s3
     - amazon macie
+      - security service that uses ml to protect pii
       - personally identifiable information or pii
       - pii - personal data used to stablish an individual's identity
-
+      - with data store in s3
+    - redshift spectrum
+      - redshift cluster
+    - amazon kinesis
+      - processes and analyzes streaming data
+      - real time key world
+      - any scale
+      - fully managed service
+      - video, audio, application logs,
+    - aws glue
+      - serverless data integration service
+      - discover, prepare, move data from diff sources
+    - amazon quicksight
+      - bi service
+      - fully manage service
+      - interactive dashboards
+    - amazon opensearch
+      - db and search engine
+    - amazon emr
+      - web service run big data frameworks to process vast amounts of data    
 ## *8.  in-scope services*
 - **service to deliver messages & alert notif**
    - eventbridge
