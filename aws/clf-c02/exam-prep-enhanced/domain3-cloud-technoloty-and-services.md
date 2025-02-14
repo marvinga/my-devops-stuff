@@ -339,15 +339,39 @@
 ## *7.  ai and ml*
 - what is ml? - science of dev algorithims and statistical models that computers systems use to perform tasks wo explicit instrustions relying on pattersn and inference instead
 - predict outcomes accurately from given input ds.
-- what is ai? - field of cs dedicated to solving congnitive problems commonly associated with human intelligence, such as learning problem solving and pattern recognition. 
-  - sagemaker
-  - lex
-  - kendra
-- **data analytics services**
-   - athena
-   - kinesis
-   - glue
-   - quicksight
+- what is ai? - field of cs dedicated to solving congnitive problems commonly associated with human intelligence, such as learning problem solving and pattern recognition.
+- levels of maching learning services
+  - ai - fully manage services to add ml capabilitys
+  - no need ml knowlege to use them
+    - amazon translate - translate contect
+    - amazon polly - for text to speach conversion
+    - amazon lex - building conversation chatbots
+    - amazon comprehend - 
+    - amazon forecast
+    - amazon codeguru
+    - amazon rekognition - add images and video analysis to your applications
+- ml services
+  - provides ml, services and resources to devs, data scientits and researchers
+  - amazon sagemaker
+    - build train and deploy ml models
+  - amazon codewhisperer
+    - ml powered code generator
+    - scan your code to find security issues
+  - ml framework and infrastructure
+    - tensorflow
+    - pythorch
+    - apache mxnext
+    - deep learning ami
+    - deep learning containers
+  - analytics services - convert raw data into actionable insights and helps companies gain more visibility and a deeper undestanding of their processes and services.
+  - connects insights with actions to create personalized customers experiences
+    - amazon athena - interactive query service that allows you to analize and query data stored in s3 using standard sql
+    - serverless - you dont have to provision anything
+    - pay per query or tb scanned
+    - query logs files
+    - amazon macie
+      - personally identifiable information or pii
+      - pii - personal data used to stablish an individual's identity
 
 ## *8.  in-scope services*
 - **service to deliver messages & alert notif**
