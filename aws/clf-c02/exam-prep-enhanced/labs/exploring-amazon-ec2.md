@@ -1,0 +1,1 @@
+*In this lab exercise, you will start by creating an Amazon Elastic Compute Cloud (Amazon EC2) instance and an Amazon Elastic Block Store (Amazon EBS) volume. You will then create an Amazon Machine Image (AMI) from the instance. Finally, you will terminate the instance and delete any other resources that were created.*
