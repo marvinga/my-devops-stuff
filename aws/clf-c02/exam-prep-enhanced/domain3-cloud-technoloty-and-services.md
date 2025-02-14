@@ -337,7 +337,9 @@
       - automatically migrate data to lower cost tiers base on freq
   
 ## *7.  ai and ml*
-- **ai/ml services**
+- what is ml? - science of dev algorithims and statistical models that computers systems use to perform tasks wo explicit instrustions relying on pattersn and inference instead
+- predict outcomes accurately from given input ds.
+- what is ai? - field of cs dedicated to solving congnitive problems commonly associated with human intelligence, such as learning problem solving and pattern recognition. 
   - sagemaker
   - lex
   - kendra
