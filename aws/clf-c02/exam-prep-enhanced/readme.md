@@ -21,6 +21,16 @@
       - https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1851/aws-technical-essentials
       - https://explore.skillbuilder.aws/learn/course/internal/view/elearning/15009/getting-started-with-aws-cloud-essentials
       - https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner
+
+- additional resources
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html
+  - https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html
+
 --
 # module 4  
   - review by domains:
