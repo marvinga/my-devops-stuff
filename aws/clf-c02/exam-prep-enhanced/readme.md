@@ -9,8 +9,8 @@
      - detail report - domain, etc
      - take exam practice/pretest s
 --
- - recommended trainings: 
-    - whitepapers: 
+ - recommended trainings
+    - whitepapers
       - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html
       - https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
       - https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html
