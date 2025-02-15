@@ -15,12 +15,13 @@ aws-marvingm-console@@@@941245766704
 
 ## hands on:
 - IAM : Permissions
-
-
 - IAM Policies
 - CLI
 - CLI - Cloudshell
 - IAM Roles for Services
+- IAM Credentials Report
+- IAM Access Advisor
+- IAM Best Practices
 
 
 ```bash
