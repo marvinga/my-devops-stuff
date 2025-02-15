@@ -63,25 +63,17 @@
     - aws storage gateway
     - aws clodfront
     - aws direct connect
-
+  - aws pricing calculator - provides stimated using cost
+  - aws organization - consolidated billing - lower overall price when possible
+  - aws billing conductor - showback and chargeback workfolows
 --- 
-## *3. technical resources and support options*  
-- **aws whitepapers, blogs, docs**
-- **technical resouces**
-  - prescriptive guidance
-  - knowledge center
-  - re:post
-- **support options**
-  - dev support
-  - business
-  - customer service & comunities
-  - on-ramp
-  - enterprise
-- **cost optimization with trusted advisor, health dashboard & health api**
-- **role of trus & safete team - abuse of resources**
-- **aws partners**
-   - marketplace 
-- **technical assistance options**
-  - professional services
-  - solutions architects
+## *3. identify technical resources and support options*  
+- support options
+  - aws enterprise support - concierge service - 24/7 support - designated tam ans aws sme
+  - aws development support
+  - aws enterprise on-ramp support
+  - aws basic support
+  - aws business support - infrast event management
+- assistence
+- 
     
