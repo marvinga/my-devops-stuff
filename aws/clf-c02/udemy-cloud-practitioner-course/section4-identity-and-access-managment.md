@@ -26,7 +26,29 @@ AWS Secret Access Key [None]: 1zhxPyPLY6ZuOuuNOpIY2nOsGcIhDM0F4xPnqnYt44444444
 Default region name [None]: ca-central-1 
 Default output format [None]:
 
-aws iam list-users
+aws@Marvins-MacBook-Pro ~ % aws iam list-users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "marvin",
+            "UserId": "AIDA5WJU6TQYLTOUV5FL7",
+            "Arn": "arn:aws:iam::941245766704:user/marvin",
+            "CreateDate": "2023-06-19T15:08:05+00:00",
+            "PasswordLastUsed": "2023-06-19T15:09:16+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "marvingm",
+            "UserId": "AIDA5WJU6TQYHSXKTCWAA",
+            "Arn": "arn:aws:iam::941245766704:user/marvingm",
+            "CreateDate": "2025-02-15T19:36:43+00:00",
+            "PasswordLastUsed": "2025-02-15T20:40:20+00:00"
+        }
+    ]
+}
+
+
 
 ```
 
