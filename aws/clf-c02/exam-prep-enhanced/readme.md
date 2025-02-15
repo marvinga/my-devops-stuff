@@ -22,14 +22,7 @@
       - https://explore.skillbuilder.aws/learn/course/internal/view/elearning/15009/getting-started-with-aws-cloud-essentials
       - https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner
 
-- additional resources
-  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html
-  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
-  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
-  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.html
-  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html
-  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html
-  - https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html
+
 
 --
 # module 4  
@@ -39,7 +32,27 @@
       3. cloud technology and services -*done 1*-
       5. billing, pricing and support -*done 1-*
 # 
-
+- additional resources by domain
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html
+  - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html
+  - https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html
+ 
+  - domain 1
+    - 
+ 
+  - domain 4
+    - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
+    - https://docs.aws.amazon.com/cost-management/latest/userguide/what-is-costmanagement.html
+    - https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html
+    - https://docs.aws.amazon.com/awssupport/latest/user/getting-started.html
+    - https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html
+    - https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-content-type=*all&awsf.whitepapers-global-methodology=*all&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all&awsf.whitepapers-business-category=*all
+   
+    - 
 
 
 # module 5   
