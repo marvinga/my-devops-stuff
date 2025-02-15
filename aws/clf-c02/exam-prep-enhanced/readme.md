@@ -37,8 +37,12 @@
       1. cloud concepts - *done 1-*
       2. security andn compliance - *done 1-*
       3. cloud technology and services -*in review*-
-      4. billing, pricing and support
-  
+         - Bonus Questions: AWS Certified Cloud Practitioner (CLF-C02) – Domain 3 - here to move to next domain.
+      5. billing, pricing and support
+# 
+Bonus Questions: AWS Certified Cloud Practitioner (CLF-C02) – Domain 3
+
+
 
 # module 5   
  - official practice exams
