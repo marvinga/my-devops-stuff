@@ -1,5 +1,5 @@
-## hands on:
-### IAM : Permissions
+```bash
+
 #### Create user:
   - root: marvin
   - admin: marvingm
@@ -7,11 +7,20 @@
 `````Marlie221244444444``````
 `````@@01Marlie221244444`````
 
-- IAM Policies
-
 aws-marvingm-console@@@@941245766704
 
+
+
+```
+
+## hands on:
+- IAM : Permissions
+
+
+- IAM Policies
 - CLI
+- CLI - Cloudshell
+- IAM Roles for Services
 
 
 ```bash
@@ -49,6 +58,7 @@ aws@Marvins-MacBook-Pro ~ % aws iam list-users
 }
 
 
-
 ```
+
+
 
