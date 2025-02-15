@@ -38,19 +38,32 @@
   - define your arch based on cost -
   - give team ownershif of cost
   - ccoe - cloud center of excellence - team up todate with aws best practices
-  - 
-  
+---
+## *2. undestand resouces for billing, budget and cost management*
+- aws cost explorer - high level view
+- aws cost and usage report - break down, granular data 
+  -  monitor cpu, ram, storage...
+  -  cloudwatch to track and take actions
+  -  tagging stragedy
+  -  regular review infrast changes
+  -  cost allocation tags
+  -  create billing alarms
+  -  trigger automated actions and be alerted
+  -  aws organiation & control tower
+    -  help to manage billing, access, compliance and share resourced too
+  -  amazon quicksigh - to create usage reports
+  - s3 storage - storage and retreival cost
+    -  based on used case minize cost
+    -  life cycle policies
+      -  intelligent tiring 
+  - data migration and transfer cost
+    - aws datasync
+    - snow family
+    - aws transfer family
+    - aws storage gateway
+    - 
 
-
-## *2. compare pricing models*
-- **billing, budget & cost management**
-- **aws budgets, cost explorer & billing conductor**
-- **aws pricing calculator**
-- **aws organizations - consolidated billing and allocation costs**
-- **cost allocations tags - billing reports**
-  - cost
-  - usage report
-
+--- 
 ## *3. technical resources and support options*  
 - **aws whitepapers, blogs, docs**
 - **technical resouces**
