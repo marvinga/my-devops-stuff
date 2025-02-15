@@ -9,7 +9,7 @@
 
 aws-marvingm-console@@@@941245766704
 
-
+--- 
 
 ```
 
@@ -22,7 +22,13 @@ aws-marvingm-console@@@@941245766704
 - IAM Credentials Report
 - IAM Access Advisor
 - IAM Best Practices
+- Share Resposibility Model for IAM
+  - create own users, roles, policies and monitoring,
+  - enabled MFA, rotate que keys
+  - review permissions in aws
+- 
 
+--- 
 
 ```bash
 Last login: Fri Feb 14 23:04:37 on console
