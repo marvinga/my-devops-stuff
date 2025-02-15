@@ -70,10 +70,16 @@
 ## *3. identify technical resources and support options*  
 - support options
   - aws enterprise support - concierge service - 24/7 support - designated tam ans aws sme
-  - aws development support
   - aws enterprise on-ramp support
+  - aws development support
   - aws basic support
   - aws business support - infrast event management
 - assistence
-- 
+- aws support documentation
+  - aws documentation
+  - aws re:post - community support
+  - aws white papers
+  - aws blogs
+  - aws partner network
+    
     
