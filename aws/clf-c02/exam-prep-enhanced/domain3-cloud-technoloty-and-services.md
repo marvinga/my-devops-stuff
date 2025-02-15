@@ -396,18 +396,48 @@
     - amazon emr
       - web service run big data frameworks to process vast amounts of data    
 ## *8.  in-scope services*
-- **service to deliver messages & alert notif**
-   - eventbridge
+- aws monitoring and observability
+  - monitoring
+  - review
+  - evolve
+  - optimize
+- cloudwatch and xray
+- eventbridge
    - sns
    - sqs
-- **aws customer support**
-- **business support assistance**
-- **tools to develope, deploy & troubleshoot applications**
-- **present vm's output**
-  - rdp
-  - vnc
-  - web based
-- **services to create, deploy frontend & mobile services**
-- **services to manage iot devices**
-- 
-  
+- aplication integration services
+  - evenbridge
+  - sns - pub sub messaging - public aws service - cloudwatch uses it - cloudformation
+  - sqs - queue types - fully managed 
+    - short
+    - log polling
+    - decouple exam key word 
+  - cloudwatch
+  - amazon ec2 auto scaling
+- amazon connect - is a contact center that helps to provide customer service 
+- amazon simple email service ases - send email securily, globaly
+- customer engagement services
+  - aws activate - for start ups, free tools resouces and content to simplify startup journey
+  - aws iq - connects you with aws certif expert for hands on help 
+  - aws managed services ams - provides on-going management for your aws infrastructure
+  - aws support - offers a range of plans that provde access to tools and expertise 24/7 access to customer services.
+- developer services - desinged to help devs practive devops and deliver and deploy
+  - aws appconfig
+  - aws codepipeline
+  - aws codecommit
+  - aws codeartifact
+  - aws codestar
+  - aws x-ray
+  - aws cloud9
+  - aws cloud shell
+- end-user computing services - provides secure access to the applications and desktops needed
+  - amazon appstream - fully manage app stream service
+  - amazon workspaces - provision virual cloud based ms windows/linux/ubuntu
+  - amazon workpaces web  - ondemand fully managed linux-based service designed to facilitate secure browser access to internal websites and saas applications
+- front web and mobile services
+  -  aws amplify - fe web and mobile dev to shipt and host full stack apps in asws
+  -  aws appsync - graphql interface for appl devs
+-  iot services - help to securely connect and manage devs, devs soft to integrate iot dev to aws iot solutions
+  - aws iot core - export iot data to aws
+  - aws iot greengrass - 
+  -     
