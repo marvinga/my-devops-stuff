@@ -61,7 +61,8 @@
     - snow family
     - aws transfer family
     - aws storage gateway
-    - 
+    - aws clodfront
+    - aws direct connect
 
 --- 
 ## *3. technical resources and support options*  
