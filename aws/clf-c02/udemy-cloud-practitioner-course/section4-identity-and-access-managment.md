@@ -174,11 +174,27 @@ Create AMI and launch new instances from AMI
 
 - EC2 Image Builder
 - used to automate the creation of VMs or container images
+- schedule packages updates, etc
+- free service 
 
 <img width="808" alt="image" src="https://github.com/user-attachments/assets/8c8edda1-30bb-457f-b178-c67a02bb8f92" />
 
-
 --- 
+
+- EC2 Instance Store
+  - better i/o performace
+  - ephemeral storage
+  - good for buffer/cache/temp data
+ 
+- EFS - Elastic File System
+- Managed NFS
+- can be mounted on 100s of EC2
+- share network fs
+- for linux ec2 instances in multi-AZ
+- highly available, scalable, more expensive than gp2, pay per use
+
+<img width="438" alt="image" src="https://github.com/user-attachments/assets/9c8ea40d-9306-457e-9965-278bf89a7964" />
+  
 
 
 
