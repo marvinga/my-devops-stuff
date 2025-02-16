@@ -84,8 +84,27 @@ aws@Marvins-MacBook-Pro ~ % aws iam list-users
 - EC2 user data
 - EC2 Instance types
 
+- Security Groups - fundamentals of network security in asws
+- they control how traffic is allowed into or out of our EC2 Instances
+- only contain allow rules
+- eg:
+- <img width="578" alt="image" src="https://github.com/user-attachments/assets/c1e352f6-bf9e-4472-b59a-8a909bb8ef7c" />
 
+- are like firewall on EC2 isntances
+- they regulate
+  - access to ports
+  - authorized ip ranges - ipv4 and ipv6
+  - control of inbound network
+  - control of outbound network
+- good to know:
+  - can be attached to multiple instances
+  - locked down to a region / VPC combination
+  - is good to maintain one separate security group fro SSH access
+  - timeout - security group error
+  - connection refused -
+  - by default all inbound traffic is blocked
+  - and by default all outbound traffic is allowed
 
-
+---
 
 
