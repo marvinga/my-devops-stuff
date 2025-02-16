@@ -8,9 +8,20 @@
 `````@@01Marlie221244444`````
 
 aws-marvingm-console@@@@941245766704
+http://demoelb-371034363.us-east-1.elb.amazonaws.com/
+https://marvingm-demo-s30-v1.s3.us-east-1.amazonaws.com/coffee.jpg
+marvingm-demo-s30-v3
 
---- 
-
+### User data
+```bash
+#!/bin/bash
+# Use this for your user data (script from top to bottom)
+# install httpd (Linux 2 version)
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
 
 ## hands on:
