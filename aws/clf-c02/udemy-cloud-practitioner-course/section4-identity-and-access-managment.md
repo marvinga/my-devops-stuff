@@ -219,8 +219,9 @@ Create AMI and launch new instances from AMI
   - also integrated with ms active directory
 <img width="346" alt="image" src="https://github.com/user-attachments/assets/a3742627-1161-4ea6-b74d-3f6a2050cd82" />
 
-
 - FSx for NetApp ONTAP
-  
+
+- EC2 Instance Storage - Summary
+- 
 
 
