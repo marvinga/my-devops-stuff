@@ -104,7 +104,29 @@ aws@Marvins-MacBook-Pro ~ % aws iam list-users
   - connection refused -
   - by default all inbound traffic is blocked
   - and by default all outbound traffic is allowed
+ 
+- Classic ports to know
+  - SSH - 22
+  - FTP - 21
+  - SFTP - 22
+  - HTTP - 80
+  - HTTPS - 443
+  - 3389 - RDP 
 
 ---
+### hands on 
+- Security groups
+- enable and disable http port
 
+--- 
+- SSH sumary
+```bash
+aws@Marvins-MacBook-Pro ~ % ssh ec2-user@54.161.223.113 -i EC2Tutorial.pem
+```
 
+- IAM Roles
+- user IAM Roles for your ec2 instances
+
+<img width="747" alt="image" src="https://github.com/user-attachments/assets/057e801b-f6bb-4054-8e9f-31937f0484e8" />
+
+---
