@@ -474,7 +474,28 @@ S3 - Summary
   - ALARM
 
 ### hands on - CloudWatch
+- Create alarms
+- Cloudwatch logs
+  - collect the logs from
+    - elastic beanstalk
+    - ECS
+    - Lambda
+    - Cloudtrail
+    - Cloudwatch logs agents
+    - R53
+    - enabled real-time monitor of logs
+    - logs retention
+  - how cloudwatch logs work for
+  - EC2
+    - by default its disabled
+    - create a cloudwatch log agents on the EC2 instance
+    - we need to make sure IAM permissions are correct - role
+    - works for on-prem and aws ec2
+<img width="191" alt="image" src="https://github.com/user-attachments/assets/07917d36-1929-4fea-bac8-1c4cfd42bb6d" />
 
+Video 163 - EventBridge
+      
+      
 
 
 
