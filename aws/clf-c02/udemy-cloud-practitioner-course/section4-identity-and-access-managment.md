@@ -243,6 +243,39 @@ Create AMI and launch new instances from AMI
 - Elasticity - ones a system is scalable, elasticity will be some "auto-scaling" based on the load
   - pay-per-use, match demand, optimize costs
 
+- Agility
+  - IT resources are only a click away
+  - meaning you can reduce the time to make those resources available from weeks to minutes 
+
+- ELB
+- forward internet traffic to multiple servers EC2 Instances downtream
+- spread load
+- expose a single point of access - DNS
+- seamlessly handle failures of downtream instances
+- regular health checks
+- provide SSL termination - HTTPS
+- high availabilty across zones
+- managed load balancer
+
+- 4 Kinds
+- Application LB - HTTP/HTTPS - layer 7
+- Network LB - TCP - Layer 4
+- Gateway LB - layer 3
+
+<img width="832" alt="image" src="https://github.com/user-attachments/assets/9687396c-7ea6-42c5-b6fa-9e3f24ad7ad8" />
+
+### hands on ELB
+
+
+
+
+
+
+
+
+
+
+
 
 
 
