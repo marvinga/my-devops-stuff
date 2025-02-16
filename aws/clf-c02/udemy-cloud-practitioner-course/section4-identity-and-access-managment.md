@@ -195,6 +195,32 @@ Create AMI and launch new instances from AMI
 
 <img width="438" alt="image" src="https://github.com/user-attachments/assets/9c8ea40d-9306-457e-9965-278bf89a7964" />
   
+- EFS IA - infrequent access
+- cost-optimized for files not accessed every day
+- 92% lower cost compared to EFS standard
+- EFS will automatically move your files to EFS-AI based on the lst time they were accessed
 
+<img width="271" alt="image" src="https://github.com/user-attachments/assets/baadf53f-bed9-4c71-9c80-9e3e066e75f8" />
+
+- shared responsibility model for EC2 Storage
+
+- Amazon FSx
+- fully managed service
+- to launch 3rd party file systems on aws
+- FSx for Lustre
+  - hight performance computing
+  - linux and cluster
+  - machine learning, video processing, financial modeling
+  - scales up to 100s GB/s millions IOPS
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/37a4eaef-b580-4109-96ce-d43a78f16ab1" />
+
+- FSx for Windows
+  - NTFS over SMB
+  - also integrated with ms active directory
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/a3742627-1161-4ea6-b74d-3f6a2050cd82" />
+
+
+- FSx for NetApp ONTAP
+  
 
 
