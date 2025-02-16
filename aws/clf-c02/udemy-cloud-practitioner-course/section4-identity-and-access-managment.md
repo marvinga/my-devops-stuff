@@ -349,10 +349,15 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 
 
 ### hands on S3 - Security
+https://marvingm-demo-s30-v1.s3.us-east-1.amazonaws.com/coffee.jpg
 
+### hands on S3 - static website
 
+http://marvingm-demo-s30-v1.s3-website-us-east-1.amazonaws.com/beach.jpg
 
-
+- S3 - Versioning
+- best practice to version your buckets
+- 
 
 
 
