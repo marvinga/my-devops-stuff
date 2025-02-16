@@ -28,6 +28,9 @@ aws-marvingm-console@@@@941245766704
   - review permissions in aws
 - 
 
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/60200807-8c52-4d7b-9f19-d8a8e3cb2960" />
+
+
 --- 
 
 ```bash
@@ -66,6 +69,23 @@ aws@Marvins-MacBook-Pro ~ % aws iam list-users
 
 
 ```
+
+--- 
+
+- Amazon EC2
+  - bootstrapping - user data
+  - boot tasks:
+    - installing update, software
+    - user data need sudo rights
+- t2.micro is part of aws free tier (up to 750 hours per month)
+
+### hands on 
+- launching EC2 instance running linux
+- EC2 user data
+- EC2 Instance types
+
+
+
 
 
 
