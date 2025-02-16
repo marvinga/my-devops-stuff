@@ -222,6 +222,7 @@ Create AMI and launch new instances from AMI
 - FSx for NetApp ONTAP
 
 - EC2 Instance Storage - Summary
-- 
+<img width="675" alt="image" src="https://github.com/user-attachments/assets/8b99028d-0798-412c-8681-9ae917882d96" />
+
 
 
