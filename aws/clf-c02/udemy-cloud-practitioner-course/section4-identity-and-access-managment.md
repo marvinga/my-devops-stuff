@@ -288,6 +288,74 @@ systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
 
+- ASG - Scaling strategies
+- manual scaling
+- dynamic scaling
+  - simple /step scaling
+  - when claudwatch alert is triggered ex : CPU > 80% or CPU < 30 to add and remove 
+- Target Tracking scaling
+  - example want the aveg cpu to stay ~40%
+- schedule scaling
+- predictive scaling
+  - machine learning - will forecast 
+
+- ELB and ASG - Summary
+<img width="440" alt="image" src="https://github.com/user-attachments/assets/b3eac506-a405-4386-a7f6-499e2b01b0f8" />
+
+---
+
+### Amazon S3
+- one of the main building blocks of aws
+- infinitely scaling storage
+- uses cases
+  - backup, disaster, archive, hybrid cloud storage, media hosting, data lakes, big data analytics, software delivery, static website
+- store files into buckets
+  - object = files
+  - s3 buckets = directories
+- globaly unique names
+- define at region level
+- naming convention
+- objects have a key
+- key is the full path - prefix + oejct name
+- max object size is 5TB - 5kGB
+- metadata
+- tags
+- version id - if versioning is enabled
+
+### hands on S3
+
+- Security bucket policy
+- user-based
+- resource-based security
+  - bucket policies - rules from console - common way
+  - object access control list - ACL 
+  - bucket access control list - ACL 
+- an IAM principal can access an S3 object if
+  - the user IAM permissions ALLOW it OR the resouce policy ALLOWS it
+  - AND there's no explicit DENY
+- Encrypt
+
+- JSON based policies
+
+<img width="434" alt="image" src="https://github.com/user-attachments/assets/c243f1c2-5f09-4135-a964-5f3fd837057a" />
+
+- public access - use bucket policy
+<img width="393" alt="image" src="https://github.com/user-attachments/assets/ab4c0be9-4a74-4349-a686-1492c8744fb7" />
+
+- user access to s3 - IAM permissions
+<img width="372" alt="image" src="https://github.com/user-attachments/assets/ab85d134-9460-4052-99ac-352846618e10" />
+
+- EC2 Instance access - user IAM Roles
+
+
+### hands on S3 - Security
+
+
+
+
+
+
+
 
 
 
