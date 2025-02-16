@@ -160,10 +160,25 @@ aws@Marvins-MacBook-Pro ~ % ssh ec2-user@54.161.223.113 -i EC2Tutorial.pem
 - Recycle Bin for EBS snapshots
   - rules to retain deleted snapshots
  
-- AMI Overview
+ ---
+ 
+### AMI Overview
 - Amazon Machine Image
 - Customization of an EC2 Instance
 - Public AMI
 - Own AMI
 - From Marketplace
-- 
+
+### hands on 
+Create AMI and launch new instances from AMI 
+
+- EC2 Image Builder
+- used to automate the creation of VMs or container images
+
+<img width="808" alt="image" src="https://github.com/user-attachments/assets/8c8edda1-30bb-457f-b178-c67a02bb8f92" />
+
+
+--- 
+
+
+
