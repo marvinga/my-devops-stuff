@@ -443,6 +443,38 @@ S3 - Summary
 
 <img width="418" alt="image" src="https://github.com/user-attachments/assets/856e67fd-7b8b-481f-ae00-249952513cde" />
 
-93
-
 ---
+
+### Pending 9-13
+
+### Section 14 - Cloud Monitoring
+- Amazon Cloudwatch metrics
+  - metrics
+  - have timestamps
+- EC2
+  - RAM not avail metric for EC2 instances
+  - Default every 5 mins
+  - Option for 1 min freq $$$
+- EBS
+  - disk read/writes
+- S3 Buckets
+  - bucketsizebytes, numberofobjects, allrequest
+- billing metrics
+- Service limits
+- customs metrics
+
+- Cloudwatch alarms - alarms are used to trigger notificatiosn for any metric
+- alarms actions
+  - auto scaling - increase/decrease 
+  - EC2 actions -- stop, terminate, reboot
+  - SNS notifications
+- Alerts states
+  - OK
+  - INSUFFICIENT_DATA
+  - ALARM
+
+### hands on - CloudWatch
+
+
+
+
