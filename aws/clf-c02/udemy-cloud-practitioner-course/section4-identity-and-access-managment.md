@@ -422,6 +422,27 @@ http://marvingm-demo-s30-v1.s3-website-us-east-1.amazonaws.com/beach.jpg
 - Shared responsibility model for S3
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/a36ad4d8-419a-4900-b9dd-66bbd7999f06" />
 
+- AWS Snowball
+- Snowball Edge Storage Optimized
+- Snowball Edge Compute Optimized - process data while it's being created on an edge location
+  - a truck on the road, a ship on the sea, a mining station underground
+  - locations may have no internet access
+  - run EC2 intances or lanbda funtions at the edge
+
+- Hybrid cloud for storage
+- AWS Storage Gateway
+  - bridge between on-prem data and cloud data in S3
+  - hybrid storage service to allow on-pre to seamlessly use the aws cloud
+  - use cases - disaster recovery, backup and restore and tiered storage
+- types
+  - files, vol and tapes
+
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/d1d2e16d-75b8-4413-9e95-25ffe0d3b92e" />
+
+S3 - Summary
+
+<img width="418" alt="image" src="https://github.com/user-attachments/assets/856e67fd-7b8b-481f-ae00-249952513cde" />
+
+93
+
 ---
-
-
