@@ -130,3 +130,40 @@ aws@Marvins-MacBook-Pro ~ % ssh ec2-user@54.161.223.113 -i EC2Tutorial.pem
 <img width="747" alt="image" src="https://github.com/user-attachments/assets/057e801b-f6bb-4054-8e9f-31937f0484e8" />
 
 ---
+### Storage for EC2 Instances
+
+- EBS Volume - Elastic Block Store
+- network drive you can attached to your instances
+- allow your instances to persist data, even after termination
+- 1 EBS can be only mounted to one EC2
+- bound to a specific Avail zone
+- you of EBS as network usb sticks
+- no physical drive
+- network drive
+
+<img width="755" alt="image" src="https://github.com/user-attachments/assets/9033a80d-d94c-4d4d-aedf-c1e2d6bd3ddf" />
+
+
+- EBS - Delete on termination attribute
+- the root vol is terminated by default with the instance
+- new EBS termination is disabled
+
+- EBS Multi-Attach - out of scope examen
+- EBS Snapshots
+- can copy snapthos across AZ or Region
+
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/dd49a8d6-2511-48f2-a0ec-d04c62ca0c10" />
+
+- EBS Snapthots Features
+  - move snapthots to an "archive tear" - 75% cheaper
+  - takes withing 24 to 72 hrs for restoring
+- Recycle Bin for EBS snapshots
+  - rules to retain deleted snapshots
+ 
+- AMI Overview
+- Amazon Machine Image
+- Customization of an EC2 Instance
+- Public AMI
+- Own AMI
+- From Marketplace
+- 
