@@ -225,7 +225,24 @@ Create AMI and launch new instances from AMI
 <img width="675" alt="image" src="https://github.com/user-attachments/assets/8b99028d-0798-412c-8681-9ae917882d96" />
 
 ---
-### Elastic Load Balancing and Auto Scaling Groups - 65
+### Elastic Load Balancing and Auto Scaling Groups 
+
+- Scalability
+  - vertical - increase the size of the instance - from t2.micro to t2.large
+    - there are limits, hardware etc.
+  - horizontal = elasticity - increase the number of instances
+    - out and in
+    - distributed systems
+  
+- High Availability
+  - across multi AZ
+  - auto scaling group multi AZ
+
+- Scalability vs Elasticity vs Agility
+- Scalabilty - ability to accommodate a larger load by making the hardware stronger
+- Elasticity - ones a system is scalable, elasticity will be some "auto-scaling" based on the load
+  - pay-per-use, match demand, optimize costs
+
 
 
 
