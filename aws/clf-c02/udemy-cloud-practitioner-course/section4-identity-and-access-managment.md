@@ -357,14 +357,60 @@ http://marvingm-demo-s30-v1.s3-website-us-east-1.amazonaws.com/beach.jpg
 
 - S3 - Versioning
 - best practice to version your buckets
-- 
 
+- S3 - Replication
+  - 
+- must enable versioning in source and destinatio buckets
+- Cross-region replication - CRR 
+- Same-region replication - SRR
+- buckets can be in different aws accounts
+- copyin asyncrhionous
+- must give proper IAM perrmissions to S3
 
+- Use cases
+  - CRR - compliance, lower latency access, replication across accounts
+  - SRR - log aggregatio, live replication between production and test accounts
 
+### hands on S3 - replication 
+  
+- S3 Storage Classes
+  
+  - S3 Standard - General purpose - 99.99 avail - used for frequently accessed data - low latency and high throughput - for big data analytics, mobile and gaming applicaion, content distrubution
+  - S3 Standard - Infrequent access IA - less frequently access but requires rapid access when needed - lower cost than S3 Standard - 99.9 avail - disaster recoveries, backups
+  - S3 One Zone-Infrequent Access - one single AZ, 99.5% avail, secundary backup copies of on-prem data, or data you can recreate.
 
+  - S3 Glacier Instant Retrieval - millisecond retrieval - minumun storage duration 90 days
+  - S3 Glacier Flexible Retrieval - expedited a to 5 mins - standard 3 - 5 hours - bulk 5 to 12 hours - free - minumun storage duration 90 days
+  - S3 Glacier Deep Archive - long term storage - standard 12 hours, bulk 48 hours - lowest cost - min storage duration 180 days
+  *princing for storage + object retrieval cost*
+  *low-cost meant for archiving / backup*
 
+  - S3 Intelligent Tiering
+    - moves objects automatically beween access tiears based on usage
+    - non retrieval charges in S3 intelligent-tiering
+    - small monthly monitoirn and auto-tiering fee
+<img width="432" alt="image" src="https://github.com/user-attachments/assets/6e21e60c-45e8-4397-8740-f9c5b7347692" />
 
+- S3 Durability and Availability
+  - Durability
+    - 11 9's of objects across multiple AZ
+    - same for all storage classes
+  - Availability
+    - measures how readily available a service is
+    - varies depending on storage class
+ 
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/14feeb78-ec29-413f-aa7d-c3da11f9763d" />
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/9451383b-6014-4bf6-ae53-4987d9974531" />
 
+- S3 Encryption
+<img width="426" alt="image" src="https://github.com/user-attachments/assets/90e78b3b-7a5d-405b-be33-4ee5737ed969" />
 
+- IAM access Analyzer for S3
+- Ensure that only intened peope have access to your S3 buckets
+ 
+- Shared responsibility model for S3
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/a36ad4d8-419a-4900-b9dd-66bbd7999f06" />
+
+---
 
 
