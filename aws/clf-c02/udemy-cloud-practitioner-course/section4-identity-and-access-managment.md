@@ -447,6 +447,54 @@ S3 - Summary
 
 ### Pending 9-13
 
+### Section 9 - Database & Analytics
+- SQL DB
+- NoSQL DB
+
+- benefits 
+
+- Shared Responsibility model on AWS
+- AWS
+  - managed db's
+    - automated backup, restore, operations, upgradaes
+    - os patching
+    - monitoring and alerting
+- if run on EC2 then customer responsibility
+
+- RDS - Relation DB Service
+  - managed DB service
+  - create db in cloud
+  - monitoring dashboards
+  - read replicas for improvd read performance
+  - multi az setup for DR
+  - scale verticall and horizontal
+  - storage backed by EBS
+- classic solution architecture
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/56788daa-7c75-4cfd-9e9a-3bdda0831f03" />
+
+- Aurora
+  - aws proprietary - no open sourced
+  - supports PostgreSQL and MySQL
+  - cloud optimized - 5x performance over MySQL RDS - 3x perfomance over PostgreSQL RDS
+  - storage will grow automatically
+  - more efficient
+  - cost more
+- Amazon Aurora Serverless
+  - no capacity planning needed
+  - pay per second
+  <img width="200" alt="image" src="https://github.com/user-attachments/assets/50efc00a-ad8e-4cea-9950-27331b32d136" />
+
+### hands on RDS
+
+- RDS deployments
+  - read replicas - up to 15 replicas - data only writen to main DB
+<img width="172" alt="image" src="https://github.com/user-attachments/assets/63de8eae-01a0-48b2-b346-ec5b3750f629" />
+
+  - Multi-AZ - for F
+<img width="197" alt="image" src="https://github.com/user-attachments/assets/c3559d08-4d26-4571-8121-e3aea9c00bc5" />
+
+---
+
 ### Section 14 - Cloud Monitoring
 - Amazon Cloudwatch metrics
   - metrics
