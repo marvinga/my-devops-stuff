@@ -493,6 +493,32 @@ S3 - Summary
   - Multi-AZ - for F
 <img width="197" alt="image" src="https://github.com/user-attachments/assets/c3559d08-4d26-4571-8121-e3aea9c00bc5" />
 
+  - Multi-Region
+<img width="881" alt="image" src="https://github.com/user-attachments/assets/147a5b87-2415-4f48-834b-cbbd151bd436" />
+
+- Amazon ElastiCache Overview
+  - for Redis or Memcached
+  - in-memory databases with high performance and low latency
+  - helps reduce load off databases for read intensive workload
+  - managed database - aws takes cares
+<img width="824" alt="image" src="https://github.com/user-attachments/assets/c7388321-156f-4367-b336-12cc95db8d9b" />
+
+- DynamoDB
+  - fully managed
+  - replication across 3 AZ
+  - nosql db
+  - serverless database
+  - massive workloads
+  - millions of request per second
+  - fast and consistent performance
+  - single digit millisecond latency - low latency retrievel
+  - integrated with IAM for security
+  - low cost and auto scaling
+  - key/value database
+  - 
+
+
+
 ---
 
 ### Section 14 - Cloud Monitoring
