@@ -573,8 +573,51 @@ S3 - Summary
   - fully managed, highly avail
   - replication across 3 AZ
   - millions of request per second
-  - 
 
+- Amazon Neptune
+  - fully managed graph database
+  - example social network
+  - 3 AZ up to 15 read replicas
+  - optimezed to run complex and hard queries
+
+- Amazon Timestream
+  - time-series database
+  - automaticall scales up/down based on capacity need
+  - 1000s faster that relational dbs
+  - real-time
+ 
+- Amazon QLDB
+  - Quantum Ledger Database
+  - book recording financial transactions
+  - 3 AZ
+  - fully managed
+  - immutable system
+  - cryptographically verifiable
+  - central component
+
+- Amazon Managed Blockchain
+  - no need for trusted central authority
+  - blockchain network
+  - ethereum/fabric
+  
+- Aws Glue
+  - ETL service
+  - extract, transform and load
+  - fully serverless service
+  - Glue ETL
+  - Glue Data Catalog - catalog of datasets
+    - references, to be used by services 
+
+- DMS
+  - Database Migration Service
+  - Ec2 Instance running DMS
+  - souce db remains avail during migration
+  - homogeneous and heterogeneous migrations
+
+- DB Summary
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/964cf9bd-1ce7-4c06-9171-71518290c206" />
+
+ 
 ---
 
 ### Section 14 - Cloud Monitoring
