@@ -517,7 +517,63 @@ S3 - Summary
   - key/value database
   - 
 
+- DynamoDB Accelerator - DAX
+  - fully managed in-memory cache for Dynamodb
+  - DAX just for dynamodb
+  - 10x performance improvement
+  - secure, ...
 
+  - DynamoDB hands on
+  - DynamoDB - Global tables
+    - make a dynamodb table accessible with low latency in multiple-regions
+    - active-active replication
+<img width="790" alt="image" src="https://github.com/user-attachments/assets/9466f7bb-0d7c-4ef2-b951-909b8fc9e29a" />
+
+- Redshift overview
+  - based on postgreSQL
+  - not used for OLTP
+  - its OLAP - data warehousing
+  - load every hour for example
+  - 10x better performance
+  - columnar storage
+  - MPP - Massive parallel query exec
+  - pay as you go base on the instances
+  - integrated with BI
+  - has sql interface for performing queries
+- Redshift serverless
+- without manageing infras
+- pay as you go
+
+- EMR
+  - Elastic MapReduce
+  - helps creating hadoop cluster (bid data) to analize and process vast amont of data
+  - 100s of EC2 Instances
+  - auto-scaling
+  - integrated with spot instances
+
+- Amazon Athena
+  - serverless query service to perform analytics agains S3 objects
+  - sql query language
+  - supports csv, json,
+  - $5 per TB of data scanned
+  - BI / analytics / reporting, analyze and query vpc flow logs, elb logs, logs...
+<img width="221" alt="image" src="https://github.com/user-attachments/assets/4d6ef198-ba09-46bf-9cbb-4c4718f97470" />
+
+- Amazon QuickSight
+  - serverless machine learning-powered business intelligence service to create interactive dashboards
+  - fast, scalable, per-session pricing
+  - business analytics
+  - integrated with RDS, Aurora, Athena, Redshift, S3
+
+- DocumentDB
+  - for MongoDB (no sql database)
+  - based on MongoDB
+  - json data
+  - similar "deployment concepts" as Aurora
+  - fully managed, highly avail
+  - replication across 3 AZ
+  - millions of request per second
+  - 
 
 ---
 
