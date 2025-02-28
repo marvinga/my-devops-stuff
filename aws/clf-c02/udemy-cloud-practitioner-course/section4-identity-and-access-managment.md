@@ -674,6 +674,11 @@ S3 - Summary
     - cloudwatch events eventbridge - trigger lambda function
   - pricing - pay per calls
 
+- Lambda hands on
+
+- API Gateway 
+  - serverless http api
+  - 
 
 ### HERE
 
