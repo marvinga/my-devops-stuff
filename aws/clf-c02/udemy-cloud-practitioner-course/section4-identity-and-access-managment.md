@@ -618,9 +618,64 @@ S3 - Summary
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/964cf9bd-1ce7-4c06-9171-71518290c206" />
 
 
-
 ### Section 10 - Other Compute Services
 
+- ECS
+  - Docker
+  - apps are packages
+  - scale up and down very quickly
+  - docker images
+  - docker repositories - docker hub
+  - Docker vs VMs
+- ECS
+  - Elastic Container Service
+  - launch docker containers on AWS
+  - you must provision and maintain the infras - EC2 instances
+  - aws takes care of starting / stopping containers
+  - integration with application load balancer
+
+- Fargate
+  - dont need to create any EC2 instances
+  - serverless offering for Docker containers
+  - easier to use than ECS
+
+  - ECR - Elastic Container Registry
+    - private docker registry on aws
+    - store images so they can be urn by ECS or Fargate
+
+- Amazon EKS
+  - Elastic Kubernetes Service
+  - containers can be hosted on EC2 and fargate
+  - k8s - cloud-agnostic - any cloud
+  - EKS pods
+
+- Serverless introduction
+  - new paradigm - dont have to manage servers anymore
+    - Amazon S3
+    - DynamoDB
+    - Fargate
+    - lambda - pioneer of serveless services
+
+- Lambda
+  - virtual functions - no servers to manage
+  - short executions
+  - scaling is automated
+  - Benefits
+    - pay per request and compute time
+    - free tier 1MM request
+    - integrated with AWS services
+    - Event-driven
+    - many programming languages
+    - python, java, ruby
+  - lambda container image
+  - use case:
+    - serverless thumbnail creation
+    - serverless cron job
+    - cloudwatch events eventbridge - trigger lambda function
+  - pricing - pay per calls
+
+
+### HERE
 
  
 ---
