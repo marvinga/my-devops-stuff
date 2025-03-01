@@ -1130,6 +1130,9 @@ Outputs:
 - Cloud Monitoring Summary:
 ![image](https://github.com/user-attachments/assets/d490b111-fc6e-498e-9ad3-472e7fc3f116)
    
+### Section 15 - VPC & Networking
+
+
 
 ### HERE
 
