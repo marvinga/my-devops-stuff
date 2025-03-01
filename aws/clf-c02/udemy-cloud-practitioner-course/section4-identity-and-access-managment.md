@@ -1127,10 +1127,59 @@ Outputs:
         - global service
         - alerts, scheduled activities, etc. 
 
-- Cloud Monitoring Summary:
+  - Cloud Monitoring Summary:
 ![image](https://github.com/user-attachments/assets/d490b111-fc6e-498e-9ad3-472e7fc3f116)
    
 ### Section 15 - VPC & Networking
+
+  - Ip Addresses in AWS
+  - IPv4 - can be used on the internet
+    - Public - charge at $0.005 per hour
+    - Private - fixed for EC2 instances even if you start/stop them
+
+  - Elastic IP - allows you to attach a fixed public IPv4 address to EC2 instance
+    
+  - IPv6 - lot of more addresses
+    - every ip addres is public
+    - no private range
+    - free
+
+- VPC
+  - virtual private cloud - private network to deploy your resources
+  - regional resource
+    - subnet - allow you to partition your network inside your vpc
+      - az resource
+      - public - accessible from internet
+      - private - not accessible from internet
+    - route tables - to difine access to the internet and between subnets, we use Route tables
+![image](https://github.com/user-attachments/assets/9a1a9ba7-a85f-4066-9cc8-730bade31918)
+
+- how do we define access to public subnet
+  - Internet Gateway and NAT Gateways
+  - Internet gateway helps your vpc instances connect with the internet
+  - public subnets have a route the the internet gateway
+
+  - NAT -
+    - NAT gateway aws managed
+    - NAT Instances - self managed
+    - allow your instances in your private subnets to access internet while remaining private
+![image](https://github.com/user-attachments/assets/9b1f294f-c989-4543-adb4-4c7a432c0186)
+
+- Network ACL and Security groups
+  - NACL
+    - firewall controling traffic from and to subnet
+    - at subnect level
+    - rules only include IPs
+    - Can ALLOW and DENY rules
+    - stateless
+
+  - Security groups
+    - firewall that controls traffice to and from EC2 Instance
+    - can have only ALLOW rules
+    - rules can include IPs and other security groups
+    - stateful
+      
+![image](https://github.com/user-attachments/assets/a4da7d06-0a0e-475f-b63b-a37a774011f0)
 
 
 
