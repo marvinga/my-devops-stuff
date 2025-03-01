@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5a1b3c2b-3e50-49ac-a4fb-20161a26a75b)```bash
+```bash
 
 #### Create user:
   - root: marvin
@@ -711,8 +711,7 @@ S3 - Summary
 
 - Other compute - Summary
 ![image](https://github.com/user-attachments/assets/2fe907dd-1044-4a5f-bfb9-f7e96cf5477a)
-
-![image](https://github.com/user-attachments/assets/e407e24c-58f8-49e6-aee4-c682a77b240a)
+![image](https://github.com/user-attachments/assets/5a1b3c2b-3e50-49ac-a4fb-20161a26a75b)
 
 - Deploying and Managing Infrastructure at Scale Section
 - CloudFormation
@@ -799,7 +798,87 @@ Outputs:
 
 ```
 
+- AWS Cloud Development Kit - CDK
+  - define your cloud infras using a familiar language
+      - javascript/python/java/.net
+  - your code is compiled into a cloudformation template
+  - you can deploy infrastructure and application runtime code together
+  - great for lambda funtions
+  - great for docker containers in ECS/EKS
+  - 
+
+- Elastic Beanstalk - PaaS
+  - is a developer centric view of deploying an application in AWS
+  - uses all components
+  - still have control over the configuration
+  - typical arch: Web app 3-tier
+  - must web apps have the same arch ALB + ASG
+  - free - but pay for underling instances
+  - managed service
+  - os is handled by beanstalk
+  - beanstalk dashboard
+  - very developer friendly service
+  - jus the application code is responsibilit of the devs
+  - support many platforms:
+    - go, java se, ruby, ....
+  - full health monitoring suite
+    - health agent on each ec2 instance
+    - check apps health
+    - dashboards
+
+  - Beanstalk hands on demo:
+
+- AWS CodeDeploy
+  - deploy application automatically
+  - v1 -> v2
+  - work with EC2 Instances
+  - also work with on-prem services
+  - hybrid service
+  - servers/instances must be provisioned and config ahead of time
+  - allows to upgrade apps automatically
+
+- Aws codecommit - discontinued
+  - recommendations migrate to github, gitlab, git, etc.
+  - version control repositoty 
+
+- Aws Codebuild
+  -  allows to build code in the cloud
+  -  compile, test and deploy
+  -  produces packages ready to deploy
+  -  ready to deploy artifact
+  -  pay as you go pricing
+  -  serverless
+  -  secure
+
+- AWs Codepipeline
+  - orchestrate the different steps to have the doce automatically pushed to production
+  - code -> build -> test -> provision -> deploy
+  - basic for ci/cd
+  - fully managed
+  - fast delivery
+  - rapid updates
+![image](https://github.com/user-attachments/assets/2d040a28-acd9-4998-ae64-f62dfbf125a7)
+
+- AWS CodeArtifact
+  - artifact management software dev
+  - code depencies
+  - store code dependencies
   
+- AWS system Manager - SSM
+  - helps you manage your EC2 and on-prem systems at scale
+  - hybrid aws service
+  - get operational insights about the state of your infras
+  - suite of 10+ products
+  - features
+    - automation for enhanced compliance
+    - run commands across and entire fleet or servers
+    - store parameter config with SSM parameter store
+    - patch your fleet of Ec2 instances
+- need ssm agent installed
+- 
+  
+
+
 ### HERE
 
  
