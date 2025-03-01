@@ -1,4 +1,4 @@
-```bash
+![image](https://github.com/user-attachments/assets/5a1b3c2b-3e50-49ac-a4fb-20161a26a75b)```bash
 
 #### Create user:
   - root: marvin
@@ -678,8 +678,128 @@ S3 - Summary
 
 - API Gateway 
   - serverless http api
-  - 
+  - expose lambda use API Gateway
+  - proxy the request
+  - fully managed server
+  - fully scalable
+  - restful apis
+  - support security
+![image](https://github.com/user-attachments/assets/2b87b446-557c-4cd1-a5fc-cd56068700b7)
 
+- AWS Batch
+  - fully managed batch processing service
+  - its a job with start and end
+  - batch will dynamically launch EC2 instances or spot instances
+  - submit or schedule a batch job and AWS Batch will do the rest
+  - its a docker image and runs on ECS
+  - scales automatically
+- Batch Vs Lambda
+  - Lambda: time limit, limited runtimes, serverless
+  - batch: no time limit, any runtime as log as its packages as a docker images
+  - rely on EBS / instances estore for disk space
+    
+- Amazon Lightsail
+  -  virtual servers, storage, databases and networking in one place
+  -  low and predictable pricing
+  -  little cloud experience
+  -  simpler alternative to using services
+  -  use cases:
+    -  web applications, based on templates
+  - no auto-scaling, limited aws integrations
+
+- Lightsale hands on
+
+- Other compute - Summary
+![image](https://github.com/user-attachments/assets/2fe907dd-1044-4a5f-bfb9-f7e96cf5477a)
+
+![image](https://github.com/user-attachments/assets/e407e24c-58f8-49e6-aee4-c682a77b240a)
+
+- Deploying and Managing Infrastructure at Scale Section
+- CloudFormation
+  - declarative way of outlining your AWS infras, for any resources
+  - infras as code
+  - no resources are created manually
+  - cost can be estimated
+  - saving strategy - scheduled delete/recreate on the flight
+  - declarative programming
+  - existing templates on the web
+  - supports (almost) all aws resources
+  - Cloudformation + Infrastructure Composer
+    - to undestand your architecture diagrams
+    - relations between components
+
+  - Cloudformation Hands on
+```bash
+---
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: us-east-1a
+      ImageId: ami-0453ec754f44f9a4a
+      InstanceType: t2.micro
+
+```
+
+
+```bash
+---
+Parameters:
+  SecurityGroupDescription:
+    Description: Security Group Description
+    Type: String
+
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: us-east-1a
+      ImageId: ami-0453ec754f44f9a4a
+      InstanceType: t2.micro
+      SecurityGroups:
+        - !Ref SSHSecurityGroup
+        - !Ref ServerSecurityGroup
+
+  # an elastic IP for our instance
+  MyEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !Ref MyInstance
+
+  # our EC2 security group
+  SSHSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Enable SSH access via port 22
+      SecurityGroupIngress:
+        - CidrIp: 0.0.0.0/0
+          FromPort: 22
+          IpProtocol: tcp
+          ToPort: 22
+
+  # our second EC2 security group
+  ServerSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: !Ref SecurityGroupDescription
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 192.168.1.1/32
+
+Outputs:
+  ElasticIP:
+    Description: Elastic IP Value
+    Value: !Ref MyEIP
+
+```
+
+  
 ### HERE
 
  
