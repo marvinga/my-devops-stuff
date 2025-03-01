@@ -986,17 +986,49 @@ Outputs:
 
 ![image](https://github.com/user-attachments/assets/66d6a967-2ca7-4096-8cff-2ace3c24328d)
 
-### Section 13 - Cloud Inegrations
+### Section 13 - Cloud Integrations
+- 1 synchronous comminications
+  - application to application
+- 2 asynchonous
+  - buying service - queue - shipping services - decouple
 
+- SQS
+  - Simple queue service
+  - queue
+    - producer - queue - consumer
+    - send messages - poll messages
+    - fully managed service - used to decouple applications
+    - low latency
+    - scale
+    - fifo queues 
+  - SQS hands on
+      
+- SNS
+  - Simple Notification Service
+  - pub/sub
+    - publishers
+    - event subcribers
+  - sns hands on lab
+  - 
+    
+- Kinesis
+  - real-time bid data streaming
+  - managed service used to collect, process and analyze real-time streaming data at any scale
+  - 
 
+- Amazon MQ
+- sns and sqs cloud-native proprietary protocols from aws - 
+- MQ is a managed message broker service for RabbitMQ and ActiveMQ
+- doesnt scale as much as sqs/sns
+- multi az with failover
+- if need to continue usgin rabbitmq in cloud after migration
 
+- Integration Section - Summary
+![image](https://github.com/user-attachments/assets/5e71b38f-7bbd-43e7-801d-ac5b02f132e6)
 
-### HERE
-
- 
----
 
 ### Section 14 - Cloud Monitoring
+
 - Amazon Cloudwatch metrics
   - metrics
   - have timestamps
@@ -1024,7 +1056,8 @@ Outputs:
 
 ### hands on - CloudWatch
 - Create alarms
-- Cloudwatch logs
+
+- CloudWatch Logs
   - collect the logs from
     - elastic beanstalk
     - ECS
@@ -1043,6 +1076,13 @@ Outputs:
 <img width="191" alt="image" src="https://github.com/user-attachments/assets/07917d36-1929-4fea-bac8-1c4cfd42bb6d" />
 
 Video 163 - EventBridge
+
+
+
+### HERE
+
+ 
+---
       
       
 
