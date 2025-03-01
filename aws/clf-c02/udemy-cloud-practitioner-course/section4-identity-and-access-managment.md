@@ -952,7 +952,42 @@ Outputs:
 ![image](https://github.com/user-attachments/assets/91992ac7-a41d-44f6-b8cc-d860b84e2bcb)
 
 
-    
+- AWS Outposts
+  - offer same aws infrastructure, servies, apis and tools to build your ownn applications
+  - on-prem just as in the cloud
+  - output racks - loaded with aws services
+  - you are responsible for security physical
+  - benefits:
+    - low-latency
+    - local data processing
+    - data residency
+    - fully managed service
+    - many services... ec2, ebs, s3,...
+
+  - Aws Wavelength
+    - infras deployments embedded within telecom providers datacenters at the edge or the 5G networks
+    - low latency though 5g networks
+
+  - AWS local zones
+    - place compute closer to end users
+    - run latency-sensitve applications
+    - 
+![image](https://github.com/user-attachments/assets/5e2adc44-c2af-403d-b66a-52bd5bf55346)
+
+- Global Applications architecture
+  
+![image](https://github.com/user-attachments/assets/0cceaf87-18ae-4c8c-b48e-d44ac37c3b40)
+
+![image](https://github.com/user-attachments/assets/ccc542c7-009d-40e5-b909-c3067d23227e)
+
+- Global Application in AWS - Summary
+  
+![image](https://github.com/user-attachments/assets/eff1c118-dd2b-4f50-a3e1-ef99ac9958d1)
+
+![image](https://github.com/user-attachments/assets/66d6a967-2ca7-4096-8cff-2ace3c24328d)
+
+### Section 13 - Cloud Inegrations
+
 
 
 
