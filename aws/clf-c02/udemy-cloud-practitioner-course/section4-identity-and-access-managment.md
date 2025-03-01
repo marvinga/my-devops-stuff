@@ -1058,7 +1058,7 @@ Outputs:
 - Create alarms
 
 - CloudWatch Logs
-  - collect the logs from
+  - Collect the logs from
     - elastic beanstalk
     - ECS
     - Lambda
@@ -1068,14 +1068,26 @@ Outputs:
     - enabled real-time monitor of logs
     - logs retention
   - how cloudwatch logs work for
-  - EC2
-    - by default its disabled
-    - create a cloudwatch log agents on the EC2 instance
-    - we need to make sure IAM permissions are correct - role
-    - works for on-prem and aws ec2
+    - EC2
+      - by default its disabled
+      - create a cloudwatch log agents on the EC2 instance
+      - we need to make sure IAM permissions are correct - role
+      - works for on-prem and aws ec2
 <img width="191" alt="image" src="https://github.com/user-attachments/assets/07917d36-1929-4fea-bac8-1c4cfd42bb6d" />
 
-Video 163 - EventBridge
+- CloudWatch Logs hands on
+
+- EventBridge - formely CloudWatch Events
+  - schedule cron jobs - schedule scripts
+  - use case trigger lambda fuctions
+  - IAM root user sign in events
+  - can be combine with sns
+    - default event bus
+    - partner event bus
+    - custom even bus
+
+  - Event bridge hands on
+
 
 
 
