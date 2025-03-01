@@ -1088,8 +1088,48 @@ Outputs:
 
   - Event bridge hands on
 
+  - AWS CloudTrail
+    - provides governance, compliance, and audit for your aws account
+    - enable by default
+    - get an history of events / API calls made with you AWS account:
+        by: console, SDK, CLI, AWS Services
+    - logs can be sent to cloudwatch logs or S3
+  - AWS CloudTrail hands on
+    - 
+  - AWS X-Ray
+    - debugging in production, the good old way
+    - add log statements everywhere
+    - tracing to get visual analysis of your application
+    - fail, performance
+    - Advantages:
+      - pinpoint service issues
+      - review request
+      - find errors and exceptions
+      - etc...
 
+  - Amazon CodeGuru
+    - a ML-powered service for automated code reviews and application performances recommendations
+  - Amazon CodeGuru Profiler
+    - helps undestand the runtime behaviour of your application
+    - ex - idenntify if your application is consuming excessive CPU capacity on a looing routine
+    - decrease compute cost,
+    - anomaly detections
 
+  - Aws Health Dashboard
+    - Service History
+      - shows all reagions all services
+      - 
+    - AWS health dashboard
+      - your account
+        - provide alerts, remediations guidance
+        - performance and avail for the services of your account and resouces
+        - notifications
+        - global service
+        - alerts, scheduled activities, etc. 
+
+- Cloud Monitoring Summary:
+![image](https://github.com/user-attachments/assets/d490b111-fc6e-498e-9ad3-472e7fc3f116)
+   
 
 ### HERE
 
