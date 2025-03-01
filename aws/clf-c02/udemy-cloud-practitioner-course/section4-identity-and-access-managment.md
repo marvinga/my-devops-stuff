@@ -1181,6 +1181,46 @@ Outputs:
       
 ![image](https://github.com/user-attachments/assets/a4da7d06-0a0e-475f-b63b-a37a774011f0)
 
+- VPC flow logs
+  - capture information about ip traffic going into your inerface
+    - vpc flow logs
+    - subnet flow logs
+    - elastic network interface flow logs
+    - helps monitor and troubleshooting connectivity issues. 
+
+- VPC peering
+  - connect 2 vpc
+  - make them behave as if they were in the same network
+  - must not have overlapping CIDR 
+
+- VPC Endpoints
+  - allows you to connect to AWS services using a private network instead of the public www network
+  - enahnce secuirty
+  - less latency
+  - VPC endpoint gateway: S3 and DynamoDB only
+  - VPC endpoint interface:
+    
+![image](https://github.com/user-attachments/assets/3e6eac48-9e51-4461-83e1-1ecc3fc121c0)
+
+- PrivateLink
+  - from the endpoint services family
+  - most secure and scalable way to expose a service to 1000s of VPCs
+  - does not require VPC peering, or internet gateway
+  - access 3rd party services from your vpc to 3rd party vpc
+    
+![image](https://github.com/user-attachments/assets/75b8771f-3acf-4179-8947-662c9c98055a)
+
+- Direct Connect and Site to Site VPN
+  - Site to Site VPN
+    - connect on-prom vpn to aws
+    - encrypted
+    - goes over the public internet
+
+- Direct Connect - DX
+  - physical connection
+  - private, secure and fast
+  - over private network
+  - 
 
 
 ### HERE
