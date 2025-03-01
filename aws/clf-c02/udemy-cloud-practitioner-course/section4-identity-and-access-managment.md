@@ -710,10 +710,12 @@ S3 - Summary
 - Lightsale hands on
 
 - Other compute - Summary
+  
 ![image](https://github.com/user-attachments/assets/2fe907dd-1044-4a5f-bfb9-f7e96cf5477a)
+
 ![image](https://github.com/user-attachments/assets/5a1b3c2b-3e50-49ac-a4fb-20161a26a75b)
 
-- Deploying and Managing Infrastructure at Scale Section
+### Section 11 - Deploying and Managing Infrastructure at Scale Section
 - CloudFormation
   - declarative way of outlining your AWS infras, for any resources
   - infras as code
@@ -875,8 +877,30 @@ Outputs:
     - store parameter config with SSM parameter store
     - patch your fleet of Ec2 instances
 - need ssm agent installed
-- 
-  
+
+- SSM Session Manager
+  - allows you to start a secured shell on your EC2 and on-prem
+  - no ssh access needed
+  - no port 22 - better security
+
+- SSM hands on
+- Sytems manager parameter store
+  - secure storge for config and secrets
+  - serverless
+  - store api keys, passwords, config...
+  - control access permission using IAM
+  - version tracking
+
+- Deployment summary
+![image](https://github.com/user-attachments/assets/28a64df9-d5df-4ed7-b2c2-f3eec86d9337)
+
+- Developer services
+![image](https://github.com/user-attachments/assets/5230996c-49ca-448b-9fb3-54ce5e085025)
+
+
+### Section 12 - Leverating the AWS Global Infrastructure
+
+
 
 
 ### HERE
