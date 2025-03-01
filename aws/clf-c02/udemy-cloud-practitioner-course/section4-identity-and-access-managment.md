@@ -900,6 +900,59 @@ Outputs:
 
 ### Section 12 - Leverating the AWS Global Infrastructure
 
+- Global Applications
+- diff regions or Edge locations
+- decreased latency
+  - closer to your uer translate to better user experience
+- disaster recovery - DR
+- attack protection 
+
+- Global AWS Infrastructure
+  - regions
+  - az
+  - edge locations - points of presents - used by cloudfront
+![image](https://github.com/user-attachments/assets/de6559bb-d4a2-4bbd-a5d9-cc85cbb0d121)
+
+- Route 53
+  - managed DNS
+  - routing policies
+    - simple routing policy - no health checks
+    - weighted routing policy - based on load - kind of load balance
+    - latency routing policy - closest to users
+    - failover routing policy - health checks
+  
+- route 53 hands on
+
+- CloudFront
+  - CDN - content delivery network
+  - caching the web content at the edge location
+  - DDoS protection
+  - Origins
+    - S3 Buckets
+    - Custom Origin HTTP
+![image](https://github.com/user-attachments/assets/77b6f9e0-083a-4297-adf8-ebc333c7c0a8)
+
+- cloudfront vs S3 cross region replication
+  - cloudfront
+    - great for static content that must be avail everywhere
+  - S3
+    - must be setup for each region
+    - read only
+    - near real time
+    - great for dynamic contect that needs to be avail at low-latency in few regions
+
+  - cloudfront hands-on
+
+- S3 Transfer Acceleration
+  - increase transfer speed by transferring files to an aws edge location which will forard the data
+  - to the S3 Bucket in the target region
+
+- AWS Global Accelerator
+  - improve global application avail, perfomance using aws global network
+![image](https://github.com/user-attachments/assets/91992ac7-a41d-44f6-b8cc-d860b84e2bcb)
+
+
+    
 
 
 
