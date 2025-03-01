@@ -1216,12 +1216,30 @@ Outputs:
     - encrypted
     - goes over the public internet
 
-- Direct Connect - DX
-  - physical connection
-  - private, secure and fast
-  - over private network
-  - 
+![image](https://github.com/user-attachments/assets/b0a43223-6797-4b2c-a721-f551d3aa3111)
 
+
+  - Direct Connect - DX
+    - physical connection
+    - private, secure and fast
+    - over private network
+    
+- AWS Client VPN
+  - using Open VNP to your private network in asws and on-prem
+  - allow you to connect to your EC2 instances over a private IP
+  - goes over public internet
+
+- Transit Gateway Overview
+  - for having transitive peering between thousands of VPC and on-prem
+  - connect 1000s of vpc together
+
+- VPC and Networking Summary
+  
+![image](https://github.com/user-attachments/assets/ecfa04f7-36ce-447d-9864-9b6addab4b87)
+
+![image](https://github.com/user-attachments/assets/f3eba578-084c-4fcf-b53a-985031634d0f)
+
+### Section 16
 
 ### HERE
 
