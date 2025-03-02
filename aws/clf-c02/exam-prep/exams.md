@@ -16,7 +16,7 @@
     - Cost optimization / Rliability and Operational excellence - WAF pillars
     - physical and env controls
     - EC2 - shared resp model respo of customer: security groups, os, and data encryption
-    - DaaS ? *
+    - DaaS ? * Desktop-as-a-Service
     - AWS Trusted Advisor - recommendations to reduce cost, increase perform and security
     - Regional service: S3 and Transit Gateway
     - Auto-Scaling - WAF - Cost optimization
