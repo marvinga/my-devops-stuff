@@ -1,10 +1,12 @@
-- Exam Prep Official Pretest: AWS Certified Cloud Practitioner (CLF-C02 – English) - - - - https://explore.skillbuilder.aws/learn/courses/18115/exam-prep-official-pre-test-aws-certified-cloud-practitioner-clf-c02
-https://awscertificationpractice.benchprep.com/app/official-pre-test-aws-certified-cloud-practitioner-clf-c02#exams
+- Exam Prep Official Pretest: AWS Certified Cloud Practitioner (CLF-C02 – English) - - - - -
+- https://explore.skillbuilder.aws/learn/courses/18115/exam-prep-official-pre-test-aws-certified-cloud-practitioner-clf-c02
+- https://awscertificationpractice.benchprep.com/app/official-pre-test-aws-certified-cloud-practitioner-clf-c02#exams
 
 - Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner (CLF-C02 - English) - https://explore.skillbuilder.aws/learn/courses/14637/exam-prep-official-practice-exam-aws-certified-cloud-practitioner-clf-c02-english
-https://awscertificationpractice.benchprep.com/app/aws-certified-cloud-practitioner-official-practice-exam-clf-c02?locale=en-us#exams
+- https://awscertificationpractice.benchprep.com/app/aws-certified-cloud-practitioner-official-practice-exam-clf-c02?locale=en-us#exams
   
-- Exam Prep Official Question Set: AWS Certified Cloud Practitioner (CLF-C02 - English) - https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english
+- Exam Prep Official Question Set: AWS Certified Cloud Practitioner (CLF-C02 - English)
+- https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english
   
 - AWS Skills Centers: Becoming a Cloud Practitioner - Full-Quiz Review - https://explore.skillbuilder.aws/learn/courses/14703/aws-skills-centers-becoming-a-cloud-practitioner-full-quiz-review/lessons
     - AWS Skills Centers: Becoming a Cloud Practitioner - Full-Quiz Review 82.85%
