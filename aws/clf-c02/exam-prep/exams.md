@@ -1,78 +1,77 @@
 - Exam Prep Official Pretest: AWS Certified Cloud Practitioner (CLF-C02 – English) - https://explore.skillbuilder.aws/learn/courses/18115/exam-prep-official-pre-test-aws-certified-cloud-practitioner-clf-c02
 - Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner (CLF-C02 - English) - https://explore.skillbuilder.aws/learn/courses/14637/exam-prep-official-practice-exam-aws-certified-cloud-practitioner-clf-c02-english
 - Exam Prep Official Question Set: AWS Certified Cloud Practitioner (CLF-C02 - English) - https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english
-- AWS Skills Centers: Becoming a Cloud Practitioner - Full-Quiz Review - https://explore.skillbuilder.aws/learn/courses/14703/aws-skills-centers-becoming-a-cloud-practitioner-full-quiz-review/lessons
-
-
-- AWS Skills Centers: Becoming a Cloud Practitioner - Full-Quiz Review 82.85%
-- Storage data globaly: AIM and Cloudfront * incorrect
-- you can contact AWS and request a service limit increase for vCPUs for example
-- Auto scaling group - to optimize the EC2s that are busy 3-4 times a day
-- Aws Personal health dashboard - to check for service interruption when AWS services are experiencing outages
-- Elasticity (AWS Principle) - ajust capacity on demand
-- AWs management console - web-based interface to view processes in aws
-- Security - CloudTrail and AWS organitions to centrally log all actions performed accross the organitaion
-- APN 
-- SaaS . IaaS, PaaS
-- Cost optimization / Rliability and Operational excellence - WAF pillars
-- physical and env controls
-- EC2 - shared resp model respo of customer: security groups, os, and data encryption
-- DaaS ? *
-- AWS Trusted Advisor - recommendations to reduce cost, increase perform and security
-- Regional service: S3 and Transit Gateway
-- Auto-Scaling - WAF - Cost optimization
-- Cloud computing adavantages: Trade fixed exp for varia exp /. Benefit from massive econom of scale
-- EC2 correct size - Sustainability pillar *
-- data centers handle by aws
-- customer data
-- IAM policy simulator
-- DDoS prevent - AWS shield
-- Amazon Macie - discover and protect sensitive data in S3
-- AWS resouce Groups - manage and automate actions for the resouces
-- Amazon R53 - dynamically rout uses request to reduce laltency.
-- AWS organization - central governance and management
-- IAM roles
-- Bucket policy
-- user credentials
-- principle of least privilege
-- AWS IAM - groyp users together and assign permissions to the group'
-- MFA
-- Access keys to work from CLI
-- Principal - person or application in IAM
-- Access keys - CLI
-- Cloudtrail - s3 deletion, ec2 terminated, etc
-- Amazon SQS
-- Elastinc beanstalk - allows you to run application without configuring servers *
-- Amazon Aurora - Mysql
-- Amazon Rekognition
-- Amazon Lambda - serverless tech - no server management
-- Aws Snowball
-- AWS Personal Health dashboard - aws services that are in your account, alerts etc. 
-- AWS CodeStar - enable creating, managing and working with software projects * incorrect
-- AWS kinesis - real-time for a dashboard application - Steam data in real time
-- s3 lifecycle policy
-- auto scaling - elasticity for ec2
-- amazon x-ray - troubleshooting applications - undestanding underlying services
-- documentdb - json files database
-- cloudfront - customer worldwide - slow response - speed up delivery of content
-- Amazon DMS -
-- Internet Gateway - EC2 need to be accessed by the internet * incorrect
-- Classic Load BAlancer - to be used with Ec2 Classic network applications * incorrect
-- Amazon Macie - security service that uses ML to discover and protect sensitive data store in s3
-- Amazon VPC - logically isolated section of aws cloud
-- Automatic replication accross AZ: Aurora and DynamoDB
-- Application loadbalancer - 80 and 443
-- Amazon X-Ray - audit - end-to-end requests made in applications the developers deploy. * incorrect
-- System manager
-- Amazon Cloudtrail - review event history - from CL and console
-- cost explorer - undestand more about aws cost, thrends etc.
-- Business support level - response in less than an hour for production system go-down
-- Savings plans - - 3 year pilot program, 5 hours each week - pricing model
-- Amazon Marketplace
-- AWS Cost Explorer - spending accoross all compy aws accounts * incorrct
-- Standard RIs - cost savings associeted with amazon ec2 RI * incorrect
-- On-Demand instance - three months piliot - cannot experience any down-time
-- AMZ S2 Glacier Deep Archive
-- AWS cost and usage report - tracking ussage of Reserved EC2 instances
-- Spot instances 
   
+- AWS Skills Centers: Becoming a Cloud Practitioner - Full-Quiz Review - https://explore.skillbuilder.aws/learn/courses/14703/aws-skills-centers-becoming-a-cloud-practitioner-full-quiz-review/lessons
+    - AWS Skills Centers: Becoming a Cloud Practitioner - Full-Quiz Review 82.85%
+    - Storage data globaly: AIM and Cloudfront * incorrect
+    - you can contact AWS and request a service limit increase for vCPUs for example
+    - Auto scaling group - to optimize the EC2s that are busy 3-4 times a day
+    - Aws Personal health dashboard - to check for service interruption when AWS services are experiencing outages
+    - Elasticity (AWS Principle) - ajust capacity on demand
+    - AWs management console - web-based interface to view processes in aws
+    - Security - CloudTrail and AWS organitions to centrally log all actions performed accross the organitaion
+    - APN 
+    - SaaS . IaaS, PaaS
+    - Cost optimization / Rliability and Operational excellence - WAF pillars
+    - physical and env controls
+    - EC2 - shared resp model respo of customer: security groups, os, and data encryption
+    - DaaS ? *
+    - AWS Trusted Advisor - recommendations to reduce cost, increase perform and security
+    - Regional service: S3 and Transit Gateway
+    - Auto-Scaling - WAF - Cost optimization
+    - Cloud computing adavantages: Trade fixed exp for varia exp /. Benefit from massive econom of scale
+    - EC2 correct size - Sustainability pillar *
+    - data centers handle by aws
+    - customer data
+    - IAM policy simulator
+    - DDoS prevent - AWS shield
+    - Amazon Macie - discover and protect sensitive data in S3
+    - AWS resouce Groups - manage and automate actions for the resouces
+    - Amazon R53 - dynamically rout uses request to reduce laltency.
+    - AWS organization - central governance and management
+    - IAM roles
+    - Bucket policy
+    - user credentials
+    - principle of least privilege
+    - AWS IAM - groyp users together and assign permissions to the group'
+    - MFA
+    - Access keys to work from CLI
+    - Principal - person or application in IAM
+    - Access keys - CLI
+    - Cloudtrail - s3 deletion, ec2 terminated, etc
+    - Amazon SQS
+    - Elastinc beanstalk - allows you to run application without configuring servers *
+    - Amazon Aurora - Mysql
+    - Amazon Rekognition
+    - Amazon Lambda - serverless tech - no server management
+    - Aws Snowball
+    - AWS Personal Health dashboard - aws services that are in your account, alerts etc. 
+    - AWS CodeStar - enable creating, managing and working with software projects * incorrect
+    - AWS kinesis - real-time for a dashboard application - Steam data in real time
+    - s3 lifecycle policy
+    - auto scaling - elasticity for ec2
+    - amazon x-ray - troubleshooting applications - undestanding underlying services
+    - documentdb - json files database
+    - cloudfront - customer worldwide - slow response - speed up delivery of content
+    - Amazon DMS -
+    - Internet Gateway - EC2 need to be accessed by the internet * incorrect
+    - Classic Load BAlancer - to be used with Ec2 Classic network applications * incorrect
+    - Amazon Macie - security service that uses ML to discover and protect sensitive data store in s3
+    - Amazon VPC - logically isolated section of aws cloud
+    - Automatic replication accross AZ: Aurora and DynamoDB
+    - Application loadbalancer - 80 and 443
+    - Amazon X-Ray - audit - end-to-end requests made in applications the developers deploy. * incorrect
+    - System manager
+    - Amazon Cloudtrail - review event history - from CL and console
+    - cost explorer - undestand more about aws cost, thrends etc.
+    - Business support level - response in less than an hour for production system go-down
+    - Savings plans - - 3 year pilot program, 5 hours each week - pricing model
+    - Amazon Marketplace
+    - AWS Cost Explorer - spending accoross all compy aws accounts * incorrct
+    - Standard RIs - cost savings associeted with amazon ec2 RI * incorrect
+    - On-Demand instance - three months piliot - cannot experience any down-time
+    - AMZ S2 Glacier Deep Archive
+    - AWS cost and usage report - tracking ussage of Reserved EC2 instances
+    - Spot instances 
+      
