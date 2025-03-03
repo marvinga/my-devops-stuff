@@ -15,5 +15,11 @@
   - After you spread your EC2 instances over multiple Availability Zones, you can attach an load balancer to your Auto Scaling group to ensure high availability and elasticity.
   - You can also monitor EC2 instance health by setting up a health check on your load balancer.
   
-
-
+- Step 1
+- Step 2
+- Step 3
+- Step 4
+- Step 5
+- Step 6
+- Step 7
+- Step 8
