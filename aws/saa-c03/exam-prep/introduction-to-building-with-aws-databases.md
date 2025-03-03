@@ -34,7 +34,14 @@
       - experiment more often - *dont confuse with make frequent, small, reversible changes*
       - consider mechanical sympathy
 
+  #### 4 - cost optimization
+    - principles
+      - implement cloud financial management - *stop guessing capacity*
+      - adopt a consumption model
+      - measure overall efficiency
+      - stop spending money on undifferentiated heavy lifting
+      - analyze and attribute expenditure
+
   
-  #### 4 - reliability
   #### 5 - reliability
     
