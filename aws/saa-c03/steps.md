@@ -10,7 +10,7 @@ https://skillbuilder.aws/exam-prep/solutions-architect-associate
   - AWS Technical Essentials - completed
   - AWS Well-Architected Foundations - in progress
   - Introduction to Building with AWS Databases - in progress
-  - AWS SimuLearn: Highly Available Web Applications
+  - AWS SimuLearn: Highly Available Web Applications - in progress
   - AWS SimuLearn: Deploying RESTful APIs
   - AWS SimuLearn: API with Database
   - Digital Classroom - Architecting on AWS
