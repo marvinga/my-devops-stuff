@@ -1,6 +1,7 @@
 ### Introduction to Building with AWS Databases
 
-- WAF
+## Module 1 - waf
+
 - *dont confuse pillars & principles*
 
 - pillars
@@ -62,4 +63,4 @@
       - keep people away from data
       - prepare for security events        
   
-    
+  ## Module 2 - data types
