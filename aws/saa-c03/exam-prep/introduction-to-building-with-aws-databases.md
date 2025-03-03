@@ -43,7 +43,6 @@
       - stop spending money on undifferentiated heavy lifting - *dont confuse with use serverless architecture*
       - analyze and attribute expenditure
 
-  
   #### 5 - sustainability
     - principles
       - understand your impact
@@ -63,4 +62,12 @@
       - keep people away from data
       - prepare for security events        
   
-  ## Module 2 - data types
+## Module 2 - data types
+  - data sources types
+    - structured data
+    - semi-structrured data
+    - un-structure data
+
+
+
+
