@@ -14,8 +14,11 @@
   - Second, you can create a load balancer so that network traffic is distributed equally across your servers.
   - After you spread your EC2 instances over multiple Availability Zones, you can attach an load balancer to your Auto Scaling group to ensure high availability and elasticity.
   - You can also monitor EC2 instance health by setting up a health check on your load balancer.
+ 
+<img width="1165" alt="image" src="https://github.com/user-attachments/assets/db812c8a-ff98-4d25-b42d-4d5a0d3ea4c7" />
+ 
   
-- Step 1
+- Step 1 This classic web application solution uses an AWS Cloud computing infrastructure to ensure that an application is highly available.
 - Step 2
 - Step 3
 - Step 4
