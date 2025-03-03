@@ -7,9 +7,9 @@ https://skillbuilder.aws/exam-prep/solutions-architect-associate
 
 
 ###  Step 2:
-  - AWS Technical Essentials
-  - AWS Well-Architected Foundations
-  - Introduction to Building with AWS Databases
+  - AWS Technical Essentials - completed
+  - AWS Well-Architected Foundations - in progress
+  - Introduction to Building with AWS Databases - in progress
   - AWS SimuLearn: Highly Available Web Applications
   - AWS SimuLearn: Deploying RESTful APIs
   - AWS SimuLearn: API with Database
