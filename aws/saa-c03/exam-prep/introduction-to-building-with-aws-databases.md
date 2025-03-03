@@ -51,4 +51,9 @@
       - anticipate and adopt new, more efficient hardware and software offerings
       - use managed services - *dont confuse use serverless architecture*
       - reduce the downstream impact of your cloud workloads
+     
+   #### 6 - security
+    - principles
+      - 
+  
     
