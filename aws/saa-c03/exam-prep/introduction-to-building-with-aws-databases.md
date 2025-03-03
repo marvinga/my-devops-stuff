@@ -36,12 +36,19 @@
 
   #### 4 - cost optimization
     - principles
-      - implement cloud financial management - *stop guessing capacity*
+      - implement cloud financial management - *dont confuse with stop guessing capacity*
       - adopt a consumption model
       - measure overall efficiency
-      - stop spending money on undifferentiated heavy lifting
+      - stop spending money on undifferentiated heavy lifting - *dont confuse with use serverless architecture*
       - analyze and attribute expenditure
 
   
-  #### 5 - reliability
+  #### 5 - sustainability
+    - principles
+      - understand your impact
+      - stablish sustainability goals
+      - maximize utilization - *dont confuse with cost optimization*
+      - anticipate and adopt new, more efficient hardware and software offerings
+      - use managed services - *dont confuse use serverless architecture*
+      - reduce the downstream impact of your cloud workloads
     
