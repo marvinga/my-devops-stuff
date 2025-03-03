@@ -54,6 +54,12 @@
      
    #### 6 - security
     - principles
-      - 
+      - implement a strong identity foundation
+      - enable traceability
+      - apply security at all layers
+      - automate security best practices
+      - protect data in transit and at rest
+      - keep people away from data
+      - prepare for security events        
   
     
