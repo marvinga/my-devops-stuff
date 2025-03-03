@@ -27,5 +27,5 @@
 - Step 7: EC2 Auto scaling groups integrates with Amazon CloudWatch, for metrics data, and with Elastic Load Balancing to add and remove hosts for load distribution.
 - Step 8: For example, if a web server reports greater than 80 percent CPU utilization over a period of time, an additional web server is launched and automatically added to the load balancer.
 
-### Practice step by step done. 
-- I think I'll need to do again few times before the DIY
+#### Practice step by step done. 
+- I'll need to do again few times before the DIY
