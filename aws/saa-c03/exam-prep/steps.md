@@ -1,9 +1,7 @@
 https://skillbuilder.aws/exam-prep/solutions-architect-associate
+https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03
 
-- Step 1: Get to know the exam with exam-style questions
-- Step 2: Refresh your AWS knowledge and skills
-- Step 3: Review and practice for your exam
-- Step 4: Assess your exam readiness
+
 
 ### AWS Study Progress - Step 2
 
