@@ -1,9 +1,7 @@
 - https://skillbuilder.aws/exam-prep/solutions-architect-associate
 - https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03
 
-
-
-### AWS Study Progress - Step 2
+### Courses in the learning plan
 
 | **Course/Lab**                                             | **Status**        | **Comments**                    |
 |------------------------------------------------------------|-------------------|---------------------------------|
