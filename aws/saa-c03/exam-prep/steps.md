@@ -1,5 +1,5 @@
-https://skillbuilder.aws/exam-prep/solutions-architect-associate
-https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03
+- https://skillbuilder.aws/exam-prep/solutions-architect-associate
+- https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03
 
 
 
