@@ -1,7 +1,5 @@
 ### Introduction to AWS Identity and Access Management (IAM)	
 
-Here’s the corrected and structured table with the AWS service column properly filled:  
-
 | **Objectives** | **Description** | **Steps** | **AWS Service** | **Comments** |  
 |--------------|----------------|-----------|--------------|--------------|  
 | **Explore pre-created IAM users and groups** | Understand how IAM users and groups are structured in AWS. | 1. Navigate to the IAM console and inspect existing users and groups. | **AWS Identity and Access Management (IAM)** | |  
