@@ -19,3 +19,20 @@ https://skillbuilder.aws/exam-prep/solutions-architect-associate
   - Walkthrough of the AWS Well-Architected Tool
   - AWS Well-Architected Tool milestone report.
   - Introduction to AWS Identity and Access Management (IAM)
+
+# AWS Study Progress - Step 2
+
+| **Course/Lab**                                             | **Status**        |
+|------------------------------------------------------------|-------------------|
+| AWS Technical Essentials                                   | ✅ Completed     |
+| AWS Well-Architected Foundations                           | 🔄 In Progress   |
+| Introduction to Building with AWS Databases               | 🔄 In Progress   |
+| AWS SimuLearn: Highly Available Web Applications          | 🔄 In Progress   |
+| AWS SimuLearn: Deploying RESTful APIs                     | ❌ Not Started   |
+| AWS SimuLearn: API with Database                          | ❌ Not Started   |
+| Digital Classroom - Architecting on AWS                   | ❌ Not Started   |
+| Deep Dive with Security: AWS IAM (Includes Labs)          | ❌ Not Started   |
+| AWS Cloud Quest: Solutions Architect                      | ❌ Not Started   |
+| Walkthrough of the AWS Well-Architected Tool              | ❌ Not Started   |
+| AWS Well-Architected Tool Milestone Report                | ❌ Not Started   |
+| Introduction to AWS Identity and Access Management (IAM)  | ❌ Not Started   |
