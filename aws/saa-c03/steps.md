@@ -11,7 +11,7 @@ https://skillbuilder.aws/exam-prep/solutions-architect-associate
 |------------------------------------------------------------|-------------------|---------------------------------|
 | AWS Technical Essentials                                   | ✅ Completed     | Good foundational overview     |
 | AWS Well-Architected Foundations                           | 🔄 In Progress   | Need to review key principles  |
-| Introduction to Building with AWS Databases               | 🔄 In Progress   | Exploring RDS and DynamoDB     |
+| [Introduction to Building with AWS Databases](aws/saa-c03/exam-prep/introduction-to-building-with-aws-databases.md)               | 🔄 In Progress   | Exploring RDS and DynamoDB     |
 | AWS SimuLearn: Highly Available Web Applications          | 🔄 In Progress   | Hands-on with scaling concepts |
 | AWS SimuLearn: Deploying RESTful APIs                     | ❌ Not Started   | -                               |
 | AWS SimuLearn: API with Database                          | ❌ Not Started   | -                               |
