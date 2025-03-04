@@ -2,9 +2,9 @@
 
 | **Objectives** | **Description** | **Steps** | **Comments** |
 |----------------|-----------------|-----------|--------------|
-| Identify the principles for architecting highly available applications. | Increase website reliability by creating a highly available architecture that spans multiple Availability Zones with load balancing and health monitoring. | 1. Use AWS to create an Auto Scaling group across multiple Availability Zones, ensuring that your resources aren't isolated. | Ensure you have instances in at least two Availability Zones. |
-| Determine the benefits of using an Application Load Balancer. | Help the travel agency create a highly available web application architecture. | 2. Create a load balancer so that network traffic is distributed equally across your servers. | Choose the appropriate load balancer type based on your needs. |
-| Demonstrate how to use Auto Scaling groups with Elastic Load Balancing and health monitoring. | | 3. Spread your EC2 instances over multiple Availability Zones, then attach a load balancer to your Auto Scaling group to ensure high availability and elasticity. | Verify that the load balancer is correctly configured to handle traffic. |
+| Identify the principles for architecting highly available applications. | Increase website reliability by creating a highly available architecture that spans multiple Availability Zones with load balancing and health monitoring. | 1. Use AWS to create an Auto Scaling group across multiple Availability Zones, ensuring that your resources aren't isolated. | |
+| Determine the benefits of using an Application Load Balancer. | Help the travel agency create a highly available web application architecture. | 2. Create a load balancer so that network traffic is distributed equally across your servers. |  |
+| Demonstrate how to use Auto Scaling groups with Elastic Load Balancing and health monitoring. | | 3. Spread your EC2 instances over multiple Availability Zones, then attach a load balancer to your Auto Scaling group to ensure high availability and elasticity. |  |
 | | | 4. Monitor EC2 instance health by setting up a health check on your load balancer. |  |
  
 <img width="1165" alt="image" src="https://github.com/user-attachments/assets/db812c8a-ff98-4d25-b42d-4d5a0d3ea4c7" />
