@@ -7,7 +7,7 @@
 |------------------------------------------------------------|-------------------|---------------------------------|  
 | AWS Cloud Practitioner Essentials                          | ✅ Completed    | -                               |  
 | AWS Network Practical Approaches                          | ❌ Not Started   | -                               |  
-| AWS Security Fundamentals (Second Edition)                | ❌ Not Started   | -                               |  
+| AWS Security Fundamentals (Second Edition)                | 🔄 In Progress   | -                               |  
 | Auditing Your Security with AWS Trusted Advisor           | ❌ Not Started   | -                               |  
 | Launching and Managing a Web Application with CloudFormation | ❌ Not Started   | -                               |  
 | Performing a Basic Audit of Your AWS Environment          | ❌ Not Started   | -                               |  
