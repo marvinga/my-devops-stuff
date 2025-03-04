@@ -20,4 +20,4 @@ https://skillbuilder.aws/exam-prep/solutions-architect-associate
 | AWS Cloud Quest: Solutions Architect                      | ❌ Not Started   | -                               |
 | Walkthrough of the AWS Well-Architected Tool              | ❌ Not Started   | -                               |
 | AWS Well-Architected Tool Milestone Report                | ❌ Not Started   | -                               |
-| Introduction to AWS Identity and Access Management (IAM)  | ❌ Not Started   | -                               |
+| Introduction to AWS Identity and Access Management (IAM)  |  ✅ Completed    |                                 |
