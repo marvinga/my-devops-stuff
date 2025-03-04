@@ -1,4 +1,4 @@
-https://explore.skillbuilder.aws/learn/learning-plans/2179/enhanced-exam-prep-plan-aws-certified-sysops-administrator-associate-soa-c02
+- https://explore.skillbuilder.aws/learn/learning-plans/2179/enhanced-exam-prep-plan-aws-certified-sysops-administrator-associate-soa-c02
 
 
 ### Courses in the Learning Plan  
