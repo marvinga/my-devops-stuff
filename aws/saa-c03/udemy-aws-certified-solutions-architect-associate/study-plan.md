@@ -3,9 +3,9 @@
 | **Section** | **Status**        | **Comments**    |
 |------------|-------------------|----------------|
 | 1: Introduction - AWS Certified Solution Architect Associate         | ✅ Completed     | -              |
-| 2          | ✅ Completed     | -              |
-| 3          | ✅ Completed     | -              |
-| 4          | 🔄 In Progress   | -              |
+| 2: Code & Slides Download        | ✅ Completed     | -              |
+| 3: Getting started with AWS          | ✅ Completed     | -              |
+| 4: IAM & AWS CLI          | 🔄 In Progress   | -              |
 | 5          | ❌ Not Started   | -              |
 | 6          | ❌ Not Started   | -              |
 | 7          | ❌ Not Started   | -              |
