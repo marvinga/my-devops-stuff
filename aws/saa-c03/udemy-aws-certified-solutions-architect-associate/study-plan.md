@@ -1,2 +1,38 @@
-### Section 4: IAM & AWS CLI
----
+### Sections Progress
+
+| **Section** | **Status**        | **Comments**    |
+|------------|-------------------|----------------|
+| 1          | ✅ Completed     | -              |
+| 2          | ✅ Completed     | -              |
+| 3          | ✅ Completed     | -              |
+| 4          | 🔄 In Progress   | -              |
+| 5          | ❌ Not Started   | -              |
+| 6          | ❌ Not Started   | -              |
+| 7          | ❌ Not Started   | -              |
+| 8          | ❌ Not Started   | -              |
+| 9          | ❌ Not Started   | -              |
+| 10         | ❌ Not Started   | -              |
+| 11         | ❌ Not Started   | -              |
+| 12         | ❌ Not Started   | -              |
+| 13         | ❌ Not Started   | -              |
+| 14         | ❌ Not Started   | -              |
+| 15         | ❌ Not Started   | -              |
+| 16         | ❌ Not Started   | -              |
+| 17         | ❌ Not Started   | -              |
+| 18         | ❌ Not Started   | -              |
+| 19         | ❌ Not Started   | -              |
+| 20         | ❌ Not Started   | -              |
+| 21         | ❌ Not Started   | -              |
+| 22         | ❌ Not Started   | -              |
+| 23         | ❌ Not Started   | -              |
+| 24         | ❌ Not Started   | -              |
+| 25         | ❌ Not Started   | -              |
+| 26         | ❌ Not Started   | -              |
+| 27         | ❌ Not Started   | -              |
+| 28         | ❌ Not Started   | -              |
+| 29         | ❌ Not Started   | -              |
+| 30         | ❌ Not Started   | -              |
+| 31         | ❌ Not Started   | -              |
+| 32         | ❌ Not Started   | -              |
+| 33         | ❌ Not Started   | -              |
+
