@@ -1,5 +1,31 @@
 ### AWS SimuLearn: Highly Available Web Applications
 
+
+> #### Auto Scaling Groups  
+>
+> - Check capacity in **Auto Scaling Group > Details**  
+> - Verify scaling limits (Min - Max)  
+> - Check instance count in **Instance Management**  
+> - Ensure it's not using a single subnet in one AZ (**Network section**)  
+> - Add an Application Load Balancer: **Integration > Load Balancing > Add New (Internet-facing)**
+> - Add all publick subnects - **Integration > Load Balancing > Network Tab
+> - Create a new target group - **Default routing(forward to)** > select create new target group
+
+> #### Security Groups
+>
+> - create security group - Security Groups > Network & Security > Create security group *to allow access to the travel agency load balancer from the internet.*
+> - add a inbound rule to the security group - http - 0.0.0.0/0 - to allow all inbound traffic
+> - add outbound rule - remove 0.0.0.0/0 and add http > add the security group created
+> - now create the security group
+> - 
+
+
+
+
+
+---
+
+
 | **Objectives** | **Description** | **Steps** | **AWS Service** | **Comments** |
 |----------------|-----------------|-----------|-----------------|--------------|
 | **Identify the principles for architecting highly available applications.** | Increase website reliability by creating a highly available architecture that spans multiple Availability Zones with load balancing and health monitoring. | 1. Use AWS to create an **Auto Scaling group** across multiple Availability Zones, ensuring that your resources aren't isolated. | **Amazon EC2, Auto Scaling** |  |
@@ -33,7 +59,9 @@
 > - scaling limints (Min - Max)
 > - check the number of instances in the auto-scaling group - auto scaling groups > instance management tab
 > - check if auto scaling group is configured with a single subnet from on az - auto scaling groups > network section
-> - add a new application load balancing - auto scaling groups > Integration > load balancing > add new
+> - add a new application load balancing - auto scaling groups > Integration > load balancing > add new (internet-facing) ()
+> - 
+> - 
 
 
 
