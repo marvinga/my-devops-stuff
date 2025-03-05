@@ -7,7 +7,9 @@
 >> - add a second availability zone to the auto scaling group
 
 #### Auto Scaling Groups  
+#### Application Load Balancer
 #### Security Groups
+
 
 ---
 
