@@ -7,7 +7,7 @@
 | 3: Getting started with AWS          | ✅ Completed     | -              |
 | 4: IAM & AWS CLI          | 🔄 In Progress   | -              |
 | 5: EC2 Fundamentals         | ❌ Not Started   | -              |
-| 6          | ❌ Not Started   | -              |
+| 6: EC2 - Solution Architect Associate Level         | ❌ Not Started   | -              |
 | 7          | ❌ Not Started   | -              |
 | 8          | ❌ Not Started   | -              |
 | 9          | ❌ Not Started   | -              |
