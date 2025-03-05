@@ -2,7 +2,7 @@
 
 | **Section** | **Status**        | **Comments**    |
 |------------|-------------------|----------------|
-| 1          | ✅ Completed     | -              |
+| 1: Introduction - AWS Certified Solution Architect Associate         | ✅ Completed     | -              |
 | 2          | ✅ Completed     | -              |
 | 3          | ✅ Completed     | -              |
 | 4          | 🔄 In Progress   | -              |
