@@ -6,7 +6,7 @@
 | 2: Code & Slides Download        | ✅ Completed     | -              |
 | 3: Getting started with AWS          | ✅ Completed     | -              |
 | 4: IAM & AWS CLI          | 🔄 In Progress   | -              |
-| 5          | ❌ Not Started   | -              |
+| 5: EC2 Fundamentals         | ❌ Not Started   | -              |
 | 6          | ❌ Not Started   | -              |
 | 7          | ❌ Not Started   | -              |
 | 8          | ❌ Not Started   | -              |
