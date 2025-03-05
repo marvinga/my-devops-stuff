@@ -25,5 +25,18 @@
 | **Step 8** | For example, if a web server reports greater than 80 percent CPU utilization over a period of time, an additional web server is launched and automatically added to the load balancer. |
 
 
+---
+
+> #### auto scaling groups
+>
+> - review capacity of the auto-scaling group - auto scaling group > details tab
+> - scaling limints (Min - Max)
+> - check the number of instances in the auto-scaling group - auto scaling groups > instance management tab
+> - check if auto scaling group is configured with a single subnet from on az - auto scaling groups > network section
+> - add a new application load balancing - auto scaling groups > Integration > load balancing > add new
+
+
+
+
 
 
