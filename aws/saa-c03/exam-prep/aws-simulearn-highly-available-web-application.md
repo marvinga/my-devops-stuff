@@ -6,9 +6,12 @@
 >> - configure load balancer health checks for the auto scaling group
 >> - add a second availability zone to the auto scaling group
 
-#### Auto Scaling Groups  
-#### Application Load Balancer
-#### Security Groups
+---
+
+#### EC2
+  - Auto Scaling Groups  
+  - Application Load Balancer
+  - Security Groups
 
 
 ---
