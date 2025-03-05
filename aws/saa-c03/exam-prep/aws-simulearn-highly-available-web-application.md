@@ -1,4 +1,5 @@
 ### AWS SimuLearn: Highly Available Web Applications
+https://explore.skillbuilder.aws/learn/courses/20072/aws-simulearn-highly-available-web-applications/lessons/144813/start-aws-simulearn
 
 
 > practice lab goals
@@ -9,10 +10,40 @@
 ---
 
 #### EC2
-  - Auto Scaling Groups  
-  - Application Load Balancer
-  - Security Groups
+  - Auto Scaling Groups
+  ```
+  update from 1 az and 1 subnet
 
+  4)
+  
+  
+  ```
+  - Application Load Balancer
+  ```
+  1)
+  add a ALB to the auto scaling group
+  add 2 more az using public subnet
+  add a new target group to the application load balancer
+
+ 3)
+ edit the health checks of the target groups
+ ajust threshold accourdingly
+ 
+  
+
+  
+  
+  ```
+  - Security Groups
+  ```
+  2)
+  add new security group - to allow access to the travel agency load balancer from the internet.
+  add inbound rules and outbound rules
+  edit exiting security group to allow http inbound from app load balancer security group
+  
+  
+
+  ```
 
 ---
 
