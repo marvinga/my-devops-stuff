@@ -17,3 +17,25 @@
     - *principal* - user/role/application that sent the request
     - *action* - what the principal is attempting to do
     - *resource* - objects upon which the actions or operations are performed
+
+- identity-based policies
+  - object in aws that when assotiated with an IAM identity, defines their permissions.
+  - permissions in the policy determines wheather the request is allowed or denied
+  - most policies are stored in aws as json documents
+
+  - types:
+    - aws managed - aws managed and creates these types of policies
+    - customer managed - policies that customer creates and manage in their aws account. provides more precise control than aws managed policies - 
+    - inline - embedded directly into a single user/group/role. aws doesnt recommend using inline policies - to maintain a strict one-to-one relationship between a policy and theh pricipal entity
+
+
+  - IAM policy:
+    - sid is optional - brief desc
+    - effect - allow/denied
+    - action - desc the type of access that would be allow or denied
+    - resource - specifies the opbject or objects that the policy statement covers
+    - conditions - optional - expressions in which you can use operations, =, lt, gt, etc.
+---
+![image](https://github.com/user-attachments/assets/5228549b-6993-4a77-b103-0a934b2fdd97)
+
+  
