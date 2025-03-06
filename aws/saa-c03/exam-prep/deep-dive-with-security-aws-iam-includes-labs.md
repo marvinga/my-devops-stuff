@@ -9,6 +9,8 @@
 
 --- 
 
+https://explore.skillbuilder.aws/learn/courses/7647/deep-dive-with-security-aws-identity-and-access-management-iam-includes-labs/lessons/68341/deep-dive-with-security-aws-identity-and-access-management-iam
+
 ### IAM
 - iam request context:
   - what is a policy
@@ -48,4 +50,10 @@
     - aws organization SCPS
     - ACLs
     - Session policies
+
+> Note that within an account, you need a service control policy AND an IAM policy OR a resource-based policy. Across accounts, you need a service control policy AND an IAM policy AND a resource-based policy.
   
+--- 
+
+- explicit and implicit denies
+  - 
