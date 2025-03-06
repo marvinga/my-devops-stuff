@@ -38,4 +38,14 @@
 ---
 ![image](https://github.com/user-attachments/assets/5228549b-6993-4a77-b103-0a934b2fdd97)
 
+---
+
+- Policy evaluation overview
+  - policy types
+    - identity-based
+    - resource-based
+    - permissions boundaries
+    - aws organization SCPS
+    - ACLs
+    - Session policies
   
