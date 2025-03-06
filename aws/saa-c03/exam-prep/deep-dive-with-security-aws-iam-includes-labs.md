@@ -1,5 +1,7 @@
 ### Deep Dive with Security: AWS IAM (Includes Labs)	
 
+- https://explore.skillbuilder.aws/learn/course/external/view/elearning/7647/deep-dive-with-security-aws-identity-and-access-management-iam-includes-labs
+  
 #### Course Outline
 - Module 1: Architecting Fundamentals
 - Module 2: Account Security
