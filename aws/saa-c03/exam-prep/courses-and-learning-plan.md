@@ -8,7 +8,7 @@
 | AWS Technical Essentials                                   | ✅ Completed     | Good foundational overview     |
 | AWS Well-Architected Foundations                           | 🔄 In Progress   | Need to review key principles  |
 | [Introduction to Building with AWS Databases](https://github.com/marvinga/my-devops-stuff/blob/6fa63d45a1e78766b122babfb8a45ce9c958d867/aws/saa-c03/exam-prep/introduction-to-building-with-aws-databases.md)               | 🔄 In Progress   | Exploring RDS and DynamoDB     |
-| [AWS SimuLearn: Highly Available Web Applications](https://github.com/marvinga/my-devops-stuff/blob/3868d87426f4005b54865a34e0afec9a50ea468b/aws/saa-c03/exam-prep/aws-simulearn-highly-available-web-application.md)          | 🔄 In Progress   | Hands-on with scaling concepts |
+| AWS SimuLearn: Highly Available Web Applications          | ✅ Completed    | Hands-on with scaling concepts |
 | AWS SimuLearn: Deploying RESTful APIs                     | ❌ Not Started   | -                               |
 | AWS SimuLearn: API with Database                          | ❌ Not Started   | -                               |
 | Digital Classroom - Architecting on AWS                   | ❌ Not Started   | -                               |
