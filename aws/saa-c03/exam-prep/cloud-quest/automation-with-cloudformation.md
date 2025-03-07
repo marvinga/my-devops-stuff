@@ -7,4 +7,8 @@
 - create a template for an S3 bucket
 - run the template to create a new stack kof resources
 
+#### Solution request
+> create an aws cloudformation stak from sample code.
+> after the stack is created used it to deploy specified resources
+
   
