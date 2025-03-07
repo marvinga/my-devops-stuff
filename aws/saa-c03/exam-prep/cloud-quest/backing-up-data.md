@@ -25,3 +25,8 @@
   - configure an on-demand of amazon ebs volumes with a resouce id
   - create automated backup plans for amazon ec2 attahced amazon ebs volumes using tags
   - 
+
+
+> the root device for an amazon ec2 instance lanched from an amazon machine image - ami - is an amazon EBS volume created from and Amazon EBS snapshot
+>
+> 
