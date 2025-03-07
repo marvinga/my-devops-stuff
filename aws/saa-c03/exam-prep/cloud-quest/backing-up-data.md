@@ -28,5 +28,8 @@
 
 
 > the root device for an amazon ec2 instance lanched from an amazon machine image - ami - is an amazon EBS volume created from and Amazon EBS snapshot
->
-> 
+
+> by default, aws backup creates crash-consistent backups of amazon EBS volumes that are attached to tan amazon ec2 instance
+> .
+> crash consistency means that the snapshots for every amazon ebs volue attached to the same amaec2 isntance are taken at the exact same moment.
+
