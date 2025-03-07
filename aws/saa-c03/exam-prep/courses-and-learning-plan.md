@@ -13,7 +13,7 @@
 | AWS SimuLearn: API with Database                          | 🔄 In Progress    | -                               |
 | Digital Classroom - Architecting on AWS                   | ❌ Not Started   | -                               |
 | Deep Dive with Security: AWS IAM (Includes Labs)          | 🔄 In Progress | -                               |
-| AWS Cloud Quest: Solutions Architect                      | ❌ Not Started   | -                               |
+| AWS Cloud Quest: Solutions Architect                      | 🔄 In Progress   | -                               |
 | Walkthrough of the AWS Well-Architected Tool              | ✅ Completed    | -                               |
 | AWS Well-Architected Tool Milestone Report                | ❌ Not Started   | -                               |
 | Introduction to AWS Identity and Access Management (IAM)  |  ✅ Completed    |                                 |
