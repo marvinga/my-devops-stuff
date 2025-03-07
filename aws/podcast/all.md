@@ -19,3 +19,14 @@
 
 ---
 
+- so much i got to learn
+- read the documentation
+- fundamentally better
+- little projects
+- dont wait or ask for permissions
+- bring to the table
+- portafolio to show case
+- build your passion
+- read and let go
+- imposter syndrome?!
+- 
