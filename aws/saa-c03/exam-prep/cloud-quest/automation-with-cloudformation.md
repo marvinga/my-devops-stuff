@@ -15,9 +15,7 @@
 - > json files
 - > templates, blueprints
 - > version controling the changes
-
-- automate and deploy
-- 
+- > automate and deploy
 
 --- 
 - this solution uses cloud formation to create resources, called stacks
@@ -29,4 +27,72 @@
 - aws cloudformation designer
   
 <img width="970" alt="image" src="https://github.com/user-attachments/assets/845c6d79-da99-415f-947f-a2b5dd9b3dd0" />
+
+```
+#### Step 1 #######
+
+Resources:
+  RobotAppServer:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-087c17d1fe0178315
+
+###################
+
+#### Step 2 #######
+
+  RobotAppSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Enable SSH access via port 22
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: '22'
+        ToPort: '22'
+        CidrIp: 0.0.0.0/0
+
+###################
+
+#### Step 3 #######
+
+      SecurityGroups:
+      - !Ref RobotAppSecurityGroup
+
+###################
+
+#### Step 4 #######
+
+  RobotS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Delete
+
+###################
+
+##FULL STACK CODE##
+
+Resources:
+  RobotAppServer:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-087c17d1fe0178315
+      SecurityGroups:
+      - !Ref RobotAppSecurityGroup
+  RobotAppSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Enable SSH access via port 22
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: '22'
+        ToPort: '22'
+        CidrIp: 0.0.0.0/0
+  RobotS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Delete
+```
+---
+- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-instance.html
+- 
 
