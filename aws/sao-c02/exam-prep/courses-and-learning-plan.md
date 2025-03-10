@@ -6,7 +6,7 @@
 | **Course/Lab**                                             | **Status**        | **Comments**                    |  
 |------------------------------------------------------------|-------------------|---------------------------------|  
 | AWS Cloud Practitioner Essentials                          | ✅ Completed    | -                               |  
-| AWS Network Practical Approaches                          | ❌ Not Started   | -                               |  
+| AWS Network Practical Approaches                          | 🔄 In Progress   | -                               |  
 | AWS Security Fundamentals (Second Edition)                | 🔄 In Progress   | -                               |  
 | Auditing Your Security with AWS Trusted Advisor           | ❌ Not Started   | -                               |  
 | Launching and Managing a Web Application with CloudFormation | ❌ Not Started   | -                               |  
