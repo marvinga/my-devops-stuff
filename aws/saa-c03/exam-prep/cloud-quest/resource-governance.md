@@ -23,4 +23,4 @@ view compliance status from different accounts
 - configure an aws config managed rule for S3 KMS encryption
 - configure an aws config managed rule for tagged resources
 
-  
+
