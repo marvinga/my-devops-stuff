@@ -10,5 +10,17 @@ send notifications
 resource compliance
 triggeres sns notifications
 find non-compliance resources
+view compliance status from different accounts
 
 ```
+---
+#### use aws config rules to enforce standards and help provide architecture consistency. 
+
+![image](https://github.com/user-attachments/assets/accec97d-80e5-4123-bc86-c2c95e398876)
+
+---
+
+- configure an aws config managed rule for S3 KMS encryption
+- configure an aws config managed rule for tagged resources
+
+  
