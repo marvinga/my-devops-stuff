@@ -25,3 +25,17 @@ this solution uses ACLs and security groups to filter network traffic. it uses V
   - all rules are avaluated
   - type, protocol
 
+---
+
+![image](https://github.com/user-attachments/assets/d420646d-52e1-45ee-9fa4-349bbb9c1540)
+
+--- 
+
+- Practice goals:
+  - set up vpc flow logs in an amazon s3 bucket
+  - read and analyze flow logs
+  - create network access control list rules to block traffic
+ 
+    
+arn:aws:s3:::vpc-flowlogs-12123
+
