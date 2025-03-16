@@ -1,9 +1,9 @@
 # Design Secure Architectures
 
 ### Outline
-- 1.1 Design secure access to AWS resources
-- 1.2 Design secure workload and applications
-- 1.3 Determine appropriate data security controls
+- 1.1 Design secure access to AWS resources - done
+- 1.2 Design secure workload and applications - done
+- 1.3 Determine appropriate data security controls - pending
 
   
 # 1.1 Design secure access to AWS resources
