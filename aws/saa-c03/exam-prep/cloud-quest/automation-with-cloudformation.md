@@ -1,4 +1,4 @@
-### Cloudd formation
+### Cloud formation
 
 *any service that is defined in AWS uses API calls, and a CloudFormation stack can handled it*
 
