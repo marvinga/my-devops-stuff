@@ -20,3 +20,9 @@
   - read and interpret policy documents
   - 
 
+### Services
+- IAM
+- AWS Cloudtrail
+- AWS Control tower
+- AWS organizations
+- AWS Control Policies
