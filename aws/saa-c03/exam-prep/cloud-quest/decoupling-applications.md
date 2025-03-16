@@ -1,11 +1,12 @@
 ### Decoupling Applications
 
-- Amazon SQS
+- Amazon SQS -> A2A and A2P
 - Amazon SNS
 
 ```
 decoupling an application involves desingning moduler, independent components called microservices
 microservices communicate with each other through well-defined APIs to increase flexibility and scalability
+
 ```
 
 #### Solution Request
@@ -20,3 +21,9 @@ microservices communicate with each other through well-defined APIs to increase 
 - create an amazon SQS queue
 - Subscribe the SQS queue to the SNS topic
   
+arn:aws:sns:us-east-1:117126996917:ImageNotification
+
+https://sqs.us-east-1.amazonaws.com/117126996917/ImageQueue
+
+44.197.175.178
+
