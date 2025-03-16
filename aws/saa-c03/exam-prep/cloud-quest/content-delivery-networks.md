@@ -10,6 +10,7 @@
 - cost-effective
 - integration with aws
 - aws has over 400 edge locations around the globe
+- 550+ points of present
 - 
   
 ---
@@ -23,4 +24,5 @@
 - configure an amazon ec2 instance as the origin for cloudfront distribution
 - configure an amazon s3 hosted website as the origin for a cloudfront distribution
 
-  
+ec2-54-196-222-137.compute-1.amazonaws.com
+
