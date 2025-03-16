@@ -6,4 +6,3 @@
 - domain 3 - Design high-performaning architectures
 - domain 4 - Desing cost-optimized architectures
 
-ppp
