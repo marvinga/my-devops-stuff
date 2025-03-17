@@ -1,5 +1,9 @@
 - https://skillbuilder.aws/exam-prep/solutions-architect-associate
 - https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03
+- https://explore.skillbuilder.aws/learn/courses/14760/exam-prep-standard-course-aws-certified-solutions-architect-associate-saa-c03
+- https://explore.skillbuilder.aws/learn/courses/14776/exam-prep-aws-certified-solutions-architect-associate-saa-c03-with-practice-material
+
+
 
 ### Courses in the learning plan
 
@@ -17,3 +21,11 @@
 | Walkthrough of the AWS Well-Architected Tool              | ✅ Completed    | -                               |
 | AWS Well-Architected Tool Milestone Report                | ❌ Not Started   | -                               |
 | Introduction to AWS Identity and Access Management (IAM)  |  ✅ Completed    |                                 |
+| Exam Prep Standard Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  ❌ Not Started  |                                 |
+| Exam Prep Enhanced Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  🔄 In Progress   | module 1                                 |
+
+
+
+
+
+
