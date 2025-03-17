@@ -48,3 +48,4 @@ resource "aws_security_group" "allow_webtraffic-sg" {
     Name = "Allow Web Traffic Security Group"
   }
 }
+
