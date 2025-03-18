@@ -1,1 +1,21 @@
 ### Getting Started with DevOps on AWS
+
+- what is devops
+- devops culture
+  - core principles:
+    - create a highly collaborative environment
+    - automate when possible
+    - focus on customer needs
+    - develop small and release often
+    - include security at every phase
+    - continuously experiment and learn
+    - continuously improve
+- devops practices:
+  - communication and collaboration
+  - monitoring and observability
+  - continuous integration CI
+  - continous delivery/continous deployment CD
+  - microservices architecture
+  - infrastructure as code
+- devops tools
+- 
