@@ -11,11 +11,19 @@
     - continuously experiment and learn
     - continuously improve
 - devops practices:
-  - communication and collaboration
-  - monitoring and observability
-  - continuous integration CI
-  - continous delivery/continous deployment CD
-  - microservices architecture
-  - infrastructure as code
-- devops tools
+  - core principles:
+    - communication and collaboration
+    - monitoring and observability
+    - continuous integration CI
+    - continous delivery/continous deployment CD
+    - microservices architecture
+    - infrastructure as code
+
+*a devops pipeline is a set of stages that move code from source, all the way to deployment*
+
+
+
+
+
+- devops tools:
 - 
