@@ -34,5 +34,12 @@ APM - simple platform where we can managed and monitor our applications.
 
 - in datadog everything is in 1 place
 - 
+---
 
+- Datadog agent
+  - collector  --https----> |
+                             ---tcp---> Forwarder  | https----> - Datadog SaaS
+  - dogstatsD  --https----> |
+
+- datadog.yaml 
 
