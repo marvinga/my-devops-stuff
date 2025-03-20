@@ -8,7 +8,7 @@
 | 4: IAM & AWS CLI          | ✅ Completed  | -              |
 | 5: EC2 Fundamentals         | ✅ Completed   | -              |
 | 6: EC2 - Solution Architect Associate Level         | ✅ Completed    | -              |
-| 7          | ❌ Not Started   | -              |
+| 7: EC2 Instance Storage          | 🔄 In Progress | -              |
 | 8          | ❌ Not Started   | -              |
 | 9          | ❌ Not Started   | -              |
 | 10         | 🔄 In Progress  | -              |
