@@ -10,7 +10,7 @@
 | 6: EC2 - Solution Architect Associate Level         | ✅ Completed    | -              |
 | 7: EC2 Instance Storage          | ✅ Completed  | -              |
 | 8: High Availability and Scalability: ELB & ASG         | ✅ Completed  | -              |
-| 9: AWS Fundamentals: RDS + Aurora + ElastiCache         |  🔄 In Progress     | review again             |
+| 9: AWS Fundamentals: RDS + Aurora + ElastiCache         |  ✅ Completed     | review again             |
 | 10: Route 53        | 🔄 In Progress  | -              |
 | 11         | ❌ Not Started   | -              |
 | 12         | ❌ Not Started   | -              |
