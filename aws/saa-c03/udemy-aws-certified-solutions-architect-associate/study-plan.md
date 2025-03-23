@@ -1,4 +1,4 @@
-### Sections Progress - 39% 
+### Sections Progress - 30% 
 
 | **Section** | **Status**        | **Comments**    |
 |------------|-------------------|----------------|
