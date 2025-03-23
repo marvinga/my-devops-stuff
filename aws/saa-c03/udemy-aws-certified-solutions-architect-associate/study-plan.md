@@ -12,27 +12,27 @@
 | 8: High Availability and Scalability: ELB & ASG         | ✅ Completed  | -              |
 | 9: AWS Fundamentals: RDS + Aurora + ElastiCache         |  ✅ Completed     | review again             |
 | 10: Route 53        | 🔄 In Progress  | -              |
-| 11         | ❌ Not Started   | -              |
-| 12         | ❌ Not Started   | -              |
-| 13         | ❌ Not Started   | -              |
-| 14         | ❌ Not Started   | -              |
-| 15         | ❌ Not Started   | -              |
-| 16         | ❌ Not Started   | -              |
-| 17         |  🔄 In Progress     | -              |
-| 18         | ❌ Not Started   | -              |
-| 19         | ❌ Not Started   | -              |
-| 20         | ❌ Not Started   | -              |
-| 21         | ❌ Not Started   | -              |
-| 22         | ❌ Not Started   | -              |
-| 23         | ❌ Not Started   | -              |
-| 24         | ❌ Not Started   | -              |
-| 25         | ❌ Not Started   | -              |
-| 26         | ❌ Not Started   | -              |
-| 27         | ❌ Not Started   | -              |
-| 28         | ❌ Not Started   | -              |
-| 29         | ❌ Not Started   | -              |
-| 30         | ❌ Not Started   | -              |
-| 31         | ❌ Not Started   | -              |
-| 32         | ❌ Not Started   | -              |
-| 33         | ❌ Not Started   | -              |
+| 11: Classic Solutions Architecture Discussions        | ❌ Not Started   | -              |
+| 12: Amazon S3 Introduction         | ❌ Not Started   | -              |
+| 13: Advanced Amazon S3         | ❌ Not Started   | -              |
+| 14: Amazon S3 Security         | ❌ Not Started   | -              |
+| 15: CloudFront & AWS Global Accelerator         | ❌ Not Started   | -              |
+| 16: AWS Storage Extras         | ❌ Not Started   | -              |
+| 17: Decoupling applications: SQS, SNS, Kinessis, Active MQ         |  🔄 In Progress     | -              |
+| 18: Containers on AWS: ECS, Fargate ECR & EKS         | ❌ Not Started   | -              |
+| 19: Serverless Overviews fron a Solution Architect Perspective         | ❌ Not Started   | -              |
+| 20: Serverless Solution Architecture Discussions          | ❌ Not Started   | -              |
+| 21: Databases in AWS         | ❌ Not Started   | -              |
+| 22: Data & Analytics         | ❌ Not Started   | -              |
+| 23: Machine Learning         | ❌ Not Started   | -              |
+| 24: AWS Monitoring & Audit CloudWatch, CloudTrail & Config         | ❌ Not Started   | -              |
+| 25: Identity and Access Management (IAM) - Advanced       | ❌ Not Started   | -              |
+| 26: AWS Security & Encryption: KMS, SSM Parameters Store, Shield, WAF         | ❌ Not Started   | -              |
+| 27: Networking - VPC         | ❌ Not Started   | -              |
+| 28: Disaster Recovery & Migrations         | ❌ Not Started   | -              |
+| 29: More Solutions Architectures         | ❌ Not Started   | -              |
+| 30: Other Services         | ❌ Not Started   | -              |
+| 31: WhitePapers and Architectures - AWS Certified Solution Architect Associate         | ❌ Not Started   | -              |
+| 32: Prepating for the Examp + Practice Exam - AWS Certified SAA          | ❌ Not Started   | -              |
+| 33: Congratulations - AWS Certified Solutions Architect Associate         | ❌ Not Started   | -              |
 
