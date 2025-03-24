@@ -11,7 +11,7 @@
 | 7: EC2 Instance Storage          | ✅ Completed  | -              |
 | 8: High Availability and Scalability: ELB & ASG         | ✅ Completed  | -              |
 | 9: AWS Fundamentals: RDS + Aurora + ElastiCache         |  ✅ Completed     | review again             |
-| 10: Route 53        | 🔄 In Progress  | -              |
+| 10: Route 53        | 🔄 In Progress  | review: CNAME vs Alias               |
 | 11: Classic Solutions Architecture Discussions        | ❌ Not Started   | -              |
 | 12: Amazon S3 Introduction         | ❌ Not Started   | -              |
 | 13: Advanced Amazon S3         | ❌ Not Started   | -              |
