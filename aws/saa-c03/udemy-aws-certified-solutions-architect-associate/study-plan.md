@@ -11,7 +11,7 @@
 | 7: EC2 Instance Storage          | ✅ Completed  | -              |
 | 8: High Availability and Scalability: ELB & ASG         | ✅ Completed  | -              |
 | 9: AWS Fundamentals: RDS + Aurora + ElastiCache         |  ✅ Completed     | review again             |
-| 10: Route 53        | 🔄 In Progress  | review: CNAME vs Alias               |
+| 10: Route 53        | ✅ Completed  | review again                |
 | 11: Classic Solutions Architecture Discussions        | ❌ Not Started   | -              |
 | 12: Amazon S3 Introduction         | ❌ Not Started   | -              |
 | 13: Advanced Amazon S3         | ❌ Not Started   | -              |
@@ -29,8 +29,8 @@
 | 25: Identity and Access Management (IAM) - Advanced       | ❌ Not Started   | -              |
 | 26: AWS Security & Encryption: KMS, SSM Parameters Store, Shield, WAF         | ❌ Not Started   | -              |
 | 27: Networking - VPC         | ❌ Not Started   | -              |
-| 28: Disaster Recovery & Migrations         | ❌ Not Started   | -              |
-| 29: More Solutions Architectures         | ❌ Not Started   | -              |
+| 28: Disaster Recovery & Migrations         | 🔄 In Progress   | -              |
+| 29: More Solutions Architectures         | 🔄 In Progress   | -              |
 | 30: Other Services         | ❌ Not Started   | -              |
 | 31: WhitePapers and Architectures - AWS Certified Solution Architect Associate         | ❌ Not Started   | -              |
 | 32: Prepating for the Examp + Practice Exam - AWS Certified SAA          | ❌ Not Started   | -              |
