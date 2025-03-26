@@ -12,8 +12,8 @@
 | 8: High Availability and Scalability: ELB & ASG         | ✅ Completed  | -              |
 | 9: AWS Fundamentals: RDS + Aurora + ElastiCache         |  ✅ Completed     | review again             |
 | 10: Route 53        | ✅ Completed  | review again                |
-| 11: Classic Solutions Architecture Discussions        |  🔄 In Progress   | -              |
-| 12: Amazon S3 Introduction         | ❌ Not Started   | -              |
+| 11: Classic Solutions Architecture Discussions        |  ✅ Completed   | -              |
+| 12: Amazon S3 Introduction         | 🔄 In Progress  | -              |
 | 13: Advanced Amazon S3         | ❌ Not Started   | -              |
 | 14: Amazon S3 Security         | ❌ Not Started   | -              |
 | 15: CloudFront & AWS Global Accelerator         | ❌ Not Started   | -              |
