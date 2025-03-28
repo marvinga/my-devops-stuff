@@ -14,8 +14,8 @@
 | 10: Route 53        | ✅ Completed  | review again                |
 | 11: Classic Solutions Architecture Discussions        |  ✅ Completed   | -              |
 | 12: Amazon S3 Introduction         | ✅ Completed   | -              |
-| 13: Advanced Amazon S3         | 🔄 In Progress   | -              |
-| 14: Amazon S3 Security         | ❌ Not Started   | -              |
+| 13: Advanced Amazon S3         |  ✅ Completed    | -              |
+| 14: Amazon S3 Security         | 🔄 In Progress  | -              |
 | 15: CloudFront & AWS Global Accelerator         | ❌ Not Started   | -              |
 | 16: AWS Storage Extras         | ❌ Not Started   | -              |
 | 17: Decoupling applications: SQS, SNS, Kinessis, Active MQ         |   ❌ Not Started    | -              |
