@@ -14,4 +14,8 @@
 ---
 - *S3 MFA Delete - hands on*
 ---
-- *S3 CORS - hands on*
+- *S3 Access Logs*
+---
+- *S3 Access Logs - hands on*
+---
+- **
