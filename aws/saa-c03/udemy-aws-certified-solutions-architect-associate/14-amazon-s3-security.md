@@ -2,10 +2,16 @@
 ---
 - *DSSE-KMS*
 ---
-- *S3 Encryption - hans on*
+- *S3 Encryption - hands on*
 ---
 - *S3 Default Encryption*
 ---
 - *S3 CORS*
 ---
-- *S3 CORS*
+- *S3 CORS - hands on*
+---
+- *S3 MFA Delete*
+---
+- *S3 MFA Delete - hands on*
+---
+- *S3 CORS - hands on*
