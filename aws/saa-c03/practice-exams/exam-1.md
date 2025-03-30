@@ -114,6 +114,40 @@ Multi Factor Authentication (MFA)
 AWS Snowball Edge Storage Optimized 
 ---
 AWS Site-to-Site VPN 
+---
+stateful and stateless client-server communications
+---
+Amazon API Gateway
+---
+Apache Flink
+---
+Amazon Aurora Replica
+---
+Amazon CloudFront 
+---
+access cross-account resources
+---
+AWS Shield Advanced
+---
+Consolidated billing
+---
+Amazon GuardDuty 
+---
+Amazon Inspector
+---
+AMI
+---
+CloudFront with a custom origin
+---
+Amazon SQS types
+---
+Throttling
+---
+
+
+
+
+
 
 
 
