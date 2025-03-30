@@ -50,11 +50,11 @@
 ---
 #### *Amazon EBS volumes*
 ---
-#### *workshop*
+#### *Workshop*
 ---
 #### *Amazon S3 waterfall lifecycle transitioning*
 ---
-#### *data sources supported by Amazon GuardDuty*
+#### *Data sources supported by Amazon GuardDuty*
 ---
 #### *Amazon Aurora*
 ---
