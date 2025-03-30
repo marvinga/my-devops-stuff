@@ -97,6 +97,23 @@
 --- 
 #### *IAM permissions boundary*
 --- 
+#### *how the stand by state works*
+---
+#### *Amazon ElastiCache*
+---
+#### *Amazon S3 Transfer Acceleration - Amazon S3TA*
+---
+Amazon Kinesis Data Firehose 
+---
+Amazon FSx for Windows File Server
+---
+S3TA, you pay only for transfers that are accelerated. 
+---
+Multi Factor Authentication (MFA) 
+---
+AWS Snowball Edge Storage Optimized 
+---
+AWS Site-to-Site VPN 
 
 
 
