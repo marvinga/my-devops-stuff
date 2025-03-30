@@ -66,11 +66,11 @@
 #### *CloudFront points of presence (POPs)*
 ---
 #### *AWS Lambda*
----
-Application Load Balancer - Path-based Routing
-Amazon ElastiCache for Redis
-DynamoDB Accelerator (DAX) 
-Amazon Storage cost
+--- 
+#### *Application Load Balancer - Path-based Routing*
+#### *Amazon ElastiCache for Redis*
+#### *DynamoDB Accelerator (DAX)*
+#### *Amazon Storage cost*
 
 
 
