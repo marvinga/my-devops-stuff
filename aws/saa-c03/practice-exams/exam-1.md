@@ -68,11 +68,29 @@
 #### *AWS Lambda*
 --- 
 #### *Application Load Balancer - Path-based Routing*
+--- 
 #### *Amazon ElastiCache for Redis*
+--- 
 #### *DynamoDB Accelerator (DAX)*
+--- 
 #### *Amazon Storage cost*
+--- 
 #### *Auto Scaling group to use target tracking policy and set the CPU utilization as the target metric*
-
+--- 
+#### *SSE-KMS*
+--- 
+#### *Amazon Kinesis Data Streams*
+--- 
+#### *Cluster placement groups*
+--- 
+#### *AWS KMS*
+--- 
+#### *Instance Store based Amazon EC2 instances*
+--- 
+#### *Amazon FSx for Lustre*
+--- 
+#### *IAM permissions boundary*
+--- 
 
 
 
