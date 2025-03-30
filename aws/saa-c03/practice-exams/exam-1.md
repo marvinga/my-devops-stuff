@@ -81,7 +81,7 @@
 --- 
 #### *Amazon Kinesis Data Streams*
 --- 
-#### *Cluster placement groups*
+#### *EC2 Cluster placement groups*
 --- 
 #### *AWS KMS*
 --- 
