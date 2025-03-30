@@ -10,7 +10,6 @@
 ---
 #### *Versioning on the Amazon S3 bucket*
 ##### - S3 bucket versioning Once you version-enable a bucket, it can never return to an unversioned state. Versioning can only be suspended once it has been enabled.
-
 ---
 #### *MFA  on the Amazon S3 bucket*
 ---
