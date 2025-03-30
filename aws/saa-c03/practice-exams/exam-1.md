@@ -71,7 +71,7 @@
 #### *Amazon ElastiCache for Redis*
 #### *DynamoDB Accelerator (DAX)*
 #### *Amazon Storage cost*
-
+#### *Auto Scaling group to use target tracking policy and set the CPU utilization as the target metric*
 
 
 
