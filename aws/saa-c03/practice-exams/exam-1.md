@@ -103,45 +103,45 @@
 ---
 #### *Amazon S3 Transfer Acceleration - Amazon S3TA*
 ---
-Amazon Kinesis Data Firehose 
+#### *Amazon Kinesis Data Firehose*
 ---
-Amazon FSx for Windows File Server
+#### *Amazon FSx for Windows File Server*
 ---
-S3TA, you pay only for transfers that are accelerated. 
+#### *S3TA, you pay only for transfers that are accelerated* 
 ---
-Multi Factor Authentication (MFA) 
+#### *Multi Factor Authentication (MFA)* 
 ---
-AWS Snowball Edge Storage Optimized 
+#### *AWS Snowball Edge Storage Optimized* 
 ---
-AWS Site-to-Site VPN 
+#### *AWS Site-to-Site VPN* 
 ---
-stateful and stateless client-server communications
+#### *stateful and stateless client-server communications*
 ---
-Amazon API Gateway
+#### *Amazon API Gateway*
 ---
-Apache Flink
+#### *Apache Flink*
 ---
-Amazon Aurora Replica
+#### *Amazon Aurora Replica*
 ---
-Amazon CloudFront 
+#### *Amazon CloudFront* 
 ---
-access cross-account resources
+#### *access cross-account resources*
 ---
-AWS Shield Advanced
+#### *AWS Shield Advanced*
 ---
-Consolidated billing
+#### *Consolidated billing*
 ---
-Amazon GuardDuty 
+#### *Amazon GuardDuty*
 ---
-Amazon Inspector
+#### *Amazon Inspector*
 ---
-AMI
+#### *AMI*
 ---
-CloudFront with a custom origin
+#### *CloudFront with a custom origin*
 ---
-Amazon SQS types
+#### *Amazon SQS types*
 ---
-Throttling
+#### *Throttling*
 ---
 
 
