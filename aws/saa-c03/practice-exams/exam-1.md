@@ -143,6 +143,13 @@
 ---
 #### *Throttling*
 ---
+AWS Lambda request limits
+---
+Amazon EFS + inter-region VPC peering connection
+---
+AWS WAF
+---
+
 
 
 
