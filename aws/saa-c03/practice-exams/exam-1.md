@@ -5,6 +5,8 @@
 #### *ELB*
 #### *Versioning on the Amazon S3 bucket*
 #### *MFA  on the Amazon S3 bucket*
+AWS CloudTrail 
+
 
 
 
