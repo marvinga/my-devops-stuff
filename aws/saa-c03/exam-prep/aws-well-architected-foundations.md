@@ -6,6 +6,6 @@
 #### Module 4 - Deep Dive on the Operational Excellence Pillar - *Completed*
 #### Module 5 - Deep Dive on the Security Pillar - *Completed*
 #### Module 6 - Deep Dive on the Reliability Pillar - *Completed*
-#### Module 7
+#### Module 7 - Deep Dive on the Performance Efficiency Pillar - *In progress*
 #### Module 8
 #### Module 9
