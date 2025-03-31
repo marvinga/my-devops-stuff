@@ -1,9 +1,6 @@
-### 36/65 
-- first try
-- in progress 
+### 
 
 ---
-
 #### *Content-Based Routing*
 ---
 #### *ALB*
