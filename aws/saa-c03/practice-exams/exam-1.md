@@ -149,6 +149,13 @@ Amazon EFS + inter-region VPC peering connection
 ---
 AWS WAF
 ---
+synchronous replication
+---
+S3 etention rules 
+---
+AWS Global Accelerator
+---
+
 
 
 
