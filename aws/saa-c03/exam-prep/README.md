@@ -23,12 +23,10 @@
 | Introduction to AWS Identity and Access Management (IAM)  |  ✅ Completed    |                                 |
 | Exam Prep Standard Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  ❌ Not Started  |                                 |
 | Exam Prep Enhanced Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  🔄 In Progress   | Here till finish                                 |
-
-
-- domain 1 - Design secure architectures
-- domain 2 - Design resilient architectures
-- domain 3 - Design high-performaning architectures
-- domain 4 - Desing cost-optimized architectures
+  - domain 1 - Design secure architectures - in progress
+  - domain 2 - Design resilient architectures
+  - domain 3 - Design high-performaning architectures
+  - domain 4 - Desing cost-optimized architectures
 
 
 
