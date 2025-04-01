@@ -10,7 +10,7 @@
 | **Course/Lab**                                             | **Status**        | **Comments**                    |
 |------------------------------------------------------------|-------------------|---------------------------------|
 | AWS Technical Essentials                                   | ✅ Completed     | Good foundational overview     |
-| AWS Well-Architected Foundations                           | 🔄 In Progress   | Need to review key principles  |
+| AWS Well-Architected Foundations                           | ✅ Completed    | Need to review key principles  |
 | Introduction to Building with AWS Databases                 | 🔄 In Progress   | Exploring RDS and DynamoDB     |
 | AWS SimuLearn: Highly Available Web Applications          | ✅ Completed    | Hands-on with scaling concepts |
 | AWS SimuLearn: Deploying RESTful APIs                     | 🔄 In Progress    | -                               |
