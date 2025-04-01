@@ -7,5 +7,5 @@
 #### Module 5 - Deep Dive on the Security Pillar - *Completed*
 #### Module 6 - Deep Dive on the Reliability Pillar - *Completed*
 #### Module 7 - Deep Dive on the Performance Efficiency Pillar  - *Completed*
-#### Module 8 - Deep Dive on the Cost Optimization Pillar  - *In progress
-#### Module 9
+#### Module 8 - Deep Dive on the Cost Optimization Pillar  - *Completed*
+#### Module 9 - Deep Dive on the Sustainability Pillar - *Completed*
