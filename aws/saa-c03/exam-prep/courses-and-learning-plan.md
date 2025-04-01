@@ -22,7 +22,7 @@
 | AWS Well-Architected Tool Milestone Report                | ❌ Not Started   | -                               |
 | Introduction to AWS Identity and Access Management (IAM)  |  ✅ Completed    |                                 |
 | Exam Prep Standard Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  ❌ Not Started  |                                 |
-| Exam Prep Enhanced Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  🔄 In Progress   | module 1                                 |
+| Exam Prep Enhanced Course: AWS Certified Solutions Architect - Associate (SAA-C03)|  🔄 In Progress   | Here till finish                                 |
 
 
 
