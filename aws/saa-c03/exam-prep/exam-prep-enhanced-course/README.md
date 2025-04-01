@@ -1,0 +1,2 @@
+- need to listen 2 or 3 times
+- I know not easy but its doable
