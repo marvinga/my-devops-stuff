@@ -22,7 +22,7 @@
 | AWS Well-Architected Tool Milestone Report                | ❌ Not Started   | -                               |
 | Introduction to AWS Identity and Access Management (IAM)  |  ✅ Completed    |                                 |
 | Exam Prep Standard Course|  ❌ Not Started  |                                 |
-| Exam Prep Enhanced Course|  🔄 In Progress   | Here till finish                                 |
+| Exam Prep Enhanced Course|  ✅ Completed  | Labs and Exam pending                               |
 
 
 
