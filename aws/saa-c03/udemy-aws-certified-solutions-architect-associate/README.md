@@ -15,8 +15,8 @@
 | 11: Classic Solutions Architecture Discussions        |  ✅ Completed   | -              |
 | 12: Amazon S3 Introduction         | ✅ Completed   | -              |
 | 13: Advanced Amazon S3         |  ✅ Completed    | -              |
-| 14: Amazon S3 Security         | 🔄 In Progress  |  review again              |
-| 15: CloudFront & AWS Global Accelerator         | ❌ Not Started   | -              |
+| 14: Amazon S3 Security         | 🔄 In Progress  |  review again*              |
+| 15: CloudFront & AWS Global Accelerator         | 🔄 In Progress  | -              |
 | 16: AWS Storage Extras         | ❌ Not Started   | -              |
 | 17: Decoupling applications: SQS, SNS, Kinessis, Active MQ         |   ❌ Not Started    | -              |
 | 18: Containers on AWS: ECS, Fargate ECR & EKS         | ❌ Not Started   | -              |
