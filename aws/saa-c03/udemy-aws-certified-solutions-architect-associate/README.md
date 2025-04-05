@@ -33,6 +33,6 @@
 | 29: More Solutions Architectures         |  ❌ Not Started     | -              |
 | 30: Other Services         | ❌ Not Started   | -              |
 | 31: WhitePapers and Architectures - AWS Certified Solution Architect Associate         | ❌ Not Started   | -              |
-| 32: Prepating for the Examp + Practice Exam - AWS Certified SAA          | ✅ Completed   | -              |
+| 32: Prepating for the Examp + Practice Exam - AWS Certified SAA          | ✅ Completed   | Practice exam pending              |
 | 33: Congratulations - AWS Certified Solutions Architect Associate         | ✅ Completed  | -              |
 
