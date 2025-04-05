@@ -20,7 +20,7 @@
 | 16: AWS Storage Extras         | ❌ Not Started   | -              |
 | 17: Decoupling applications: SQS, SNS, Kinessis, Active MQ         |   ❌ Not Started    | -              |
 | 18: Containers on AWS: ECS, Fargate ECR & EKS         | ❌ Not Started   | -              |
-| 19: Serverless Overviews fron a Solution Architect Perspective         | ❌ Not Started   | -              |
+| 19: Serverless Overviews from a Solution Architect Perspective         | ❌ Not Started   | -              |
 | 20: Serverless Solution Architecture Discussions          | ❌ Not Started   | -              |
 | 21: Databases in AWS         | ❌ Not Started   | -              |
 | 22: Data & Analytics         | ❌ Not Started   | -              |
