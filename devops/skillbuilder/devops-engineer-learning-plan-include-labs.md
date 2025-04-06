@@ -8,7 +8,7 @@
 | **Course/Lab**                                             | **Status**        | **Comments**                    |
 |------------------------------------------------------------|-------------------|---------------------------------|
 | Getting Started with DevOps on AWS                        | 🔄 In Progress                    |      |
-| AWS Command Line Interface (CLI)                          | ❌ Not Started      |          |
+| AWS Command Line Interface (CLI)                          | ✅ Completed        |          |
 | Working with AWS CodeCommit                               | ❌ Not Started      |     |
 | Creating an Amazon Virtual Private Cloud (VPC) with AWS CloudFormation          | ❌ Not Started     |  |
 | Launching and Managing a Web Application with AWS CloudFormation          | ❌ Not Started     |  |
