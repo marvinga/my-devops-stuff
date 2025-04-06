@@ -26,3 +26,16 @@
 
 
 
+
+https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03/courses/14776/exam-prep-enhanced-course-aws-certified-solutions-architect-associate-saa-c03/lessons/109413/aws-certified-solutions-architect-associate-official-practice-exam-saa-c03-english-v2
+
+https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03/courses/14776/exam-prep-enhanced-course-aws-certified-solutions-architect-associate-saa-c03/lessons/68752/lab-assessment-implementing-elasticity
+
+https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03/courses/14776/exam-prep-enhanced-course-aws-certified-solutions-architect-associate-saa-c03/lessons/68717/lab-assessment-comparing-databases
+
+https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03/courses/14776/exam-prep-enhanced-course-aws-certified-solutions-architect-associate-saa-c03/lessons/68726/lab-assessment-testing-permissions
+
+https://explore.skillbuilder.aws/learn/learning-plans/2197/enhanced-exam-prep-plan-aws-certified-solutions-architect-associate-saa-c03/courses/14776/exam-prep-enhanced-course-aws-certified-solutions-architect-associate-saa-c03/lessons/68740/lab-assessment-creating-a-network
+
+
+
