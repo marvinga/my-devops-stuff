@@ -29,7 +29,7 @@
 | 25: Identity and Access Management (IAM) - Advanced       | ❌ Not Started   | -              |
 | 26: AWS Security & Encryption: KMS, SSM Parameters Store, Shield, WAF         | ❌ Not Started   | -              |
 | 27: Networking - VPC         | ❌ Not Started   | -              |
-| 28: Disaster Recovery & Migrations         |  🔄 In Progress     | -              |
+| 28: Disaster Recovery & Migrations         |  ✅ Completed     | -              |
 | 29: More Solutions Architectures         |  ❌ Not Started     | -              |
 | 30: Other Services         | ✅ Completed    | -              |
 | 31: WhitePapers and Architectures - AWS Certified Solution Architect Associate         | ✅ Completed  | -              |
