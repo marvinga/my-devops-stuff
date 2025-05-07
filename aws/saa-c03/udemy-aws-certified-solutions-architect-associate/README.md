@@ -25,7 +25,7 @@
 | 21: Databases in AWS         | ❌ Not Started   | -              |
 | 22: Data & Analytics         | ❌ Not Started   | -              |
 | 23: Machine Learning         | ❌ Not Started   | -              |
-| 24: AWS Monitoring & Audit CloudWatch, CloudTrail & Config         | ❌ Not Started   | -              |
+| 24: AWS Monitoring & Audit CloudWatch, CloudTrail & Config         | 🔄 In Progress   | -              |
 | 25: Identity and Access Management (IAM) - Advanced       | ❌ Not Started   | -              |
 | 26: AWS Security & Encryption: KMS, SSM Parameters Store, Shield, WAF         | ❌ Not Started   | -              |
 | 27: Networking - VPC         | ❌ Not Started   | -              |
